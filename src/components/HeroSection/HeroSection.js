@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HeroSection.css";
-import SectionReveal from "../SectionReveal";
 
 const HeroSection = () => {
   return (
@@ -19,8 +18,7 @@ const HeroSection = () => {
             <p className="img--text bodytext">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
               odit quos, nesciunt facere sequi labore rerum qui doloremque error
-              nemo quam. Sapiente ipsum saepe porro temporibus debitis!
-              Molestiae, quidem natus.
+              nemo quam.
             </p>
           </div>
         </Link>
