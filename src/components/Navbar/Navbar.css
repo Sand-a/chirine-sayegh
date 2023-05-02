@@ -1,0 +1,156 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  height: 100vh;
+  background-color: #fff;
+  opacity: 0.9;
+  border-right: 3px solid rgba(0, 0, 0, 0.059);
+  padding: 10rem 1rem 7rem 7rem;
+}
+
+.nav__logo {
+  width: 20rem;
+  margin-bottom: 10rem;
+  align-self: start;
+}
+
+.nav-list {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4b4b4b;
+
+  /* transition: 250ms; */
+}
+
+.nav-link:hover {
+  color: black;
+  font-weight: 300;
+}
+.nav-link.active {
+  color: black;
+  font-weight: 600;
+  transition: 250ms;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  z-index: 6;
+}
+
+.navbar__menu {
+  cursor: pointer;
+  font-size: 2.5rem;
+  display: none;
+}
+.social__media--icons {
+  margin-top: 13rem;
+  align-self: flex-start;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 1rem;
+}
+.social__media--icon {
+  color: black;
+}
+.social__media--icon-facebook {
+  font-size: 2.8rem;
+}
+.social__media--icon-insta {
+  font-size: 2.3rem;
+  margin-bottom: 0.2rem;
+}
+@media screen and (max-width: 1100px) {
+  .navbar {
+    width: 25rem;
+    padding: 10rem 1rem 5rem 5rem;
+  }
+  .nav__logo {
+    width: 13rem;
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .nav-list {
+    gap: 2rem;
+  }
+  .social__media--icons {
+    gap: 0.5rem;
+  }
+  .social__media--icon-facebook {
+    font-size: 2.3rem;
+  }
+  .social__media--icon-insta {
+    font-size: 1.8rem;
+  }
+}
+/* tablet & mobile menu */
+@media screen and (max-width: 770px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    padding: 0 4rem;
+    border-right: none;
+
+    z-index: 11;
+  }
+  .nav__logo {
+    width: 12rem;
+    margin-bottom: 0;
+    align-self: center;
+  }
+
+  .navbar__menu {
+    display: block;
+  }
+  .navbar__menu--close {
+    z-index: 99;
+  }
+  .nav-list {
+    position: absolute;
+    background-color: #fff;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 3rem;
+    top: 10rem;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    padding: 5rem;
+    transition: all 0.5s;
+  }
+  .nav-link {
+    font-size: 1.8rem;
+  }
+  .social__media--icons {
+    align-self: flex-end;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .active {
+    right: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+}
