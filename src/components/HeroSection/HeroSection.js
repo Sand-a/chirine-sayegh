@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -10,22 +11,23 @@ const HeroSection = () => {
           <img
             className="img-box--img"
             src="/images/imgSection/architecture-section.jpg"
-            alt="architecture"
+            alt="design"
           />
           <div className="img--overlay">
             <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
-            <h1 className="img--title">Architecture</h1>
+            <h1 className="img--title">architecture</h1>
             <p className="img--text bodytext">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
               odit quos, nesciunt facere sequi labore rerum qui doloremque error
-              nemo quam.
+              nemo quam. Sapiente ipsum saepe porro temporibus debitis!
+              Molestiae, quidem natus.
             </p>
           </div>
         </Link>
 
         <div className="img--text--box">
           <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
-          <h1 className="img--title">Architecture</h1>
+          <h1 className="img--title">architecture</h1>
           <p className="img--text bodytext">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit
             quos, nesciunt facere sequi labore rerum qui doloremque error nemo

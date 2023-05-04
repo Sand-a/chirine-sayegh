@@ -1,0 +1,60 @@
+export const projectsArchitectureData = [
+  {
+    _id: 11,
+    title: "MV",
+    sub_title: "in Collaboration with",
+    logo: "/logo/rab-logo.png",
+    description: "",
+    images: [
+      "/images/projects/rab_monteverde/rab_monteverde_1.jpg",
+      "/images/projects/rab_monteverde/rab_monteverde_2.jpg",
+      "/images/projects/rab_monteverde/rab_monteverde_3.jpg",
+    ],
+  },
+  {
+    _id: 12,
+    title: "MV",
+    sub_title: "in Collaboration with",
+    logo: "/logo/rab-logo.png",
+    description: "",
+    images: [
+      "/images/projects/rab_monteverde/rab_monteverde_1.jpg",
+      "/images/projects/rab_monteverde/rab_monteverde_2.jpg",
+      "/images/projects/rab_monteverde/rab_monteverde_3.jpg",
+    ],
+  },
+  // {
+  //   _id: 12,
+  //   title: "DK",
+  //   sub_title: "in Collaboration with",
+  //   logo: "/logo/rab-logo.png",
+  //   description: "",
+  //   images: [""],
+  // },
+  // {
+  //   _id: 13,
+  //   title: "Nada's appartement",
+  //   sub_title: "in Collaboration with",
+  //   logo: "/logo/rab-logo.png",
+  //   description: "",
+  //   images: [""],
+  // },
+  // {
+  //   _id: 14,
+  //   title: "ashrafieh rooftop",
+  //   description: "",
+  //   images: [""],
+  // },
+  // {
+  //   _id: 15,
+  //   title: "girl's bedroom",
+  //   description: "",
+  //   images: [""],
+  // },
+  // {
+  //   _id: 16,
+  //   title: "boy's bedroom",
+  //   description: "",
+  //   images: [""],
+  // },
+];

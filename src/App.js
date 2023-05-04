@@ -6,8 +6,9 @@ import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ScrollToTop from "./components/ScrollToTop";
-import AboutUs from "./pages/AboutUs";
+import Bio from "./pages/Bio";
 import NotFound from "./pages/NotFound";
+import Architecture from "./pages/Architecture";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/bio" element={<Bio />} />
+        <Route path="/architecture" element={<Architecture />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="section footer">
+      <footer className="section footer-section">
         <ul className="social__media_list">
           <li className="social__media_links">
             <a href="tel:+9613299005" className="social__media_link">

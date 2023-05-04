@@ -1,0 +1,15 @@
+.bio-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-image {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.bio-text {
+  max-width: 80rem;
+}

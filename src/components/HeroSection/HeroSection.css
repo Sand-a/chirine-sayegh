@@ -1,6 +1,3 @@
-.hero-section {
-  padding: 5rem 7rem;
-}
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -31,20 +28,6 @@
   opacity: 0;
   transition: opacity 0.25s ease;
 }
-.logo-spinning {
-  width: 5rem;
-  margin-bottom: 3rem;
-  animation: logo-spin infinite 10s linear;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .img--overlay > * {
   transform: translateY(30px);
@@ -59,6 +42,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.7rem;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
 .img--text {
@@ -73,9 +57,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .hero-section {
-    padding: 3rem 4rem;
-  }
   .img--title {
     font-size: 4rem;
   }
@@ -84,9 +65,6 @@
   }
 }
 @media screen and (max-width: 770px) {
-  .hero-section {
-    padding-top: 11rem;
-  }
   .img--overlay {
     display: none;
   }
