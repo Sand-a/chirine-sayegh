@@ -9,6 +9,13 @@ import ScrollToTop from "./components/ScrollToTop";
 import Bio from "./pages/Bio";
 import NotFound from "./pages/NotFound";
 import Architecture from "./pages/Architecture";
+import Design from "./pages/Design";
+import Art from "./pages/Art";
+import {
+  projectsArchitectureData,
+  projectsDesignData,
+  projectsArtData,
+} from "./datas/projectsdata";
 
 function App() {
   return (
@@ -18,7 +25,15 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/bio" element={<Bio />} />
-        <Route path="/architecture" element={<Architecture />} />
+        <Route
+          path="/architecture"
+          element={<Architecture allProjects={projectsArchitectureData} />}
+        />
+        <Route
+          path="/design"
+          element={<Design allProjects={projectsDesignData} />}
+        />
+        <Route path="/art" element={<Art allProjects={projectsArtData} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
