@@ -1,0 +1,22 @@
+.section--reveal {
+  opacity: 1;
+  overflow: hidden;
+  transition: transform 1s, opacity 1s;
+}
+.section--hidden,
+.section--hidden-left,
+.section--hidden-right {
+  opacity: 0;
+  transform: translateY(20rem);
+}
+.section--hidden-left {
+  opacity: 0;
+  transform: translateX(-20rem);
+}
+.section--hidden-right {
+  opacity: 0;
+  transform: translateX(20rem);
+}
+.section--hidden-none {
+  opacity: 0;
+}

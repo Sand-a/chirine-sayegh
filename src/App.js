@@ -11,6 +11,9 @@ import NotFound from "./pages/NotFound";
 import Architecture from "./pages/Architecture";
 import Design from "./pages/Design";
 import Art from "./pages/Art";
+import Contact from "./pages/Contact";
+import { contactData } from "./datas/contactData";
+
 import {
   projectsArchitectureData,
   projectsDesignData,
@@ -34,9 +37,10 @@ function App() {
           element={<Design allProjects={projectsDesignData} />}
         />
         <Route path="/art" element={<Art allProjects={projectsArtData} />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />{" "}
+        <Route path="/contact" element={<Contact data={contactData} />} />
       </Routes>
-      <Footer />
+      <Footer data={contactData} />
     </>
   );
 }

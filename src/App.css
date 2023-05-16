@@ -21,13 +21,14 @@ body {
 
   /* word-break: break-word; */
 }
+
 .container {
   max-width: 120rem;
   margin: 0 auto;
 }
 .section {
   margin-left: 35rem;
-  padding: 5rem 7rem;
+  padding: 15rem 7rem 5rem;
 }
 .section-notFound {
   display: flex;
@@ -67,17 +68,7 @@ body {
   letter-spacing: 0.5px;
   color: #4b4b4b;
 }
-.section--reveal {
-  opacity: 1;
-  overflow: hidden;
-  transition: transform 1s, opacity 1s;
-}
-.section--hidden,
-.section--hidden-left,
-.section--hidden-right {
-  opacity: 0;
-  transform: translateY(20rem);
-}
+
 .margin-top {
   margin-top: 10rem;
 }

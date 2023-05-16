@@ -11,42 +11,54 @@ import {
   FiMail,
 } from "react-icons/fi";
 
-const Footer = () => {
+const Footer = ({ data }) => {
   return (
     <>
       <footer className="section footer-section">
         <ul className="social__media_list">
           <li className="social__media_links">
-            <a href="tel:+9613299005" className="social__media_link">
+            <a href={`tel:${data.tel}`} className="social__media_link">
               <FiPhone className="social__media_icon social__media_icon-phone" />
             </a>
           </li>
           <li className="social__media_links">
-            <a href="" className="social__media_link">
+            <a href={`mailto:${data.email}`} className="social__media_link">
               <FiMail className="social__media_icon social__media_icon-mail" />
             </a>
           </li>
           <li className="social__media_links">
-            <a href="" className="social__media_link">
+            <a
+              target="_blank"
+              href={data.location_url}
+              className="social__media_link"
+            >
               <FiMapPin className="social__media_icon social__media_icon-map" />
             </a>
           </li>
           <li className="space">|</li>
           <li className="social__media_links">
-            <a href="" className="social__media_link">
+            <a
+              target="_blank"
+              href={data.linkedIn_url}
+              className="social__media_link"
+            >
               <RiLinkedinBoxFill className="social__media_icon social__media_icon-linkedin" />
             </a>
           </li>
           <li className="social__media_links">
-            <a href="tel:+9613299005" className="social__media_link">
+            <a
+              target="_blank"
+              href={data.insta_url}
+              className="social__media_link"
+            >
               <GrInstagram className="social__media_icon social__media_icon-insta" />
             </a>
           </li>
-          <li className="social__media_links">
-            <a href="" className="social__media_link">
+          {/* <li className="social__media_links">
+            <a href={data.facebook_url} className="social__media_link">
               <RiFacebookCircleFill className="social__media_icon social__media_icon-facebook" />
             </a>
-          </li>
+          </li> */}
         </ul>
         <div className="footer-signature">
           <p className="copyright">

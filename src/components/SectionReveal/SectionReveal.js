@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import "./SectionReveal.css";
 
 function SectionReveal({ section, direction }) {
   const { ref, inView } = useInView({

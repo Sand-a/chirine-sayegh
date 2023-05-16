@@ -31,10 +31,10 @@ const Navbar = ({ navLinks }) => {
             );
           })}
           <li className="social__media--icons">
-            {" "}
+            {/* {" "}
             <Link>
               <RiFacebookCircleFill className="social__media--icon social__media--icon-facebook" />
-            </Link>
+            </Link> */}
             <Link>
               <GrInstagram className="social__media--icon social__media--icon-insta" />
             </Link>

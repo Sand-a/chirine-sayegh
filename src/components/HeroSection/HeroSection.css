@@ -1,3 +1,6 @@
+.hero-section {
+  padding-top: 5rem;
+}
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -65,6 +68,9 @@
   }
 }
 @media screen and (max-width: 770px) {
+  .hero-section {
+    padding-top: 11rem;
+  }
   .img--overlay {
     display: none;
   }
