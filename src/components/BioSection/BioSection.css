@@ -60,6 +60,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .bio-section {
+    padding-top: 12rem;
+  }
   .bio-image {
     max-width: 30rem;
     margin-bottom: 3rem;

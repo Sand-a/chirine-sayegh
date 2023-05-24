@@ -53,3 +53,8 @@
 .painting-dimension {
   font-size: 1.4rem;
 }
+@media screen and (max-width: 450px) {
+  .canvas-section {
+    padding-top: 12rem;
+  }
+}

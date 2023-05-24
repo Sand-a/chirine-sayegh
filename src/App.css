@@ -107,7 +107,7 @@ body {
 
 @media screen and (max-width: 450px) {
   .section {
-    padding: 13rem 0 3rem 0;
+    padding: 10rem 0 3rem 0;
   }
   .primary-headline {
     font-size: 3rem;

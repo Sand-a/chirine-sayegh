@@ -108,7 +108,7 @@
   background-color: #fff;
   border: 2px solid #222;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1000px) {
   .grid--2-cols {
     grid-template-columns: 1fr;
   }
@@ -128,5 +128,10 @@
   }
   .btn-form {
     font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-section {
+    padding-top: 12rem;
   }
 }

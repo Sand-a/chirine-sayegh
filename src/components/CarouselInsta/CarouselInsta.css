@@ -85,8 +85,6 @@
 }
 
 .project-title {
-  display: flex;
-  align-items: center;
   font-size: 2rem;
   margin-bottom: 2rem;
 }

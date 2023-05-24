@@ -3,7 +3,7 @@ import Gallery from "../components/Gallery/Gallery";
 
 const Canvas = ({ allProjects, icon }) => {
   return (
-    <div className="section">
+    <div className="section canvas-section">
       <div className="">
         {allProjects.map((project) => {
           return (
