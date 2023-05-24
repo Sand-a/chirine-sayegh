@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselInsta from "../components/CarouselInsta/CarouselInsta";
 
-const Project = ({ allProjects }) => {
+const Project = ({ allProjects, icon }) => {
   return (
     <div className="section">
       <div className=" projects-container">
@@ -17,7 +17,7 @@ const Project = ({ allProjects }) => {
               <div className="poject-details">
                 <h1 className=" project-title">
                   {" "}
-                  <img src="/logo/logo2.svg" alt="" className="project-icon" />
+                  <img src={icon} alt="" className="project-icon" />
                   {project.title} <span className="space">| </span>
                   <span className="project-sub-title">{project.sub_title}</span>
                   <img className="project-logo" src={project.logo} alt="" />

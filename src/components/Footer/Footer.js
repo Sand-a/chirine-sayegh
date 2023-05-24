@@ -63,8 +63,8 @@ const Footer = ({ data }) => {
         <div className="footer-signature">
           <p className="copyright">
             Copyright &copy;
-            <span className="year"> {new Date().getFullYear()} </span> Chrine
-            Sayegh &#124; Architect - All rights reserved.
+            <span className="year"> {new Date().getFullYear()} </span> Chirine
+            <strong>Sayegh</strong> &#124; Architect - All rights reserved.
           </p>
 
           <p className="copyright">

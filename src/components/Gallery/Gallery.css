@@ -1,0 +1,52 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+
+  margin-bottom: 4rem;
+}
+.canvas {
+  overflow: hidden;
+}
+
+.canvas > img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: transform 250ms;
+}
+
+.canvas img:hover {
+  transform: scale(1.1);
+}
+
+.img-painting-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+  grid-gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.painting-img-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.painting-img-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-painting-text {
+  margin-left: 1rem;
+}
+.canvas-description {
+  max-width: 40rem;
+}
+.painting-dimension {
+  font-size: 1.4rem;
+}

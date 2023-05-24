@@ -81,7 +81,7 @@
   margin-left: 0.5rem;
 }
 .poject-details {
-  margin-bottom: 3rem;
+  margin-bottom: 20rem;
 }
 
 .project-title {
@@ -103,4 +103,9 @@
 .project-location {
   font-size: 1rem;
   font-weight: 200;
+}
+@media screen and (max-width: 450px) {
+  .project-title {
+    padding-left: 2rem;
+  }
 }

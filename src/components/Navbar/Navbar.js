@@ -21,11 +21,12 @@ const Navbar = ({ navLinks }) => {
                 <NavLink
                   exact="true"
                   activeclassname="active"
-                  className="nav-link"
+                  className={`nav-link ${item.classname ? "art" : ""}`}
                   to={item.path}
                   onClick={toggleMenuClick}
                 >
-                  {item.title}
+                  {item.title}{" "}
+                  {item.icon && <img src={item.icon_url} alt="flower" />}
                 </NavLink>
               </li>
             );

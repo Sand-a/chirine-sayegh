@@ -19,33 +19,28 @@ const ContactForm = ({ data }) => {
       <div className="grid grid--2-cols">
         <ul className="contact-list">
           <li className="contact-items">
-            {" "}
-            <h1 className="primary-headline">contact</h1>
-          </li>
-          <li className="contact-items">
-            <p className="contact-item bodytext">{data.text}</p>
+            <p className="bodytext">{data.text}</p>
           </li>
           <li className="contact-items">
             <a className="contact-link" href={`tel:${data.tel}`}>
               {" "}
               <FiPhone className="contact-icon" />
+              <p className="contact-item">{data.phone}</p>
             </a>
-
-            <p className="contact-item">{data.phone}</p>
           </li>
 
           <li className="contact-items">
             <a href={`mailto:${data.email}`} className="contact-link">
               {" "}
-              <FiMail className="contact-icon" />
+              <FiMail className="contact-icon" />{" "}
+              <p className="contact-item">{data.email}</p>
             </a>
-            <p className="contact-item">{data.email}</p>
           </li>
           <li className="contact-items">
             <a target="_blank" href={data.insta_url} className="contact-link">
-              <GrInstagram className="contact-icon" />
+              <GrInstagram className="contact-ico contact-icon-insta" />{" "}
+              <p className="contact-item">{data.insta}</p>
             </a>
-            <p className="contact-item">{data.insta}</p>
           </li>
           <li className="contact-items">
             <a
@@ -53,40 +48,40 @@ const ContactForm = ({ data }) => {
               href={data.location_url}
               className="contact-link"
             >
-              <FiMapPin className="contact-icon" />
+              <FiMapPin className="contact-icon" />{" "}
+              <p className="contact-item">{data.address}</p>
             </a>
-            <p className="contact-item">{data.address}</p>
           </li>
         </ul>
         <SectionReveal
           direction={"right"}
           section={
             <form ref={form} onSubmit={sendEmail} className="form-container">
-              <h1> Send us your requirement:</h1>
+              {/* <h1> Send us your requirement:</h1> */}
               <input
                 className="searchfield"
                 type="text"
-                placeholder="Full Name"
+                placeholder=" Your name"
                 name="user_name"
                 required
               />
               <input
                 className="searchfield"
                 type="email"
-                placeholder="Email"
+                placeholder="Your email address"
                 name="user_email"
                 required
               />
-              <input
-                className="searchfield"
-                type="text"
-                placeholder="Subject"
-                name="subject"
-                required
-              />
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+              <textarea
+                name="message"
+                placeholder="Your message"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
               <button type="submit" className="btn btn-form">
-                Send Message
+                Send
               </button>
             </form>
           }

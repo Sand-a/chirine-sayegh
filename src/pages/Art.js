@@ -1,8 +1,8 @@
 import React from "react";
-import Project from "../components/Project";
+import Canvas from "../components/Canvas";
 
-const Art = ({ allProjects }) => {
-  return <Project allProjects={allProjects} />;
+const Art = ({ allProjects, icon }) => {
+  return <Canvas allProjects={allProjects} icon={icon} />;
 };
 
 export default Art;

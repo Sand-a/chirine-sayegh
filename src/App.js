@@ -10,7 +10,7 @@ import Bio from "./pages/Bio";
 import NotFound from "./pages/NotFound";
 import Architecture from "./pages/Architecture";
 import Design from "./pages/Design";
-import Art from "./pages/Art";
+import ArtRoutes from "./routes/ArtRoutes";
 import Contact from "./pages/Contact";
 import { contactData } from "./datas/contactData";
 
@@ -30,13 +30,25 @@ function App() {
         <Route path="/bio" element={<Bio />} />
         <Route
           path="/architecture"
-          element={<Architecture allProjects={projectsArchitectureData} />}
+          element={
+            <Architecture
+              allProjects={projectsArchitectureData}
+              icon={"/logo/logo2.svg"}
+            />
+          }
         />
         <Route
           path="/design"
-          element={<Design allProjects={projectsDesignData} />}
+          element={
+            <Design allProjects={projectsDesignData} icon={"/logo/logo2.svg"} />
+          }
         />
-        <Route path="/art" element={<Art allProjects={projectsArtData} />} />
+        <Route
+          path="/art/*"
+          element={
+            <ArtRoutes projects={projectsArtData} icon={"/icons/leave.svg"} />
+          }
+        />
         <Route path="*" element={<NotFound />} />{" "}
         <Route path="/contact" element={<Contact data={contactData} />} />
       </Routes>

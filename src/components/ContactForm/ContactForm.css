@@ -8,6 +8,8 @@
 
 .contact-list {
   list-style: none;
+  width: 100%;
+  margin-left: 1.5rem;
 }
 
 .contact-items {
@@ -17,15 +19,31 @@
   position: relative;
   margin-bottom: 2rem;
 }
+.contact-items:first-child {
+  margin: 1.5rem 0 5rem 0;
+}
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+}
 
 .contact-item {
   font-size: 1.8rem;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   font-weight: 300;
-  color: var(--text-color);
+  transition: all 1s ease-in-out;
+}
+.contact-link:hover {
+  font-weight: 500;
 }
 .contact-icon {
   font-size: 2rem;
+  color: #222;
+}
+.contact-icon-insta {
+  font-size: 1.7rem;
   color: #222;
 }
 .pobox {
@@ -33,44 +51,62 @@
 }
 
 .form-container {
-  min-width: 60rem;
-
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-
+  width: 100%;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  border: 1px solid #222;
-  padding: 4rem;
-  margin-bottom: 5rem;
+
+  padding: 0 4rem;
 }
-.form-container h1 {
+/* .form-container h1 {
   margin-bottom: 3rem;
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 300;
   align-self: flex-start;
-}
+} */
 .form-container input,
 .form-container textarea {
+  text-align: center;
   width: 100%;
+  font-family: inherit;
+}
+.form-container textarea {
+  padding-top: 2rem;
+  border: 1.5px solid black;
+}
+.searchfield {
+  padding: 1rem;
+  border: none;
+  font-size: 1.6rem;
+  color: #222;
+  border-bottom: 2px solid black;
+
+  transition: all 0.5s;
+}
+.searchfield:hover {
+  width: 130%;
 }
 
 .btn-form {
   align-self: flex-start;
   padding: 1rem 2rem;
-  text-transform: uppercase;
+  width: 100%;
   font-family: inherit;
-  font-size: 1.8rem;
-  border: 1.4px solid #222;
-  background: none;
+  font-size: 1.6rem;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  letter-spacing: 3px;
   font-weight: 400;
 }
 .btn-form:hover {
-  color: var(--white);
-  background-color: #222;
+  color: #222;
+  background-color: none;
+  border: 1.4px solid #222;
 }
 @media screen and (max-width: 770px) {
   .grid--2-cols {

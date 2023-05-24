@@ -33,18 +33,33 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #4b4b4b;
-
-  /* transition: 250ms; */
+  display: flex;
+  align-items: center;
+  transition: all 250ms;
+}
+.nav-link img {
+  width: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0.3rem;
+  transition: all 250ms;
 }
 
 .nav-link:hover {
   color: black;
-  font-weight: 300;
+  font-weight: 400;
 }
+
 .nav-link.active {
   color: black;
   font-weight: 600;
-  transition: 250ms;
+}
+.art:hover {
+  color: var(--green);
+  font-weight: 400;
+}
+.art.active {
+  color: var(--green);
+  font-weight: 700;
 }
 
 .menu-icon {
@@ -116,6 +131,7 @@
   }
   .nav__logo {
     width: 12rem;
+    padding-top: 1rem;
     margin-bottom: 0;
     align-self: center;
   }

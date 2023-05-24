@@ -1,7 +1,7 @@
 export const contactData = {
-  text: "For commissions, information about personalized design services, DIY design coaching, or online art courses:",
+  text: "For commissions, informations about personalized design services, DIY design coaching, or online art courses, please contact us:",
   tel: "+9613726498",
-  phone: "961 (3) 726 498",
+  phone: "961 3 726 498",
 
   email: "chirinesayegh@yahoo.com",
 
