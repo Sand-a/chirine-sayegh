@@ -12,7 +12,7 @@ const Project = ({ allProjects, icon }) => {
                 key={project._id}
                 projectImages={project.images}
                 autoSlide={true}
-                autoSlideInterval={3000}
+                // autoSlideInterval={3000}
               />
               <div className="poject-details">
                 <h1 className=" project-title">

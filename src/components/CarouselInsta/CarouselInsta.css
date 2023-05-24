@@ -104,6 +104,11 @@
   font-size: 1rem;
   font-weight: 200;
 }
+@media screen and (max-width: 770px) {
+  .btn-slide {
+    display: none;
+  }
+}
 @media screen and (max-width: 450px) {
   .project-title {
     padding-left: 2rem;

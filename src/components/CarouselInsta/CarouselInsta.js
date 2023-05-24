@@ -8,20 +8,49 @@ export default function CarouselInsta({
   autoSlideInterval = 3000,
 }) {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [touchPosition, setTouchPosition] = useState(null);
 
   const slideLength = projectImages.length;
 
-  useEffect(() => {
-    if (!autoSlide) return;
-    const timer = setTimeout(() => {
-      if (currentSlide === slideLength - 1) {
-        setCurrentSlide(0);
-      } else {
-        setCurrentSlide(currentSlide + 1);
-      }
-    }, autoSlideInterval);
-    return () => clearTimeout(timer);
-  }, [currentSlide]);
+  const handleTouchStart = (e) => {
+    const touchDown = e.touches[0].clientX;
+    setTouchPosition(touchDown);
+  };
+
+  const handleTouchMove = (e) => {
+    const touchDown = touchPosition;
+    if (touchDown === null) {
+      return;
+    }
+    const currentTouch = e.touches[0].clientX;
+    const diff = touchDown - currentTouch;
+    if (diff > 5) {
+      nextSlideTouch();
+    }
+    if (diff < -5) {
+      prevSlideTouch();
+    }
+    setTouchPosition(null);
+  };
+  const nextSlideTouch = () => {
+    currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
+  };
+
+  const prevSlideTouch = () => {
+    currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
+  };
+
+  // useEffect(() => {
+  //   if (!autoSlide) return;
+  //   const timer = setTimeout(() => {
+  //     if (currentSlide === slideLength - 1) {
+  //       setCurrentSlide(0);
+  //     } else {
+  //       setCurrentSlide(currentSlide + 1);
+  //     }
+  //   }, autoSlideInterval);
+  //   return () => clearTimeout(timer);
+  // }, [currentSlide]);
 
   const nextSlide = () => {
     if (currentSlide !== slideLength - 1) {
@@ -68,6 +97,8 @@ export default function CarouselInsta({
                 ? styles
                 : { transform: `translateX(${100 * (i - currentSlide)}%)` }
             }
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
           >
             <img src={process.env.PUBLIC_URL + img} alt="" />
           </div>
