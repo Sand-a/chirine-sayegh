@@ -105,8 +105,8 @@
 }
 .btn-form:hover {
   color: #222;
-  background-color: none;
-  border: 1.4px solid #222;
+  background-color: #fff;
+  border: 2px solid #222;
 }
 @media screen and (max-width: 770px) {
   .grid--2-cols {

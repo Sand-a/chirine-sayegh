@@ -12,7 +12,7 @@ const Navbar = ({ navLinks }) => {
   return (
     <>
       <nav className="navbar">
-        <img className="nav__logo" src="/logo/logo1-1.svg" alt="logo" />
+        <img className="nav__logo" src="/logo/logo.svg" alt="logo" />
 
         <ul className={menuClicked ? "nav-list active" : "nav-list"}>
           {navLinks.map((item) => {

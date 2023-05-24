@@ -19,7 +19,11 @@ const ContactForm = ({ data }) => {
       <div className="grid grid--2-cols">
         <ul className="contact-list">
           <li className="contact-items">
-            <p className="bodytext">{data.text}</p>
+            <p className="bodytext">
+              {data.text}
+              <strong className="uppercase">contact </strong>
+              <span className="uppercase">us:</span>
+            </p>
           </li>
           <li className="contact-items">
             <a className="contact-link" href={`tel:${data.tel}`}>

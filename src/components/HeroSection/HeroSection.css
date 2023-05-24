@@ -91,9 +91,6 @@
   }
 }
 @media screen and (max-width: 550px) {
-  .logo-spinning {
-    width: 3rem;
-  }
   .img--text {
     width: 95%;
   }

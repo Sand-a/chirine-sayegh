@@ -42,7 +42,7 @@ body {
   align-items: center;
 }
 .logo-spinning {
-  width: 5rem;
+  width: 3rem;
 
   animation: logo-spin infinite 10s linear;
 }
@@ -88,6 +88,9 @@ body {
 .green {
   color: var(--green);
 }
+.uppercase {
+  text-transform: uppercase;
+}
 
 @media screen and (max-width: 1100px) {
   .section {
@@ -101,6 +104,7 @@ body {
     margin-left: 0;
   }
 }
+
 @media screen and (max-width: 450px) {
   .section {
     padding: 13rem 0 3rem 0;

@@ -21,7 +21,10 @@
 .canvas img:hover {
   transform: scale(1.1);
 }
-
+.canvas-icon {
+  height: 2.2rem;
+  margin-right: 0.9rem;
+}
 .img-painting-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));

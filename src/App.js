@@ -33,20 +33,23 @@ function App() {
           element={
             <Architecture
               allProjects={projectsArchitectureData}
-              icon={"/logo/logo2.svg"}
+              icon={"/logo/logo-icon.svg"}
             />
           }
         />
         <Route
           path="/design"
           element={
-            <Design allProjects={projectsDesignData} icon={"/logo/logo2.svg"} />
+            <Design
+              allProjects={projectsDesignData}
+              icon={"/logo/logo-icon.svg"}
+            />
           }
         />
         <Route
           path="/art/*"
           element={
-            <ArtRoutes projects={projectsArtData} icon={"/icons/leave.svg"} />
+            <ArtRoutes projects={projectsArtData} icon={"/icons/flower.svg"} />
           }
         />
         <Route path="*" element={<NotFound />} />{" "}

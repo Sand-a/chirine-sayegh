@@ -9,7 +9,7 @@ const Canvas = ({ allProjects, icon }) => {
           return (
             <>
               <h1 className="project-title">
-                <img src={icon} alt="" className="project-icon" />
+                <img src={icon} alt="" className="canvas-icon" />
                 {project.title} <span className="space">|</span>
                 <i className="project-location">{project.date}</i>
               </h1>
@@ -19,8 +19,7 @@ const Canvas = ({ allProjects, icon }) => {
                 className="bodytext canvas-description
             "
               >
-                <i className="project-title green">"{project.title}"</i>{" "}
-                {project.description}
+                <i className="green">"{project.title}"</i> {project.description}
               </p>
             </>
           );

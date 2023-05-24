@@ -14,7 +14,7 @@ const HeroSection = () => {
             alt="design"
           />
           <div className="img--overlay">
-            <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
+            <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
             <h1 className="img--title">architecture</h1>
             <p className="img--text bodytext">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
@@ -26,7 +26,7 @@ const HeroSection = () => {
         </Link>
 
         <div className="img--text--box">
-          <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
+          <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
           <h1 className="img--title">architecture</h1>
           <p className="img--text bodytext">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit
@@ -43,7 +43,7 @@ const HeroSection = () => {
             alt="design"
           />
           <div className="img--overlay">
-            <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
+            <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
             <h1 className="img--title">design</h1>
             <p className="img--text bodytext">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
@@ -55,7 +55,7 @@ const HeroSection = () => {
         </Link>
 
         <div className="img--text--box">
-          <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
+          <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
           <h1 className="img--title">design</h1>
           <p className="img--text bodytext">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit
@@ -72,7 +72,7 @@ const HeroSection = () => {
             alt="art"
           />
           <div className="img--overlay">
-            <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
+            <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
             <h1 className="img--title">Art</h1>
             <p className="img--text bodytext">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
@@ -84,7 +84,7 @@ const HeroSection = () => {
         </Link>
 
         <div className="img--text--box">
-          <img src="/logo/logo2.svg" alt="" className="logo-spinning" />
+          <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
           <h1 className="img--title">Art</h1>
           <p className="img--text bodytext">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit
