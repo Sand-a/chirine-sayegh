@@ -10,7 +10,7 @@ const HeroSection = () => {
         <Link to="/architecture" className="img-box">
           <img
             className="img-box--img"
-            src="/images/imgSection/architecture-section.jpg"
+            src="/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_2.jpg"
             alt="design"
           />
           <div className="img--overlay">
@@ -72,7 +72,11 @@ const HeroSection = () => {
             alt="art"
           />
           <div className="img--overlay">
-            <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
+            <img
+              src="/icons/flower.svg"
+              alt=""
+              className="logo-spinning icon-flower"
+            />
             <h1 className="img--title">Art</h1>
             <p className="img--text bodytext">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
@@ -84,7 +88,11 @@ const HeroSection = () => {
         </Link>
 
         <div className="img--text--box">
-          <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
+          <img
+            src="/icons/flower.svg"
+            alt=""
+            className="logo-spinning icon-flower"
+          />
           <h1 className="img--title">Art</h1>
           <p className="img--text bodytext">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit

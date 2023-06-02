@@ -17,7 +17,7 @@ const BioSection = () => {
         has sold on multiple platforms and has taken a more central role in her
         creative process.
       </p>
-      <div className=" pdf-downloads">
+      {/* <div className=" pdf-downloads">
         <p className="bodytext">
           Download{" "}
           <span className="pdf-name">
@@ -50,7 +50,7 @@ const BioSection = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -10,8 +10,7 @@ export default function BtnSlider({ direction, moveSlide }) {
       {direction === "next" ? (
         <BsChevronRight className="arrow arrow-right" />
       ) : (
-        ""
-        // <BsChevronLeft className="arrow arrow-left" />
+        <BsChevronLeft className="arrow arrow-left" />
       )}
     </button>
   );

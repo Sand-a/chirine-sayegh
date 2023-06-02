@@ -46,6 +46,11 @@ body {
 
   animation: logo-spin infinite 10s linear;
 }
+.icon-flower {
+  width: 4.5rem;
+  margin-bottom: -2rem;
+  margin-right: 1rem;
+}
 
 @keyframes logo-spin {
   from {
@@ -116,6 +121,14 @@ body {
   }
   .bodytext {
     padding: 0 2rem;
+  }
+  .logo-spinning {
+    width: 2.5rem;
+    margin-bottom: -1rem;
+  }
+  .icon-flower {
+    width: 3.5rem;
+    margin-bottom: -2.3rem;
   }
 }
 

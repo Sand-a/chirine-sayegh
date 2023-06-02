@@ -16,7 +16,7 @@ const ContactForm = ({ data }) => {
   const sendEmail = () => {};
   return (
     <>
-      <div className="grid grid--2-cols">
+      <div className="grid grid--2-cols contact-content">
         <ul className="contact-list">
           <li className="contact-items">
             <p className="bodytext">
@@ -42,7 +42,7 @@ const ContactForm = ({ data }) => {
           </li>
           <li className="contact-items">
             <a target="_blank" href={data.insta_url} className="contact-link">
-              <GrInstagram className="contact-ico contact-icon-insta" />{" "}
+              <GrInstagram className="contact-icon contact-icon-insta" />{" "}
               <p className="contact-item">{data.insta}</p>
             </a>
           </li>

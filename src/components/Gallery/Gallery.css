@@ -25,6 +25,7 @@
   height: 2.2rem;
   margin-right: 0.9rem;
 }
+
 .img-painting-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -46,13 +47,32 @@
 
 .img-painting-text {
   margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 .canvas-description {
-  max-width: 40rem;
+  max-width: 80rem;
+  margin-bottom: 15rem;
 }
 .painting-dimension {
   font-size: 1.4rem;
 }
+.link-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+.link-back-btn {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--green);
+  transition: all 200ms;
+}
+.link-back-btn:hover {
+  color: black;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 450px) {
   .canvas-section {
     padding-top: 12rem;
