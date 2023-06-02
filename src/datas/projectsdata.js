@@ -83,15 +83,14 @@ export const projectsArchitectureData = [
       "/images/projects/architecture/rab-dk/rab-dk_1.jpg",
       "/images/projects/architecture/rab-dk/rab-dk_2.jpg",
       "/images/projects/architecture/rab-dk/rab-dk_3.jpg",
-      "/images/projects/architecture/rab-dk/rab-dk_4.jpg",
-      "/images/projects/architecture/rab-dk/rab-dk_5.jpg",
+
       "/images/projects/architecture/rab-dk/rab-dk_6.jpg",
       "/images/projects/architecture/rab-dk/rab-dk_7.jpg",
     ],
   },
   {
     _id: 17,
-    title: "ND Project",
+    title: "NaDa Project",
     sub_title: "In Collaboration with",
     logo: "/logo/rab-logo.png",
     description:
@@ -100,7 +99,6 @@ export const projectsArchitectureData = [
     images: [
       "/images/projects/architecture/rab-nada/rab-nada_1.jpg",
       "/images/projects/architecture/rab-nada/rab-nada_2.jpg",
-      "/images/projects/architecture/rab-nada/rab-nada_3.jpg",
     ],
   },
 ];
@@ -229,20 +227,6 @@ export const projectsDesignData = [
       "/images/projects/design/headboard/headboard_1.jpg",
       "/images/projects/design/headboard/headboard_2.jpg",
       "/images/projects/design/headboard/headboard_3.jpg",
-    ],
-  },
-  {
-    _id: 120,
-    title: "Modules",
-
-    description:
-      "Creative Furniture combinations made with powder coated steel and beach plywood",
-    location: "Beirut - Lebanon",
-
-    images: [
-      "/images/projects/design/module/module_1.jpg",
-      "/images/projects/design/module/module_2.jpg",
-      "/images/projects/design/module/module_3.jpg",
     ],
   },
 ];
