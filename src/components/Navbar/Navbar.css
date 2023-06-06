@@ -6,7 +6,7 @@
   width: 35rem;
   height: 100vh;
   background-color: #fff;
-
+  overflow-y: scroll;
   border-right: 3px solid rgba(0, 0, 0, 0.059);
   padding: 10rem 1rem 7rem 7rem;
 }
@@ -145,6 +145,7 @@
   }
   .nav-list {
     position: absolute;
+
     background-color: #fff;
     justify-content: flex-start;
     align-items: flex-end;

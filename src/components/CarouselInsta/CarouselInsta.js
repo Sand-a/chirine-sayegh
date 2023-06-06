@@ -8,30 +8,30 @@ export default function CarouselInsta({
   autoSlideInterval = 3000,
 }) {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [touchPosition, setTouchPosition] = useState(null);
 
   const slideLength = projectImages.length;
 
-  const handleTouchStart = (e) => {
-    const touchDown = e.touches[0].clientX;
-    setTouchPosition(touchDown);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+  const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX);
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+    if (isLeftSwipe || isRightSwipe)
+      isLeftSwipe ? nextSlideTouch() : prevSlideTouch();
+
+    // add your conditional logic here
   };
 
-  const handleTouchMove = (e) => {
-    const touchDown = touchPosition;
-    if (touchDown === null) {
-      return;
-    }
-    const currentTouch = e.touches[0].clientX;
-    const diff = touchDown - currentTouch;
-    if (diff > 5) {
-      nextSlideTouch();
-    }
-    if (diff < -5) {
-      prevSlideTouch();
-    }
-    setTouchPosition(null);
-  };
   const nextSlideTouch = () => {
     currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
   };
@@ -39,6 +39,35 @@ export default function CarouselInsta({
   const prevSlideTouch = () => {
     currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
   };
+
+  // const [touchPosition, setTouchPosition] = useState(null);
+  // const handleTouchStart = (e) => {
+  //   const touchDown = e.touches[0].clientX;
+  //   setTouchPosition(touchDown);
+  // };
+
+  // const handleTouchMove = (e) => {
+  //   const touchDown = touchPosition;
+  //   if (touchDown === null) {
+  //     return;
+  //   }
+  //   const currentTouch = e.touches[0].clientX;
+  //   const diff = touchDown - currentTouch;
+  //   if (diff > 5) {
+  //     nextSlideTouch();
+  //   }
+  //   if (diff < -5) {
+  //     prevSlideTouch();
+  //   }
+  //   setTouchPosition(null);
+  // };
+  // const nextSlideTouch = () => {
+  //   currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
+  // };
+
+  // const prevSlideTouch = () => {
+  //   currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
+  // };
 
   // useEffect(() => {
   //   if (!autoSlide) return;
@@ -97,8 +126,11 @@ export default function CarouselInsta({
                 ? styles
                 : { transform: `translateX(${100 * (i - currentSlide)}%)` }
             }
-            onTouchStart={handleTouchStart}
-            onTouchMove={handleTouchMove}
+            onTouchStart={onTouchStart}
+            onTouchMove={onTouchMove}
+            onTouchEnd={onTouchEnd}
+            // onTouchStart={handleTouchStart}
+            // onTouchMove={handleTouchMove}
           >
             <img src={process.env.PUBLIC_URL + img} alt="" />
           </div>

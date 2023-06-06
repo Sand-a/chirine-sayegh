@@ -1,36 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-*:focus {
-  outline: none;
-}
-html {
-  font-size: 62.5%;
-  height: 100%;
-}
 
-body {
-  font-family: "Raleway", sans-serif;
-  line-height: 1.6;
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 25rem;
-  box-sizing: inherit;
-
-  /* word-break: break-word; */
-}
-:root {
-  --black: #222;
-  --white: #fff;
-  --green: rgb(19, 188, 19);
-}
-
-.container {
-  max-width: 120rem;
-  margin: 0 auto;
-}
 .section {
   margin-left: 35rem;
   padding: 8rem 7rem 5rem;

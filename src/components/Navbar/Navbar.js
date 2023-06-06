@@ -9,6 +9,11 @@ import { GrInstagram } from "react-icons/gr";
 const Navbar = ({ navLinks }) => {
   const [menuClicked, setMenuClicked] = useState(false);
   const toggleMenuClick = () => setMenuClicked(!menuClicked);
+
+  menuClicked
+    ? (document.body.style.overflow = "hidden")
+    : (document.body.style.overflow = "auto");
+
   return (
     <>
       <nav className="navbar">
@@ -41,6 +46,7 @@ const Navbar = ({ navLinks }) => {
             </Link>
           </li>
         </ul>
+
         {menuClicked ? (
           <FiX
             className="navbar__menu navbar__menu--close"
