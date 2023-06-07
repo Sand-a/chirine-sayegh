@@ -11,6 +11,16 @@ export default function CarouselInsta({
 
   const slideLength = projectImages.length;
 
+  // SWIPE 2:
+
+  const nextSlideTouch = () => {
+    currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
+  };
+
+  const prevSlideTouch = () => {
+    currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
+  };
+
   const [touchStart, setTouchStart] = useState(null);
   const [touchEnd, setTouchEnd] = useState(null);
   const minSwipeDistance = 50;
@@ -28,17 +38,9 @@ export default function CarouselInsta({
     const isRightSwipe = distance < -minSwipeDistance;
     if (isLeftSwipe || isRightSwipe)
       isLeftSwipe ? nextSlideTouch() : prevSlideTouch();
-
-    // add your conditional logic here
   };
 
-  const nextSlideTouch = () => {
-    currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
-  };
-
-  const prevSlideTouch = () => {
-    currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
-  };
+  // SWIPE 1:
 
   // const [touchPosition, setTouchPosition] = useState(null);
   // const handleTouchStart = (e) => {
@@ -68,6 +70,8 @@ export default function CarouselInsta({
   // const prevSlideTouch = () => {
   //   currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
   // };
+
+  // AUTOSLIDE:
 
   // useEffect(() => {
   //   if (!autoSlide) return;

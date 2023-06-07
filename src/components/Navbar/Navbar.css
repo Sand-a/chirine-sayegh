@@ -115,9 +115,11 @@
     font-size: 1.8rem;
   }
 }
+
 /* tablet & mobile menu */
 @media screen and (max-width: 770px) {
   .navbar {
+    overflow-y: unset;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
