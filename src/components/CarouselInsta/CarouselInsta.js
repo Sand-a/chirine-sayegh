@@ -102,6 +102,9 @@ export default function CarouselInsta({
 
   function handleTouchStart(e) {
     setTouchStart(e.targetTouches[0].clientX);
+
+    document.body.style.overflow = "hidden";
+    document.body.style.overflow = "auto";
   }
 
   function handleTouchMove(e) {
