@@ -101,14 +101,13 @@ export default function CarouselInsta({
   const [touchEnd, setTouchEnd] = useState(0);
 
   function handleTouchStart(e) {
+    document.documentElement.style.overflow = "hidden";
     setTouchStart(e.targetTouches[0].clientX);
-
-    document.body.style.overflow = "hidden";
-    document.body.style.overflow = "auto";
   }
 
   function handleTouchMove(e) {
     setTouchEnd(e.targetTouches[0].clientX);
+    document.documentElement.style.overflow = "auto";
   }
 
   function handleTouchEnd() {
