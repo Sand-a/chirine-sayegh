@@ -106,8 +106,8 @@ export default function CarouselInsta({
   }
 
   function handleTouchMove(e) {
+    document.documentElement.style.overflow = "hidden";
     setTouchEnd(e.targetTouches[0].clientX);
-    document.documentElement.style.overflow = "auto";
   }
 
   function handleTouchEnd() {
@@ -120,6 +120,7 @@ export default function CarouselInsta({
       // do your stuff here for right swipe
       prevSlideTouch();
     }
+    document.documentElement.style.overflow = "auto";
   }
   const nextSlideTouch = () => {
     currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
