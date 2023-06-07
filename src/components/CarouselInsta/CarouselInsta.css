@@ -109,7 +109,7 @@
     display: none;
   }
   .slide {
-    transition: all 0.5s;
+    transition: all 0.3s;
   }
 }
 @media screen and (max-width: 450px) {
