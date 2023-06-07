@@ -58,7 +58,8 @@ const ContactForm = ({ data }) => {
           </li>
         </ul>
         <SectionReveal
-          direction={"right"}
+          // direction={"left or right"} no direction for bottom
+
           section={
             <form ref={form} onSubmit={sendEmail} className="form-container">
               {/* <h1> Send us your requirement:</h1> */}
