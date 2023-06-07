@@ -11,67 +11,8 @@ export default function CarouselInsta({
 
   const slideLength = projectImages.length;
 
-  // SWIPE 2:
-
-  const nextSlideTouch = () => {
-    currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
-  };
-
-  const prevSlideTouch = () => {
-    currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
-  };
-
-  const [touchStart, setTouchStart] = useState(null);
-  const [touchEnd, setTouchEnd] = useState(null);
-  const minSwipeDistance = 50;
-
-  const onTouchStart = (e) => {
-    setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
-    setTouchStart(e.targetTouches[0].clientX);
-  };
-  const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX);
-
-  const onTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
-    const distance = touchStart - touchEnd;
-    const isLeftSwipe = distance > minSwipeDistance;
-    const isRightSwipe = distance < -minSwipeDistance;
-    if (isLeftSwipe || isRightSwipe)
-      isLeftSwipe ? nextSlideTouch() : prevSlideTouch();
-  };
-
-  // SWIPE 1:
-
-  // const [touchPosition, setTouchPosition] = useState(null);
-  // const handleTouchStart = (e) => {
-  //   const touchDown = e.touches[0].clientX;
-  //   setTouchPosition(touchDown);
-  // };
-
-  // const handleTouchMove = (e) => {
-  //   const touchDown = touchPosition;
-  //   if (touchDown === null) {
-  //     return;
-  //   }
-  //   const currentTouch = e.touches[0].clientX;
-  //   const diff = touchDown - currentTouch;
-  //   if (diff > 5) {
-  //     nextSlideTouch();
-  //   }
-  //   if (diff < -5) {
-  //     prevSlideTouch();
-  //   }
-  //   setTouchPosition(null);
-  // };
-  // const nextSlideTouch = () => {
-  //   currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
-  // };
-
-  // const prevSlideTouch = () => {
-  //   currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
-  // };
-
   // AUTOSLIDE:
+  // -----------
 
   // useEffect(() => {
   //   if (!autoSlide) return;
@@ -84,6 +25,107 @@ export default function CarouselInsta({
   //   }, autoSlideInterval);
   //   return () => clearTimeout(timer);
   // }, [currentSlide]);
+
+  // SWIPE 1:
+  // -----------
+
+  // const [touchPosition, setTouchPosition] = useState(null);
+
+  // const handleTouchStart = (e) => {
+  //   const touchDown = e.touches[0].clientX;
+  //   console.log("touch start", touchDown);
+  //   setTouchPosition(touchDown);
+  // };
+
+  // const handleTouchMove = (e) => {
+  //   const touchDown = touchPosition;
+  //   console.log("touch move", touchDown);
+  //   if (touchDown === null) {
+  //     return;
+  //   }
+  //   const currentTouch = e.touches[0].clientX;
+  //   console.log("curr move", currentTouch);
+  //   const diff = touchDown - currentTouch;
+  //   console.log("diff", diff);
+  //   if (diff > 1) {
+  //     nextSlideTouch();
+  //   }
+  //   if (diff < -1) {
+  //     prevSlideTouch();
+  //   }
+  //   setTouchPosition(null);
+  // };
+  // const nextSlideTouch = () => {
+  //   currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
+  // };
+
+  // const prevSlideTouch = () => {
+  //   currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
+  // };
+
+  // SWIPE 2:
+  // -----------
+
+  // const nextSlideTouch = () => {
+  //   currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
+  // };
+
+  // const prevSlideTouch = () => {
+  //   currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
+  // };
+
+  // const [touchStart, setTouchStart] = useState(null);
+  // const [touchEnd, setTouchEnd] = useState(null);
+  // const minSwipeDistance = 50;
+
+  // const onTouchStart = (e) => {
+  //   setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
+  //   console.log(e.targetTouches[0].clientX);
+  //   setTouchStart(e.targetTouches[0].clientX);
+  // };
+  // const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX);
+
+  // const onTouchEnd = () => {
+  //   if (!touchStart || !touchEnd) return;
+  //   const distance = touchStart - touchEnd;
+  //   const isLeftSwipe = distance > minSwipeDistance;
+  //   const isRightSwipe = distance < -minSwipeDistance;
+  //   if (isLeftSwipe || isRightSwipe)
+  //     isLeftSwipe ? nextSlideTouch() : prevSlideTouch();
+  // };
+
+  // SWIPE 3:
+  // -----------
+
+  const [touchStart, setTouchStart] = useState(0);
+  const [touchEnd, setTouchEnd] = useState(0);
+
+  function handleTouchStart(e) {
+    setTouchStart(e.targetTouches[0].clientX);
+  }
+
+  function handleTouchMove(e) {
+    setTouchEnd(e.targetTouches[0].clientX);
+  }
+
+  function handleTouchEnd() {
+    if (touchStart - touchEnd > 150) {
+      // do your stuff here for left swipe
+      nextSlideTouch();
+    }
+
+    if (touchStart - touchEnd < -150) {
+      // do your stuff here for right swipe
+      prevSlideTouch();
+    }
+  }
+  const nextSlideTouch = () => {
+    currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
+  };
+
+  const prevSlideTouch = () => {
+    currentSlide !== 0 && setCurrentSlide(currentSlide - 1);
+  };
 
   const nextSlide = () => {
     if (currentSlide !== slideLength - 1) {
@@ -130,11 +172,17 @@ export default function CarouselInsta({
                 ? styles
                 : { transform: `translateX(${100 * (i - currentSlide)}%)` }
             }
-            onTouchStart={onTouchStart}
-            onTouchMove={onTouchMove}
-            onTouchEnd={onTouchEnd}
+            // swipe 1:
             // onTouchStart={handleTouchStart}
             // onTouchMove={handleTouchMove}
+            // swipe 2:
+            // onTouchStart={onTouchStart}
+            // onTouchMove={onTouchMove}
+            // onTouchEnd={onTouchEnd}
+            // swipe 3:
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
           >
             <img src={process.env.PUBLIC_URL + img} alt="" />
           </div>
