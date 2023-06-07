@@ -101,26 +101,23 @@ export default function CarouselInsta({
   const [touchEnd, setTouchEnd] = useState(0);
 
   function handleTouchStart(e) {
-    document.documentElement.style.overflow = "hidden";
     setTouchStart(e.targetTouches[0].clientX);
   }
 
   function handleTouchMove(e) {
-    document.documentElement.style.overflow = "hidden";
     setTouchEnd(e.targetTouches[0].clientX);
   }
 
   function handleTouchEnd() {
-    if (touchStart - touchEnd > 150) {
+    if (touchStart - touchEnd > 5) {
       // do your stuff here for left swipe
       nextSlideTouch();
     }
 
-    if (touchStart - touchEnd < -150) {
+    if (touchStart - touchEnd < -5) {
       // do your stuff here for right swipe
       prevSlideTouch();
     }
-    document.documentElement.style.overflow = "auto";
   }
   const nextSlideTouch = () => {
     currentSlide !== slideLength - 1 && setCurrentSlide(currentSlide + 1);
