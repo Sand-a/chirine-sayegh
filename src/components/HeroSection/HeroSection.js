@@ -13,14 +13,30 @@ const HeroSection = ({ introData }) => {
               <Link key={data._id} to={data.path} className="img-box">
                 <img className="img-box--img" src={data.image} alt={data.alt} />
                 <div className="img--overlay">
-                  <img src={data.icon} alt="" className="logo-spinning" />
+                  <img
+                    src={data.icon}
+                    alt=""
+                    className={
+                      data.icon_flower
+                        ? "logo-spinning icon-flower"
+                        : "logo-spinning"
+                    }
+                  />
                   <h1 className="img--title">{data.title}</h1>
                   <p className="img--text bodytext">{data.text}</p>
                 </div>
               </Link>
 
               <div className="img--text--box">
-                <img src={data.icon} alt="" className="logo-spinning" />
+                <img
+                  src={data.icon}
+                  alt=""
+                  className={
+                    data.icon_flower
+                      ? "logo-spinning icon-flower"
+                      : "logo-spinning"
+                  }
+                />
                 <h1 className="img--title">{data.title}</h1>
                 <p className="img--text bodytext">{data.text}</p>
               </div>

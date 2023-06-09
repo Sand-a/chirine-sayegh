@@ -180,6 +180,7 @@ export default function CarouselInsta({
             onTouchStart={onTouchStart}
             onTouchMove={onTouchMove}
             onTouchEnd={onTouchEnd}
+
             // swipe 3:
             // onTouchStart={handleTouchStart}
             // onTouchMove={handleTouchMove}

@@ -138,6 +138,7 @@ export const projectsDesignData = [
   {
     _id: 115,
     title: "Centerpiece",
+    finish: "Finished by Chirine’s Atelier",
     description:
       "Hand-crafted convertible table with an acid-treated steel structure, varnished French Oak frame, and custom leather seating.",
     location: "Saifi – Beirut - Lebanon",

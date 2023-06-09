@@ -112,6 +112,7 @@
     transition: all 0.3s;
   }
 }
+
 @media screen and (max-width: 450px) {
   .project-title {
     padding-left: 2rem;

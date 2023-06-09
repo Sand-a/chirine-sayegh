@@ -20,6 +20,7 @@ export const introData = [
     _id: "3_art",
     title: "art",
     path: "/art",
+    icon_flower: true,
     image: "/images/intro-images/art-section.jpg",
     icon: "/icons/flower.svg",
     text: "Chirine’s body of work is informed by nature; being a continuous investigation of organic shapes, texture, contrast, and motion. Working in the world of architecture and design inspired Chirine to produce paintings and sculptures that create immersive environments where viewers are always reminded of the endangered relationship that we all have with the world.",
