@@ -23,6 +23,7 @@ const Project = ({ allProjects, icon }) => {
                   {project.logo && (
                     <img className="project-logo" src={project.logo} alt="" />
                   )}
+                  <span className="project-sub-title">{project.finish}</span>
                   <i className="project-location">{project.location}</i>
                 </h1>
                 <p

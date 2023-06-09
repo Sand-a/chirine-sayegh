@@ -4,7 +4,7 @@ export const projectsArchitectureData = [
     title: "Ashrafieh Building Renovation",
 
     description:
-      "Renovation of a residential building built in 1961 and the addition of a rooftop apartment",
+      "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment",
     location: "Ashrafieh - Beirut - Lebanon",
 
     images: [
@@ -17,7 +17,7 @@ export const projectsArchitectureData = [
     _id: 12,
     title: "Ashrafieh Rooftop",
     description:
-      "Interior design of a rooftop apartment – clever use of 100square meters for a duplex apartment with a garden terrace",
+      "IInterior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
     location: "Ashrafieh – Beirut - Lebanon",
     images: [
       "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_1.jpg",
@@ -61,7 +61,7 @@ export const projectsArchitectureData = [
     sub_title: "In Collaboration with",
     logo: "/logo/rab-logo.png",
     description:
-      "Here goes the description about this project: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio blanditiis excepturi facilis, rem quisquam architecto velit dicta esse amet fugiat explicabo quo eveniet corporis sunt similique, asperiores nihil at!",
+      "In collaboration with rab architects, Chirine contributed to on-site design solutions and site management. Photos by Paul Ghorra.",
     location: "Monteverde - Beirut",
     images: [
       "/images/projects/architecture/rab_monteverde/rab_monteverde_1.jpg",
@@ -77,7 +77,7 @@ export const projectsArchitectureData = [
     sub_title: "In Collaboration with",
     logo: "/logo/rab-logo.png",
     description:
-      "Site follow-up and on-site design solutions as a team member at rabarchitects",
+      "Collaborating with rab architects, Chirine provided site follow-up and on-site design solutions. Photos by Julien Harfouch.",
     location: "Deir ElKamar - Lebanon",
     images: [
       "/images/projects/architecture/rab-dk/rab-dk_1.jpg",
@@ -94,7 +94,7 @@ export const projectsArchitectureData = [
     sub_title: "In Collaboration with",
     logo: "/logo/rab-logo.png",
     description:
-      "Design of a small apartment and site follow-up as a team member at rabarchitects",
+      "As part of the rab architects team, Chirine designed a small apartment and conducted site follow-up.",
     location: "Ashrafieh – Beirut - Lebanon",
     images: [
       "/images/projects/architecture/rab-nada/rab-nada_1.jpg",
@@ -106,73 +106,73 @@ export const projectsArchitectureData = [
 export const projectsDesignData = [
   {
     _id: 111,
-    title: "Organic Dining Table",
-    sub_title: "In Collaboration with PATRICK BOUSTANI – Finished by YEW",
-
+    title: "Dining Table",
+    sub_title: "In Collaboration with PATRICK BOUSTANI –",
+    finish: "Finished by YEW",
     description:
-      "The hammer-formed brass base is inspired by a sailboat, complemented by a solid walnut top with a secret compartment",
+      "Chirine collaborated with Patrick Boustani to create a stunning dining table featuring a sailboat-inspired brass base and a walnut top with a hidden compartment.",
     location: "Ashrafieh – Beirut - Lebanon",
     images: [
-      "/images/projects/design/brass-dining/organic-dining-table_1.jpg",
-      "/images/projects/design/brass-dining/organic-dining-table_2.jpg",
-      "/images/projects/design/brass-dining/organic-dining-table_3.jpg",
+      "/images/projects/furniture-design/brass-dining/organic-dining-table_1.jpg",
+      "/images/projects/furniture-design/brass-dining/organic-dining-table_2.jpg",
+      "/images/projects/furniture-design/brass-dining/organic-dining-table_3.jpg",
     ],
   },
   {
     _id: 112,
-    title: "Wine Cellar",
+    title: "Wine Cellars",
     description:
-      "Room isolated in private residence made in solid untreated French oak ",
+      "Custom fit-out within a private residence using solid untreated wood.",
     location: "Beirut - Lebanon",
 
     images: [
-      "/images/projects/design/wine-cellar/wine-cellar_1.jpg",
-      "/images/projects/design/wine-cellar/wine-cellar_2.jpg",
-      "/images/projects/design/wine-cellar/wine-cellar_3.jpg",
-      "/images/projects/design/wine-cellar/wine-cellar_4.jpg",
+      "/images/projects/furniture-design/wine-cellars/wine-cellars_1.jpg",
+      "/images/projects/furniture-design/wine-cellars/wine-cellars_2.jpg",
+      "/images/projects/furniture-design/wine-cellars/wine-cellars_3.jpg",
+      "/images/projects/furniture-design/wine-cellars/wine-cellars_4.jpg",
     ],
   },
   {
     _id: 113,
     title: "Side Table",
-    sub_title: "Finished by YEW",
+    finish: "Finished by YEW",
     description:
-      "Easily demountable detailing – Brushed stainless steel, solid Zebrano Cross-cut",
+      "Easily demountable side table with a brushed stainless-steel frame and a solid Zebrano wood top, offering both functionality and style.",
     location: "Paris - France",
     images: [
-      "/images/projects/design/side_table/side_table_1.jpg",
-      "/images/projects/design/side_table/side_table_2.jpg",
-      "/images/projects/design/side_table/side_table_3.jpg",
+      "/images/projects/furniture-design/side_table/side_table_1.jpg",
+      "/images/projects/furniture-design/side_table/side_table_2.jpg",
+      "/images/projects/furniture-design/side_table/side_table_3.jpg",
     ],
   },
   {
     _id: 114,
-    title: "Entrance Bench",
+    title: "Foyer Bench",
     sub_title: "In Collaboration with",
+    finish: "Finished by ARDECO Gallery",
     logo: "/logo/rab-logo.png",
     description:
-      "A welcoming place to place your belongings also offers security for the opening of the staircase",
-
+      "In collaboration with rab architects, Chirine contributed to the design of a custom bench that also offered security for the stairwell.",
     Location: "Beirut - Lebanon",
 
     images: [
-      "/images/projects/design/rab-dk/entrance-bench_1.jpg",
-      "/images/projects/design/rab-dk/entrance-bench_2.jpg",
-      "/images/projects/design/rab-dk/entrance-bench_3.jpg",
-      "/images/projects/design/rab-dk/entrance-bench_4.jpg",
-      "/images/projects/design/rab-dk/entrance-bench_5.jpg",
+      "/images/projects/furniture-design/rab-dk/entrance-bench_1.jpg",
+      "/images/projects/furniture-design/rab-dk/entrance-bench_2.jpg",
+      "/images/projects/furniture-design/rab-dk/entrance-bench_3.jpg",
+      "/images/projects/furniture-design/rab-dk/entrance-bench_4.jpg",
+      "/images/projects/furniture-design/rab-dk/entrance-bench_5.jpg",
     ],
   },
   {
     _id: 115,
-    title: "Family Center",
+    title: "Centerpiece",
     description:
-      "Hand-crafted convertible table – Acid-treated steel structure, varnished French Oak frame and custom leather seating",
+      "Hand-crafted convertible table with an acid-treated steel structure, varnished French Oak frame, and custom leather seating.",
     location: "Saifi – Beirut - Lebanon",
     images: [
-      "/images/projects/design/coffee-dining/family-center_1.jpg",
-      "/images/projects/design/coffee-dining/family-center_2.jpg",
-      "/images/projects/design/coffee-dining/family-center_3.jpg",
+      "/images/projects/furniture-design/coffee-dining/family-center_1.jpg",
+      "/images/projects/furniture-design/coffee-dining/family-center_2.jpg",
+      "/images/projects/furniture-design/coffee-dining/family-center_3.jpg",
     ],
   },
   {
@@ -181,21 +181,21 @@ export const projectsDesignData = [
     sub_title: "In Collaboration with",
     logo: "/logo/rab-logo.png",
     description:
-      "A modern necessity to this cozy apartment offers a large storage as well as a serving station for the dining room",
+      "In collaboration with rab architects, Chirine designed a modern stainless steel serving station featuring ample storage for a cozy apartment.",
 
     Location: "Beirut - Lebanon",
 
     images: [
-      "/images/projects/design/rab-is/rab-is_1.jpg",
-      "/images/projects/design/rab-is/rab-is_2.jpg",
-      "/images/projects/design/rab-is/rab-is_3.jpg",
+      "/images/projects/furniture-design/rab-is/rab-is_1.jpg",
+      "/images/projects/furniture-design/rab-is/rab-is_2.jpg",
+      "/images/projects/furniture-design/rab-is/rab-is_3.jpg",
     ],
   },
   {
     _id: 117,
     title: "Stair sculpture",
     description:
-      "Sculptural renovation of a stairwell – origami-shaped stainless steel bookcase also serves as security ",
+      "Transforming a stairwell into a sculpture incorporating an origami-shaped stainless-steel bookcase that also functions as a security feature.",
     location: "Beitmery - Lebanon",
     images: [
       "/images/projects/design/staircase/stair-sculpture_1.jpg",
@@ -206,27 +206,27 @@ export const projectsDesignData = [
     _id: 118,
     title: "kids-bedroom",
     description:
-      "Personalized hand-painted wall art. Motifs created by multiple layers of plywood",
+      "Personalized hand-painted wall art with motifs crafted from multiple layers of plywood.",
     location: "Ain Ar - Lebanon",
 
     images: [
-      "/images/projects/design/kids-bedroom/kids-bedroom_1.jpg",
-      "/images/projects/design/kids-bedroom/kids-bedroom_2.jpg",
-      "/images/projects/design/kids-bedroom/kids-bedroom_3.jpg",
-      "/images/projects/design/kids-bedroom/kids-bedroom_4.jpg",
-      "/images/projects/design/kids-bedroom/kids-bedroom_5.jpg",
+      "/images/projects/furniture-design/kids-bedroom/kids-bedroom_1.jpg",
+      "/images/projects/furniture-design/kids-bedroom/kids-bedroom_2.jpg",
+      "/images/projects/furniture-design/kids-bedroom/kids-bedroom_3.jpg",
+      "/images/projects/furniture-design/kids-bedroom/kids-bedroom_4.jpg",
+      "/images/projects/furniture-design/kids-bedroom/kids-bedroom_5.jpg",
     ],
   },
   {
     _id: 119,
     title: "Headboard",
     description:
-      "Personalized hand-sewn wall art – foldable and shippable design",
+      "Personalized hand-sewn wall art in the form of a foldable and shippable headboard design.",
     location: "Paris - France",
     images: [
-      "/images/projects/design/headboard/headboard_1.jpg",
-      "/images/projects/design/headboard/headboard_2.jpg",
-      "/images/projects/design/headboard/headboard_3.jpg",
+      "/images/projects/furniture-design/headboard/headboard_1.jpg",
+      "/images/projects/furniture-design/headboard/headboard_2.jpg",
+      "/images/projects/furniture-design/headboard/headboard_3.jpg",
     ],
   },
 ];
@@ -234,15 +234,16 @@ export const projectsDesignData = [
 export const projectsArtData = [
   {
     _id: 1111,
-    title: "Mineral",
+    italic: true,
+    title_italic: "Minéral",
 
     date: "Beirut - 2014",
     description:
-      "Chirine received critical acclaim for her first solo exhibition «Minéral», which expresses her inspiration from hiking and rock climbing in the spectacular Lebanese mountains. Art Critic Nélida Nassar wrote in April of 2016 : “…[Ms Sayegh’s] configurations are lyrical expressions of the particular qualities of light in the locations she chooses and remembers, atmospherically accurate and evocative of movement and strength…for like all artists who make a subject wholly their own, Sayegh puts the singular stamp of her style upon the place.”",
+      "Chirine received critical acclaim for her first solo exhibition «Minéral», which expresses her inspiration from hiking and rock climbing in the spectacular Lebanese mountains. Art Critic Nélida Nassar wrote in April of 2016 : “... [ Ms Sayegh’s ] configurations are lyrical expressions of the particular qualities of light in the locations she chooses and remembers, atmospherically accurate and evocative of movement and strength…for like all artists who make a subject wholly their own, Sayegh puts the singular stamp of her style upon the place.”",
     canvas: [
       {
         id: "canvas1_1",
-        title: "Mineral Dentelle Faqra",
+        title: "Dentelle Faqra",
         dimension: "100 x 140",
         media: "Acrylic on canvas",
         date: "2014",
@@ -253,7 +254,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas1_2",
-        title: "Mineral Faqra",
+        title: "Faqra",
         dimension: "160 x 120",
         media: "Acrylic on canvas",
         date: "2014",
@@ -263,7 +264,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas1_3",
-        title: "Mineral Sannine",
+        title: "Sannine",
         dimension: "160 x 120",
         media: "Acrylic on canvas",
         date: "2014",
@@ -273,7 +274,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas1_4",
-        title: "Mineral Ribeze",
+        title: "Ribeze",
         dimension: "100 x 140",
         media: "Acrylic on canvas",
         date: "2014",
@@ -285,11 +286,11 @@ export const projectsArtData = [
   },
   {
     _id: 1112,
-    title: "Mineral - sea",
-
+    title_italic: "Minéral - ",
+    title: "Sea",
     date: "Beirut - 2022",
     description:
-      "Mixing techniques of fluid paint and thick strokes with the palette knife gave us the contrast between water and the rocks – a particular trait of our beaches of Batroun, Lebanon",
+      "Capturing the contrast between water and rocks in her artwork, using a mix of fluid paint and thick strokes with a palette knife, inspired by the beaches of Batroun, Lebanon.",
     canvas: [
       {
         id: "canvas2_1",
@@ -336,11 +337,12 @@ export const projectsArtData = [
   },
   {
     _id: 1113,
-    title: "Vegetal - Trees",
+    title_italic: "Végétal - ",
+    title: "Trees",
 
     date: "Beirut - 2010/2021",
     description:
-      "It’s interesting to see the evolution of this classic subject throughout the years.",
+      "Exploring the timeless subject of trees through acrylic paintings, representing deep forests, jungle scenes, evening strolls, and the iconic cedars of Lebanon.",
     canvas: [
       {
         id: "canvas3_1",
@@ -354,7 +356,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas3_2",
-        title: "Jungle fever",
+        title: "Jungle Fever",
         dimension: "200 x 110",
         media: "Acrylic on canvas",
         date: "2020",
@@ -387,11 +389,12 @@ export const projectsArtData = [
   },
   {
     _id: 1114,
-    title: "Vegetal - Watercolors",
+    title_italic: "Végétal - ",
+    title: "Watercolors",
 
     date: "Beirut - 2020/2021",
     description:
-      "All themes start with sketches made with watercolors. Sometimes the sketch becomes the main piece.",
+      "Watercolor sketches serve as research, sometimes becoming the main pieces themselves, depicting the beauty of nature with vibrant and fluid brushstrokes.",
     canvas: [
       {
         id: "canvas4_1",
@@ -419,19 +422,19 @@ export const projectsArtData = [
       },
       {
         id: "canvas4_3",
-        title: "Bouquet",
+        title: "Wildflowers",
         dimension: "76 x 56",
         media: "watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/3",
-        image1_url: "/images/projects/art/vegetal-watercolors/bouquet.jpg",
+        image1_url: "/images/projects/art/vegetal-watercolors/wildflowers.jpg",
         image2_url:
-          "/images/projects/art/vegetal-watercolors/bouquet-insit.jpg",
+          "/images/projects/art/vegetal-watercolors/wildflowers-insit.jpg",
       },
       {
         id: "canvas4_4",
-        title: "Leaves",
-        dimension: "50 x 50",
+        title: "Summer Nights ",
+        dimension: "76 x 56",
         media: "watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/4",
@@ -442,11 +445,12 @@ export const projectsArtData = [
   },
   {
     _id: 1115,
-    title: "Vegetal - Gold Series",
+    title_italic: "Végétal - ",
+    title: "Gold Series",
 
     date: "Beirut - 2021/2023",
     description:
-      "The fluidity of the watercolor together with the hardness of the gold communicates in interesting ways.",
+      "Combining the fluidity of watercolor with the brilliance of gold leaf to create captivating artwork, capturing the harmonious relationship between the two elements.",
     canvas: [
       {
         id: "canvas5_1",
@@ -482,7 +486,7 @@ export const projectsArtData = [
       {
         id: "canvas5_4",
         title: "Landscape",
-        dimension: "29.7 x 42",
+        dimension: "46.5 x 30.5",
         media: "watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/4",
@@ -494,11 +498,11 @@ export const projectsArtData = [
   },
   {
     _id: 1116,
-    title: "Vegetal - Secret Garden",
-
+    title_italic: "Végétal - ",
+    title: "Secret Garden",
     date: "Beirut - 2023",
     description:
-      "Creatures living on this planet come from nature and to nature they shall return",
+      "The connection between creatures and nature, with ethereal watercolor and acrylic paintings evoking a sense of mystery and transformation.",
     canvas: [
       {
         id: "canvas6_1",
@@ -552,10 +556,12 @@ export const projectsArtData = [
   },
   {
     _id: 1117,
-    title: "Animal - Sketches",
+    title_italic: "Animal - ",
+    title: "Sketches",
 
     date: "Beirut - 2020",
-    description: "Pet portraits were worked on during lockdown",
+    description:
+      "During the COVID-19 lockdown, Chirine created expressive ink sketches of pets, showcasing their individuality and charm.",
     canvas: [
       {
         id: "canvas7_1",

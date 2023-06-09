@@ -16,8 +16,8 @@ export const navLinks = [
   },
   {
     _id: 4,
-    title: "design",
-    path: "/design",
+    title: "furniture design",
+    path: "/furniture-design",
   },
   {
     _id: 5,

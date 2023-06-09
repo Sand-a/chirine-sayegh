@@ -3,104 +3,30 @@ import { Link } from "react-router-dom";
 
 import "./HeroSection.css";
 
-const HeroSection = () => {
+const HeroSection = ({ introData }) => {
   return (
     <div className="section hero-section">
-      <div className="container hero-container">
-        <Link to="/architecture" className="img-box">
-          <img
-            className="img-box--img"
-            src="/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_2.jpg"
-            alt="design"
-          />
-          <div className="img--overlay">
-            <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
-            <h1 className="img--title">architecture</h1>
-            <p className="img--text bodytext">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
-              odit quos, nesciunt facere sequi labore rerum qui doloremque error
-              nemo quam. Sapiente ipsum saepe porro temporibus debitis!
-              Molestiae, quidem natus.
-            </p>
-          </div>
-        </Link>
+      <div className="hero-container">
+        {introData.map((data) => {
+          return (
+            <>
+              <Link key={data._id} to={data.path} className="img-box">
+                <img className="img-box--img" src={data.image} alt={data.alt} />
+                <div className="img--overlay">
+                  <img src={data.icon} alt="" className="logo-spinning" />
+                  <h1 className="img--title">{data.title}</h1>
+                  <p className="img--text bodytext">{data.text}</p>
+                </div>
+              </Link>
 
-        <div className="img--text--box">
-          <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
-          <h1 className="img--title">architecture</h1>
-          <p className="img--text bodytext">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit
-            quos, nesciunt facere sequi labore rerum qui doloremque error nemo
-            quam. Sapiente ipsum saepe porro temporibus debitis! Molestiae,
-            quidem natus.
-          </p>
-        </div>
-
-        <Link to="/design" className="img-box">
-          <img
-            className="img-box--img"
-            src="/images/imgSection/design-section.jpg"
-            alt="design"
-          />
-          <div className="img--overlay">
-            <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
-            <h1 className="img--title">design</h1>
-            <p className="img--text bodytext">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
-              odit quos, nesciunt facere sequi labore rerum qui doloremque error
-              nemo quam. Sapiente ipsum saepe porro temporibus debitis!
-              Molestiae, quidem natus.
-            </p>
-          </div>
-        </Link>
-
-        <div className="img--text--box">
-          <img src="/logo/logo-icon.svg" alt="" className="logo-spinning" />
-          <h1 className="img--title">design</h1>
-          <p className="img--text bodytext">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit
-            quos, nesciunt facere sequi labore rerum qui doloremque error nemo
-            quam. Sapiente ipsum saepe porro temporibus debitis! Molestiae,
-            quidem natus.
-          </p>
-        </div>
-
-        <Link to="/art" className="img-box">
-          <img
-            className="img-box--img"
-            src="/images/imgSection/art-section.jpg"
-            alt="art"
-          />
-          <div className="img--overlay">
-            <img
-              src="/icons/flower.svg"
-              alt=""
-              className="logo-spinning icon-flower"
-            />
-            <h1 className="img--title">Art</h1>
-            <p className="img--text bodytext">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
-              odit quos, nesciunt facere sequi labore rerum qui doloremque error
-              nemo quam. Sapiente ipsum saepe porro temporibus debitis!
-              Molestiae, quidem natus.
-            </p>
-          </div>
-        </Link>
-
-        <div className="img--text--box">
-          <img
-            src="/icons/flower.svg"
-            alt=""
-            className="logo-spinning icon-flower"
-          />
-          <h1 className="img--title">Art</h1>
-          <p className="img--text bodytext">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odit
-            quos, nesciunt facere sequi labore rerum qui doloremque error nemo
-            quam. Sapiente ipsum saepe porro temporibus debitis! Molestiae,
-            quidem natus.
-          </p>
-        </div>
+              <div className="img--text--box">
+                <img src={data.icon} alt="" className="logo-spinning" />
+                <h1 className="img--title">{data.title}</h1>
+                <p className="img--text bodytext">{data.text}</p>
+              </div>
+            </>
+          );
+        })}
       </div>
     </div>
   );

@@ -3,16 +3,19 @@ import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 
-import { RiFacebookCircleFill } from "react-icons/ri";
 import { GrInstagram } from "react-icons/gr";
 
 const Navbar = ({ navLinks }) => {
   const [menuClicked, setMenuClicked] = useState(false);
-  const toggleMenuClick = () => setMenuClicked(!menuClicked);
 
-  menuClicked
-    ? (document.body.style.overflow = "hidden")
-    : (document.body.style.overflow = "auto");
+  const menuOpen = () => {
+    setMenuClicked(true);
+    document.body.style.overflow = "hidden";
+  };
+  const menuClose = () => {
+    setMenuClicked(false);
+    document.body.style.overflow = "auto";
+  };
 
   return (
     <>
@@ -28,7 +31,7 @@ const Navbar = ({ navLinks }) => {
                   activeclassname="active"
                   className={`nav-link ${item.classname ? "art" : ""}`}
                   to={item.path}
-                  onClick={toggleMenuClick}
+                  onClick={menuClose}
                 >
                   {item.title}{" "}
                   {item.icon && <img src={item.icon_url} alt="flower" />}
@@ -36,11 +39,8 @@ const Navbar = ({ navLinks }) => {
               </li>
             );
           })}
+
           <li className="social__media--icons">
-            {/* {" "}
-            <Link>
-              <RiFacebookCircleFill className="social__media--icon social__media--icon-facebook" />
-            </Link> */}
             <Link>
               <GrInstagram className="social__media--icon social__media--icon-insta" />
             </Link>
@@ -50,12 +50,12 @@ const Navbar = ({ navLinks }) => {
         {menuClicked ? (
           <FiX
             className="navbar__menu navbar__menu--close"
-            onClick={toggleMenuClick}
+            onClick={menuClose}
           />
         ) : (
           <FiMenu
             className="navbar__menu navbar__menu--open"
-            onClick={toggleMenuClick}
+            onClick={menuOpen}
           />
         )}
       </nav>

@@ -127,7 +127,7 @@
     width: 100%;
     height: 10rem;
     padding: 0 4rem;
-    opacity: 0.95;
+    opacity: 0.96;
     border-right: none;
 
     z-index: 11;
@@ -172,6 +172,20 @@
   .active {
     right: 0;
   }
+  .navbar__menu--open body {
+    overflow: hidden;
+  }
 }
 @media screen and (max-width: 450px) {
+  .nav-list {
+    padding: 4rem;
+  }
+}
+@media screen and (max-width: 325px) {
+  .nav-list {
+    padding: 2rem;
+  }
+  .navbar {
+    padding: 0 2.5rem;
+  }
 }

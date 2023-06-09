@@ -13,6 +13,7 @@ import Design from "./pages/Design";
 import ArtRoutes from "./routes/ArtRoutes";
 import Contact from "./pages/Contact";
 import { contactData } from "./datas/contactData";
+import { introData } from "./datas/introData";
 
 import {
   projectsArchitectureData,
@@ -26,7 +27,7 @@ function App() {
       <Navbar navLinks={navLinks} />
       <ScrollToTop />
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route path="/" exact element={<Home introData={introData} />} />
         <Route path="/bio" element={<Bio />} />
         <Route
           path="/architecture"
@@ -38,7 +39,7 @@ function App() {
           }
         />
         <Route
-          path="/design"
+          path="/furniture-design"
           element={
             <Design
               allProjects={projectsDesignData}
