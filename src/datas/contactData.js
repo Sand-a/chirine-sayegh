@@ -7,8 +7,10 @@ export const contactData = {
 
   address: "Beitut - Lebanon",
   location_url: "/",
-  insta: "chirinesayeghcreations",
-  insta_url:
+  insta_1: "chirine_sayegh_architect",
+  insta_1_url: "https://instagram.com/chirine_sayegh?igshid=MzRlODBiNWFlZA==",
+  insta_2: "chirine_sayegh_art",
+  insta_2_url:
     "https://instagram.com/chirinesayeghcreations?igshid=MzRlODBiNWFlZA==",
   linkedIn_url: "/",
 };

@@ -25,36 +25,7 @@ export const projectsArchitectureData = [
       "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_3.jpg",
     ],
   },
-  // {
-  //   _id: 13,
-  //   title: "Service Station",
-  //   description:
-  //     "Conceptual study of building near a gas station that would offer interesting car service",
-  //   location: "Mkellis – Beirut - Lebanon",
-  //   images: [
-  //     "/images/projects/architecture/service-station/service-station_1.jpg",
-  //     "/images/projects/architecture/service-station/service-station_2.jpg",
-  //     "/images/projects/architecture//service-station/service-station_3.jpg",
-  //   ],
-  // },
-  // {
-  //   _id: 14,
-  //   title: "Bedroom design",
-  //   description:
-  //     "Mood boards and renderings prepared to offer a harmonious cohabitation between siblings",
-  //   location: "Mkellis – Beirut - Lebanon",
-  //   images: [
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_1.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_2.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_3.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_4.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_5.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_6.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_7.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_8.jpg",
-  //     "/images/projects/architecture/bedroom-design/bedroom-design_9.jpg",
-  //   ],
-  // },
+
   {
     _id: 15,
     title: "MV Project",
@@ -121,6 +92,7 @@ export const projectsDesignData = [
   {
     _id: 112,
     title: "Wine Cellars",
+    finish: "Finished by Chirine’s Atelier",
     description:
       "Custom fit-out within a private residence using solid untreated wood.",
     location: "Beirut - Lebanon",
@@ -177,14 +149,12 @@ export const projectsDesignData = [
   },
   {
     _id: 116,
-    title: "Stainless steel Dining",
+    title: "Stainless Steel Dining",
     sub_title: "In Collaboration with",
     logo: "/logo/rab-logo.png",
     description:
       "In collaboration with rab architects, Chirine designed a modern stainless steel serving station featuring ample storage for a cozy apartment.",
-
     Location: "Beirut - Lebanon",
-
     images: [
       "/images/projects/furniture-design/rab-is/rab-is_1.jpg",
       "/images/projects/furniture-design/rab-is/rab-is_2.jpg",
@@ -193,18 +163,20 @@ export const projectsDesignData = [
   },
   {
     _id: 117,
-    title: "Stair sculpture",
+    title: "Stair Sculpture",
+    finish: "Finished by Chirine’s Atelier",
     description:
       "Transforming a stairwell into a sculpture incorporating an origami-shaped stainless-steel bookcase that also functions as a security feature.",
     location: "Beitmery - Lebanon",
     images: [
-      "/images/projects/design/staircase/stair-sculpture_1.jpg",
-      "/images/projects/design/staircase/stair-sculpture_2.jpg",
+      "/images/projects/furniture-design/staircase/stair-sculpture_1.jpg",
+      "/images/projects/furniture-design/staircase/stair-sculpture_2.jpg",
     ],
   },
   {
     _id: 118,
-    title: "kids-bedroom",
+    title: "Kids Bedroom",
+    finish: "Finished by Chirine’s Atelier",
     description:
       "Personalized hand-painted wall art with motifs crafted from multiple layers of plywood.",
     location: "Ain Ar - Lebanon",
@@ -220,6 +192,7 @@ export const projectsDesignData = [
   {
     _id: 119,
     title: "Headboard",
+    finish: "Hand Made by Chirine",
     description:
       "Personalized hand-sewn wall art in the form of a foldable and shippable headboard design.",
     location: "Paris - France",
@@ -243,7 +216,7 @@ export const projectsArtData = [
     canvas: [
       {
         id: "canvas1_1",
-        title: "Dentelle Faqra",
+        title: "Faqra Lace",
         dimension: "100 x 140",
         media: "Acrylic on canvas",
         date: "2014",
@@ -304,7 +277,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas2_2",
-        title: "Love and Water",
+        title: "Love And Water",
         dimension: "61 x 45.7",
         media: "Acrylic on canvas paper",
         date: "2022",
@@ -324,7 +297,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas2_4",
-        title: "Walking on Corals",
+        title: "Walking On Corals",
         dimension: "61 x 45.7",
         media: "Acrylic on canvas paper",
         date: "2022",
@@ -506,7 +479,7 @@ export const projectsArtData = [
     canvas: [
       {
         id: "canvas6_1",
-        title: "Woman appears",
+        title: "Woman Appears",
         dimension: "50 x 86",
         media: "Acrylic on canvas",
         date: "2023",
@@ -518,7 +491,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas6_2",
-        title: "Woman diappears",
+        title: "Woman Diappears",
         dimension: "100 x 113",
         media: "Acrylic on canvas",
         date: "2023",
@@ -530,7 +503,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas6_3",
-        title: "Woman appears",
+        title: "Woman Appears",
         dimension: "30.3 x 40.4",
         media: "watercolor on cotton paper with gold leaf",
         date: "2023",
@@ -542,7 +515,7 @@ export const projectsArtData = [
       },
       {
         id: "canvas6_4",
-        title: "Woman diappears",
+        title: "Woman Diappears",
         dimension: "30.3 x 40.4",
         media: "watercolor on cotton paper with gold leaf",
         date: "2023",
@@ -605,92 +578,4 @@ export const projectsArtData = [
       },
     ],
   },
-  // {
-  //   _id: 1118,
-  //   title: "Animal",
-
-  //   date: "Beirut - 2020/2023",
-  //   description: "Curious studies of animals on paper or canvas",
-  //   canvas: [
-  //     {
-  //       id: "canvas8_1",
-  //       title: "Funky Moose",
-  //       dimension: "76 x 56",
-  //       media: "acrylic on canvas",
-  //       date: "2020",
-  //       path: "/art/animal/1",
-  //       image1_url: "/images/projects/art/animal/funky-moose.jpg",
-  //       image2_url: "/images/projects/art/animal/funky-moose-insit.jpg",
-  //     },
-  //     {
-  //       id: "canvas8_2",
-  //       title: "Silly Cat",
-  //       dimension: "70 x 90",
-  //       media: "acrylic on canvas",
-  //       date: "2022",
-  //       path: "/art/animal/2",
-  //       image1_url: "/images/projects/art/animal/silly-cat.jpg",
-  //       image2_url: "/images/projects/art/animal/silly-cat-insit.jpg",
-  //     },
-  //     {
-  //       id: "canvas8_3",
-  //       title: "Cutie",
-  //       dimension: "29.7 x 42",
-  //       media: "7x42cm watercolor on cotton",
-  //       date: "2021",
-  //       path: "/art/animal/3",
-  //       image1_url: "/images/projects/art/animal/cutie.jpg",
-  //       image2_url: "/images/projects/art/animal/cutie-insit.jpg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   _id: 1119,
-  //   title: "Digital",
-  //   date: "Beirut - 2022/2023",
-  //   description:
-  //     "Vectorizing a selection of works to be used on various products",
-  //   canvas: [
-  //     {
-  //       id: "canvas9_1",
-  //       title: "Classic Roses",
-  //       dimension: "",
-  //       media: "wallpaper pattern",
-  //       date: "2022",
-  //       path: "/art/digital/1",
-  //       image1_url: "/images/projects/art/digital/classic-roses.jpg",
-  //       image2_url: "/images/projects/art/digital/classic-roses-insit.jpg",
-  //     },
-  //     {
-  //       id: "canvas9_2",
-  //       title: "Cedars Branches",
-  //       dimension: "",
-  //       media: "wallpaper fresque",
-  //       date: "2023",
-  //       path: "/art/digital/2",
-  //       image1_url: "/images/projects/art/digital/cedars-branches.jpg",
-  //       image2_url: "/images/projects/art/digital/cedars-branches-insit.jpg",
-  //     },
-  //     {
-  //       id: "canvas9_3",
-  //       title: "Deer",
-  //       dimension: "",
-  //       media: "Illustration for the Pop of Hope permanent collection 2023",
-  //       date: "2023",
-  //       path: "/art/digital/3",
-  //       image1_url: "/images/projects/art/digital/deer.jpg",
-  //       image2_url: "/images/projects/art/digital/deer-insit.jpg",
-  //     },
-  //     {
-  //       id: "canvas9_4",
-  //       title: "Jasmine",
-  //       dimension: "",
-  //       media: "Illustration For Embroideries ",
-  //       date: "2022",
-  //       path: "/art/digital/4",
-  //       image1_url: "/images/projects/art/digital/jasmine.jpg",
-  //       image2_url: "/images/projects/art/digital/jasmine-insit.jpg",
-  //     },
-  //   ],
-  // },
 ];

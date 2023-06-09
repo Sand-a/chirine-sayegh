@@ -22,6 +22,6 @@ export const introData = [
     path: "/art",
     image: "/images/intro-images/art-section.jpg",
     icon: "/icons/flower.svg",
-    text: "Chirine’s body of work is informed by nature; being a continuous investigation of organic shapes, texture, contrast, and motion. Working in the world of architecture and design inspired Chirine to produce paintings and sculptures that create immersive environments. Throughout her process, she calls attention to space and object by constantly exploring new relationships by questioning traditional methods of representation in all dimensions. By layering textures, Chirine highlights the complexity of nature but not at the expense of harmony. Viewers are always reminded of the endangered relationship that we all have with the world.",
+    text: "Chirine’s body of work is informed by nature; being a continuous investigation of organic shapes, texture, contrast, and motion. Working in the world of architecture and design inspired Chirine to produce paintings and sculptures that create immersive environments where viewers are always reminded of the endangered relationship that we all have with the world.",
   },
 ];

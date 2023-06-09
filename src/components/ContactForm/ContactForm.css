@@ -17,7 +17,7 @@
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .contact-items:first-child {
   margin: 1.5rem 0 5rem 0;
@@ -33,19 +33,27 @@
   font-size: 1.8rem;
   margin-left: 1.5rem;
   font-weight: 300;
-  transition: all 1s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.contact-link:hover {
-  font-weight: 500;
+.contact-item:hover {
+  font-weight: 400;
+}
+.contact-item-green:hover {
+  color: var(--green);
 }
 .contact-icon {
   font-size: 2rem;
   margin-left: 1rem;
   color: #222;
 }
+
 .contact-icon-insta {
   font-size: 1.7rem;
 }
+.contact-icon-insta-green {
+  color: var(--green);
+}
+
 .pobox {
   margin-top: 0.5rem;
 }
@@ -83,6 +91,7 @@
   border: none;
   font-size: 1.6rem;
   color: #222;
+  border-radius: none;
   border-bottom: 2px solid black;
 
   transition: all 0.5s;
@@ -101,6 +110,7 @@
   background-color: #222;
   color: #fff;
   letter-spacing: 3px;
+  border: 2px solid #222;
   font-weight: 400;
 }
 .btn-form:hover {
@@ -118,14 +128,18 @@
   }
 }
 @media screen and (max-width: 1000px) {
+  .contact-content {
+    margin-top: 0;
+  }
   .grid--2-cols {
     grid-template-columns: 1fr;
+    gap: 5rem;
   }
   .contact-list {
     padding: 0 1rem;
   }
   .contact-item {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 300;
   }
   .form-container {
@@ -140,8 +154,8 @@
   }
 }
 @media screen and (max-width: 770px) {
-  .contact-content {
-    margin-top: 0;
+  .contact-item {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 450px) {

@@ -25,6 +25,7 @@ const ContactForm = ({ data }) => {
               <span className="uppercase">us:</span>
             </p>
           </li>
+
           <li className="contact-items">
             <a className="contact-link" href={`tel:${data.tel}`}>
               {" "}
@@ -40,12 +41,20 @@ const ContactForm = ({ data }) => {
               <p className="contact-item">{data.email}</p>
             </a>
           </li>
+
           <li className="contact-items">
-            <a target="_blank" href={data.insta_url} className="contact-link">
+            <a target="_blank" href={data.insta_1_url} className="contact-link">
               <GrInstagram className="contact-icon contact-icon-insta" />{" "}
-              <p className="contact-item">{data.insta}</p>
+              <p className="contact-item">{data.insta_1}</p>
             </a>
           </li>
+          <li className="contact-items">
+            <a target="_blank" href={data.insta_2_url} className="contact-link">
+              <GrInstagram className=" contact-icon contact-icon-insta contact-icon-insta-green" />{" "}
+              <p className="contact-item contact-item-green">{data.insta_2}</p>
+            </a>
+          </li>
+
           <li className="contact-items">
             <a
               target="_blank"

@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 
 import { GrInstagram } from "react-icons/gr";
+import { contactData } from "../../datas/contactData";
 
 const Navbar = ({ navLinks }) => {
   const [menuClicked, setMenuClicked] = useState(false);
@@ -41,9 +42,13 @@ const Navbar = ({ navLinks }) => {
           })}
 
           <li className="social__media--icons">
-            <Link>
+            <a
+              className="social__media--icon-insta-link"
+              target="_blank"
+              href={contactData.insta_1_url}
+            >
               <GrInstagram className="social__media--icon social__media--icon-insta" />
-            </Link>
+            </a>
           </li>
         </ul>
 
