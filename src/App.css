@@ -27,6 +27,9 @@
     transform: rotate(360deg);
   }
 }
+.display-linebreak {
+  white-space: pre-line;
+}
 .global-flex {
   display: flex;
   flex-wrap: wrap;

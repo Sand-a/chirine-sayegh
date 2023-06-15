@@ -46,7 +46,10 @@
 }
 
 .img-painting-text {
-  margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+
   margin-bottom: 2rem;
 }
 .canvas-description {
@@ -60,13 +63,13 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin-bottom: 3rem;
 }
 .link-back-btn {
   font-size: 1.6rem;
   text-decoration: none;
   color: var(--green);
   transition: all 200ms;
+  margin-left: 2rem;
 }
 .link-back-btn:hover {
   color: black;
@@ -76,5 +79,8 @@
 @media screen and (max-width: 450px) {
   .canvas-section {
     padding-top: 12rem;
+  }
+  .img-painting-text {
+    padding: 0 1rem;
   }
 }

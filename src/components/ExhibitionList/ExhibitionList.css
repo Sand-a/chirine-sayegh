@@ -1,0 +1,11 @@
+.exhibition-intro-img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+@media screen and (max-width: 550px) {
+  .exhibition-intro-img {
+    width: 100%;
+  }
+}

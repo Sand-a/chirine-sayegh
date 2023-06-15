@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import SectionReveal from "../SectionReveal/SectionReveal";
 import {
   FiPhone,
@@ -13,7 +14,28 @@ import "./ContactForm.css";
 
 const ContactForm = ({ data }) => {
   const form = useRef();
-  const sendEmail = () => {};
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ppuro6u",
+        "template_71qalw4",
+        form.current,
+        "Mbl4W-STm0JZa1T0J"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <>
       <div className="grid grid--2-cols contact-content">
@@ -59,7 +81,7 @@ const ContactForm = ({ data }) => {
             <a
               target="_blank"
               href={data.location_url}
-              className="contact-link"
+              className="contact-link contact-link-location display-linebreak"
             >
               <FiMapPin className="contact-icon" />{" "}
               <p className="contact-item">{data.address}</p>
@@ -68,14 +90,13 @@ const ContactForm = ({ data }) => {
         </ul>
         <SectionReveal
           // direction={"left or right"} no direction for bottom
-
           section={
             <form ref={form} onSubmit={sendEmail} className="form-container">
               {/* <h1> Send us your requirement:</h1> */}
               <input
                 className="searchfield"
                 type="text"
-                placeholder=" Your name"
+                placeholder="Your name"
                 name="user_name"
                 required
               />
@@ -86,11 +107,17 @@ const ContactForm = ({ data }) => {
                 name="user_email"
                 required
               />
-
+              <input
+                className="searchfield"
+                type="text"
+                placeholder="Subject"
+                name="user_subject"
+                required
+              />
               <textarea
-                name="message"
+                type="text"
+                name="user_message"
                 placeholder="Your message"
-                id=""
                 cols="30"
                 rows="10"
               ></textarea>

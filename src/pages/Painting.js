@@ -27,26 +27,27 @@ const Painting = ({ can }) => {
             </i>
             <h1 className="painting-date">{can[id - 1].date}</h1>
           </div>
-        </div>
-        <div className="arrow-page">
-          {id < can.length && (
-            <Link to={`${can[id].path}`}>
-              <button className="link-btn">
-                {" "}
-                <BsChevronRight className="arrow arrow-right " />
-              </button>
-            </Link>
-          )}
-          {id < can.length ||
-            (id !== 1 && (
-              <Link to={`${can[0].path}`}>
+          <div className="arrow-page">
+            {id < can.length && (
+              <Link to={`${can[id].path}`}>
                 <button className="link-btn">
                   {" "}
-                  <BsChevronLeft className="arrow arrow-right" />
+                  <BsChevronRight className="arrow arrow-right" />
                 </button>
               </Link>
-            ))}
+            )}
+            {id < can.length ||
+              (id !== 1 && (
+                <Link to={`${can[0].path}`}>
+                  <button className="link-btn">
+                    {" "}
+                    <BsChevronLeft className="arrow arrow-right" />
+                  </button>
+                </Link>
+              ))}
+          </div>
         </div>
+
         <Link to="/art" className="link-back-btn">
           {" "}
           &larr; ART Gallery

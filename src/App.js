@@ -20,6 +20,7 @@ import {
   projectsDesignData,
   projectsArtData,
 } from "./datas/projectsdata";
+import Exhibitions from "./pages/Exhibitions";
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
             <ArtRoutes projects={projectsArtData} icon={"/icons/flower.svg"} />
           }
         />
+        <Route path="/exhibitions-press" element={<Exhibitions />} />
         <Route path="*" element={<NotFound />} />{" "}
         <Route path="/contact" element={<Contact data={contactData} />} />
       </Routes>
