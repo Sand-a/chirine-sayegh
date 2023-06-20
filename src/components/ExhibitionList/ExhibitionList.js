@@ -1,14 +1,52 @@
 import React from "react";
 import "./ExhibitionList.css";
 
-const ExhibitionList = () => {
+const ExhibitionList = ({ exhibitions }) => {
   return (
     <>
-      {/* <ul>
-        {" "}
-        2023
-        <li>June 20 ti 11 ,2023</li>
-      </ul> */}
+      {exhibitions.map((exhibition) => {
+        return (
+          <>
+            <div className="exhibition-box">
+              <div>
+                <h2 className="exhibition-title">{exhibition.title}</h2>
+                <p className="exhibition-description">
+                  {exhibition.description}
+                </p>
+                <p className="bodytext-italic">{exhibition.date}</p>
+                <p className="bodytext exhibition-place">{exhibition.place}</p>
+                {exhibition.press && (
+                  <>
+                    <p className=" press-article">in the Press</p>
+                    {exhibition.press.map((p) => {
+                      return (
+                        <a
+                          target="_blank"
+                          href={p.press_path}
+                          className="press-link"
+                        >
+                          <div className="press-image-icon">
+                            <img
+                              className="press-image"
+                              src={p.press_image}
+                              alt=""
+                            />{" "}
+                          </div>
+                          <div className="press-details">
+                            <p className="press-details-1">{p.press_article}</p>
+                            <p className="press-details-2">{p.press_name}</p>
+                          </div>
+                        </a>
+                      );
+                    })}
+                  </>
+                )}
+              </div>
+            </div>
+            <p className="line"></p>
+          </>
+        );
+      })}
     </>
   );
 };

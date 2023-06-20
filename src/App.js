@@ -14,6 +14,7 @@ import ArtRoutes from "./routes/ArtRoutes";
 import Contact from "./pages/Contact";
 import { contactData } from "./datas/contactData";
 import { introData } from "./datas/introData";
+import { exhibitionData } from "./datas/exhibitionData";
 
 import {
   projectsArchitectureData,
@@ -54,7 +55,10 @@ function App() {
             <ArtRoutes projects={projectsArtData} icon={"/icons/flower.svg"} />
           }
         />
-        <Route path="/exhibitions-press" element={<Exhibitions />} />
+        <Route
+          path="/exhibitions-press"
+          element={<Exhibitions exhibitionsYear={exhibitionData} />}
+        />
         <Route path="*" element={<NotFound />} />{" "}
         <Route path="/contact" element={<Contact data={contactData} />} />
       </Routes>

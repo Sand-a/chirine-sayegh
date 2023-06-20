@@ -1,15 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import { MdCall } from "react-icons/md";
-import { RiFacebookCircleFill, RiLinkedinBoxFill } from "react-icons/ri";
-import { GrInstagram, GrLinkedinOption, GrMailOption } from "react-icons/gr";
-import {
-  FiPhone,
-  FiInstagram,
-  FiMapPin,
-  FiLinkedin,
-  FiMail,
-} from "react-icons/fi";
+
+import { RiLinkedinBoxFill } from "react-icons/ri";
+import { GrInstagram } from "react-icons/gr";
+import { FiPhone, FiMail } from "react-icons/fi";
 
 const Footer = ({ data }) => {
   return (
@@ -26,15 +20,7 @@ const Footer = ({ data }) => {
               <FiMail className="social__media_icon social__media_icon-mail" />
             </a>
           </li>
-          <li className="social__media_links">
-            <a
-              target="_blank"
-              href={data.location_url}
-              className="social__media_link"
-            >
-              <FiMapPin className="social__media_icon social__media_icon-map" />
-            </a>
-          </li>
+
           <li className="space">|</li>
           <li className="social__media_links">
             <a
@@ -48,17 +34,12 @@ const Footer = ({ data }) => {
           <li className="social__media_links">
             <a
               target="_blank"
-              href={data.insta_url}
+              href={data.insta_1_url}
               className="social__media_link"
             >
               <GrInstagram className="social__media_icon social__media_icon-insta" />
             </a>
           </li>
-          {/* <li className="social__media_links">
-            <a href={data.facebook_url} className="social__media_link">
-              <RiFacebookCircleFill className="social__media_icon social__media_icon-facebook" />
-            </a>
-          </li> */}
         </ul>
         <div className="footer-signature">
           <p className="copyright">

@@ -77,7 +77,7 @@ const ContactForm = ({ data }) => {
             </a>
           </li>
 
-          <li className="contact-items">
+          {/* <li className="contact-items">
             <a
               target="_blank"
               href={data.location_url}
@@ -86,7 +86,7 @@ const ContactForm = ({ data }) => {
               <FiMapPin className="contact-icon" />{" "}
               <p className="contact-item">{data.address}</p>
             </a>
-          </li>
+          </li> */}
         </ul>
         <SectionReveal
           // direction={"left or right"} no direction for bottom

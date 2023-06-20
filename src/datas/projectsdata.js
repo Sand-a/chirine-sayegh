@@ -58,6 +58,12 @@ export const projectsArchitectureData = [
       "/images/projects/architecture/rab-dk/rab-dk_6.jpg",
       "/images/projects/architecture/rab-dk/rab-dk_7.jpg",
     ],
+    press: {
+      press_image: "/logo/press-logo/archdaily.svg",
+      press_article: "DK House / rab architects",
+      press_name: "Arch Daily - Curated by Hana Abdel",
+      press_path: "https://www.archdaily.com/954721/dk-house-rab-architects",
+    },
   },
   {
     _id: 17,

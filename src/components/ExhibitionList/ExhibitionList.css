@@ -1,11 +1,89 @@
+.exhibition-container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
 .exhibition-intro-img {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.bodytext-italic {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.exhibition-icon {
+  margin-top: 0.6rem;
+  margin-right: 1.6rem;
+}
+.exhibitions-year-container {
+  border-bottom: 0.5px solid black;
+}
+.exhibitions-year-container:last-child {
+  border-bottom: none;
+}
+.exhibitions-year {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+.exhibition-title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.press-article {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-top: 4rem;
+}
+.line {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  margin: 7rem 0;
+}
+.line:last-child {
+  border-bottom: none;
+  margin: 7rem 0;
+}
+.press-link {
+  display: flex;
+  align-items: center;
+  transition: all 200ms;
+
+  margin-top: 1rem;
+  text-decoration: none;
+  padding: 1.5rem;
+  border: 0.5px solid #222;
+  width: 100%;
+}
+.press-link:hover {
+  border: 1px solid #222;
+}
+.press-image {
+  width: 4rem;
+  margin-right: 2rem;
+}
+.press-details-1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: black;
+}
+.press-details-2,
+.exhibition-description {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 550px) {
-  .exhibition-intro-img {
-    width: 100%;
+  .exhibition-place {
+    padding: 0;
+  }
+  .exhibition-container {
+    padding: 0 2rem;
   }
 }

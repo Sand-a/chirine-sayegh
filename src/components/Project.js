@@ -32,6 +32,32 @@ const Project = ({ allProjects, icon }) => {
                 >
                   {project.description}
                 </p>
+                {project.press && (
+                  <>
+                    <p className=" press-article">in the Press</p>
+                    <a
+                      target="_blank"
+                      href={project.press.press_path}
+                      className="press-link"
+                    >
+                      <div className="press-image-icon">
+                        <img
+                          className="press-image"
+                          src={project.press.press_image}
+                          alt=""
+                        />{" "}
+                      </div>
+                      <div className="press-details">
+                        <p className="press-details-1">
+                          {project.press.press_article}
+                        </p>
+                        <p className="press-details-2">
+                          {project.press.press_name}
+                        </p>
+                      </div>
+                    </a>
+                  </>
+                )}
               </div>
             </>
           );
