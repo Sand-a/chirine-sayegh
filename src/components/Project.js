@@ -33,7 +33,7 @@ const Project = ({ allProjects, icon }) => {
                   {project.description}
                 </p>
                 {project.press && (
-                  <>
+                  <div className="press-container">
                     <p className=" press-article">in the Press</p>
                     <a
                       target="_blank"
@@ -56,7 +56,7 @@ const Project = ({ allProjects, icon }) => {
                         </p>
                       </div>
                     </a>
-                  </>
+                  </div>
                 )}
               </div>
             </>

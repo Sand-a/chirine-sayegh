@@ -121,4 +121,7 @@ a.contact-link-location {
   .project-title {
     padding-left: 2rem;
   }
+  .press-container {
+    padding: 0 2rem;
+  }
 }

@@ -119,7 +119,7 @@ export const exhibitionData = [
     year: "2016",
     exhibitions: [
       {
-        title: "Minérals",
+        title: "Minéral",
         sub_title: "Christmas Exhibition at Galerie Rochane, Saifi.",
         date: "April 21 - 27",
         place: "ALBA, Sin el Fil",
