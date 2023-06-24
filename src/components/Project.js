@@ -1,5 +1,6 @@
 import React from "react";
 import CarouselInsta from "../components/CarouselInsta/CarouselInsta";
+import SwiperCaroussel from "./SwiperCaroussel/SwiperCaroussel";
 
 const Project = ({ allProjects, icon }) => {
   return (
@@ -8,10 +9,9 @@ const Project = ({ allProjects, icon }) => {
         {allProjects.map((project) => {
           return (
             <>
-              <CarouselInsta
+              <SwiperCaroussel
                 key={project._id}
-                projectImages={project.images}
-                autoSlide={true}
+                images={project.images}
                 // autoSlideInterval={3000}
               />
               <div className="poject-details">
