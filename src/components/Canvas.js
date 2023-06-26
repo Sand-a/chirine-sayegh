@@ -4,12 +4,12 @@ import Gallery from "../components/Gallery/Gallery";
 const Canvas = ({ allProjects, icon }) => {
   return (
     <div className="section canvas-section">
-      <div className="">
+      <div>
         {allProjects.map((project) => {
           return (
             <>
               <h1 className="project-title">
-                <img src={icon} alt="" className="canvas-icon" />
+                <img src={icon} alt="flower-icon" className="canvas-icon" />
                 <i>{project.title_italic}</i>
                 {project.title} <span className="space">|</span>
                 <i className="project-location">{project.date}</i>

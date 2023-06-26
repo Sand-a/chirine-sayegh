@@ -154,6 +154,7 @@
   .grid--2-cols {
     grid-template-columns: 1fr;
     gap: 5rem;
+    overflow: hidden;
   }
   .contact-list {
     padding: 0 1rem;

@@ -1,28 +1,30 @@
 export const projectsArchitectureData = [
-  {
-    _id: 11,
-    title: "Ashrafieh Building Renovation",
+  // {
+  //   _id: 11,
+  //   title: "Ashrafieh Building Renovation",
 
-    description:
-      "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment",
-    location: "Ashrafieh - Beirut - Lebanon",
+  //   description:
+  //     "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment",
+  //   location: "Ashrafieh - Beirut - Lebanon",
 
-    images: [
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_1.jpg",
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_2.jpg",
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_3.jpg",
-    ],
-  },
+  //   images: [
+  //     "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_01.jpg",
+  //   ],
+  // },
   {
     _id: 12,
     title: "Ashrafieh Rooftop",
     description:
-      "IInterior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
+      "Interior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
     location: "Ashrafieh – Beirut - Lebanon",
     images: [
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_1.jpg",
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_2.jpg",
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_3.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_01.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_02.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_03.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_04.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_05.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_06.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_07.jpg",
     ],
   },
 
@@ -216,7 +218,6 @@ export const projectsArtData = [
     _id: 1111,
     italic: true,
     title_italic: "Minéral",
-
     date: "Beirut - 2014",
     description:
       "Chirine received critical acclaim for her first solo exhibition «Minéral», which expresses her inspiration from hiking and rock climbing in the spectacular Lebanese mountains. Art Critic Nélida Nassar wrote in April of 2016 : “... [ Ms Sayegh’s ] configurations are lyrical expressions of the particular qualities of light in the locations she chooses and remembers, atmospherically accurate and evocative of movement and strength…for like all artists who make a subject wholly their own, Sayegh puts the singular stamp of her style upon the place.”",
@@ -335,7 +336,6 @@ export const projectsArtData = [
     _id: 1113,
     title_italic: "Végétal - ",
     title: "Trees",
-
     date: "Beirut - 2010/2021",
     description:
       "Exploring the timeless subject of trees through acrylic paintings, representing deep forests, jungle scenes, evening strolls, and the iconic cedars of Lebanon.",
@@ -403,7 +403,7 @@ export const projectsArtData = [
         id: "canvas4_1",
         title: "Deep Into Summer",
         dimension: "76 x 56",
-        media: "watercolor on cotton paper",
+        media: "Watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/1",
         images: [
@@ -416,7 +416,7 @@ export const projectsArtData = [
         id: "canvas4_2",
         title: "Floral Madness",
         dimension: "76 x 56",
-        media: "watercolor on cotton paper",
+        media: "Watercolor on cotton paper",
         date: "2021",
         path: "/art/vegetal-watercolors/2",
         images: [
@@ -429,7 +429,7 @@ export const projectsArtData = [
         id: "canvas4_3",
         title: "Wildflowers",
         dimension: "76 x 56",
-        media: "watercolor on cotton paper",
+        media: "Watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/3",
         images: [
@@ -442,7 +442,7 @@ export const projectsArtData = [
         id: "canvas4_4",
         title: "Summer Nights ",
         dimension: "76 x 56",
-        media: "watercolor on cotton paper",
+        media: "Watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/4",
         images: [
@@ -456,7 +456,6 @@ export const projectsArtData = [
     _id: 1115,
     title_italic: "Végétal - ",
     title: "Gold Series",
-
     date: "Beirut - 2021/2023",
     description:
       "Combining the fluidity of watercolor with the brilliance of gold leaf to create captivating artwork, capturing the harmonious relationship between the two elements.",
@@ -465,7 +464,7 @@ export const projectsArtData = [
         id: "canvas5_1",
         title: "Forest Moon",
         dimension: "29.7 x 42",
-        media: "watercolor on cotton paper with gold leaf",
+        media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/1",
         images: [
@@ -478,7 +477,7 @@ export const projectsArtData = [
         id: "canvas5_2",
         title: "H2O",
         dimension: "42 x 29.7",
-        media: "watercolor on cotton paper with gold leaf",
+        media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/2",
         images: [
@@ -490,7 +489,7 @@ export const projectsArtData = [
         id: "canvas5_3",
         title: "Roses",
         dimension: "29.7 x 42",
-        media: "watercolor on cotton paper with gold leaf",
+        media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/3",
         images: [
@@ -502,7 +501,7 @@ export const projectsArtData = [
         id: "canvas5_4",
         title: "Landscape",
         dimension: "46.5 x 30.5",
-        media: "watercolor on cotton paper with gold leaf",
+        media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/4",
         images: [
@@ -536,22 +535,22 @@ export const projectsArtData = [
       },
       {
         id: "canvas6_2",
-        title: "Woman Diappears",
+        title: "Woman Disappears",
         dimension: "100 x 113",
         media: "Acrylic on canvas",
         date: "2023",
         path: "/art/vegetal-secret-garden/2",
         images: [
-          "/images/projects/art/vegetal-secret-garden/woman-diappears-1.jpg",
+          "/images/projects/art/vegetal-secret-garden/woman-disappears-1.jpg",
 
-          "/images/projects/art/vegetal-secret-garden/woman-diappears-1-insit.jpg",
+          "/images/projects/art/vegetal-secret-garden/woman-disappears-1-insit.jpg",
         ],
       },
       {
         id: "canvas6_3",
         title: "Woman Appears",
         dimension: "30.3 x 40.4",
-        media: "watercolor on cotton paper with gold leaf",
+        media: "Watercolor on cotton paper with gold leaf",
         date: "2023",
         path: "/art/vegetal-secret-garden/3",
         images: [
@@ -562,15 +561,15 @@ export const projectsArtData = [
       },
       {
         id: "canvas6_4",
-        title: "Woman Diappears",
+        title: "Woman Disappears",
         dimension: "30.3 x 40.4",
-        media: "watercolor on cotton paper with gold leaf",
+        media: "Watercolor on cotton paper with gold leaf",
         date: "2023",
         path: "/art/vegetal-secret-garden/4",
         images: [
-          "/images/projects/art/vegetal-secret-garden/woman-diappears-2.jpg",
+          "/images/projects/art/vegetal-secret-garden/woman-disappears-2.jpg",
 
-          "/images/projects/art/vegetal-secret-garden/woman-diappears-2-insit.jpg",
+          "/images/projects/art/vegetal-secret-garden/woman-disappears-2-insit.jpg",
         ],
       },
     ],

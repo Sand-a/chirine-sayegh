@@ -17,7 +17,7 @@ const Painting = ({ can }) => {
   return (
     <div className="section">
       <div className="card-container">
-        <div className="img-painting-box">
+        <div>
           <Swiper
             className="mySwiperCard"
             // install Swiper modules
