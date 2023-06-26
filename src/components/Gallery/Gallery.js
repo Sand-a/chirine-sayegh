@@ -9,7 +9,7 @@ const Gallery = ({ canvas }) => {
         return (
           <>
             <Link to={can.path} key={can.id} className={`canvas canvas--${i}`}>
-              <img src={can.image1_url} alt={can.alt} />
+              <img src={can.images[0]} alt={can.alt} loading="lazy" />
             </Link>
           </>
         );

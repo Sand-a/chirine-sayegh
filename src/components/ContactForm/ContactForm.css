@@ -5,11 +5,18 @@
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+.contactus-text {
+  font-size: 3rem;
+  color: #222;
+}
+.contactus-text span {
+  font-weight: 300;
+}
 
 .contact-list {
   list-style: none;
   width: 100%;
-  margin-left: 1.5rem;
+  margin: 1.5rem;
 }
 
 .contact-items {
@@ -79,18 +86,26 @@
 .form-container input,
 .form-container textarea {
   text-align: center;
-  width: 100%;
   font-family: inherit;
 }
+.form-container input {
+  width: 80%;
+  border-radius: none;
+  background-color: none;
+}
+
 .form-container textarea {
+  width: 100%;
   padding-top: 2rem;
-  border: 1.5px solid black;
+  margin: 5rem 0;
+  border: 2px solid black;
+  border-radius: 1rem;
 }
 
 .searchfield {
   padding: 1rem;
   border: none;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #222;
   border-radius: none;
   border-bottom: 2px solid black;
@@ -98,27 +113,29 @@
   transition: all 0.5s;
 }
 .searchfield:hover {
-  width: 130%;
+  width: 100%;
 }
 
 .btn-form {
-  align-self: flex-start;
+  align-self: center;
   padding: 1rem 2rem;
-  width: 100%;
+  width: 70%;
   height: 5rem;
   font-family: inherit;
   font-size: 1.6rem;
-  border: none;
-  background-color: #222;
-  color: #fff;
-  letter-spacing: 3px;
-  border: 2px solid #222;
-  font-weight: 400;
-}
-.btn-form:hover {
+
   color: #222;
   background-color: #fff;
   border: 2px solid #222;
+
+  letter-spacing: 3px;
+
+  font-weight: 500;
+  transition: all 0.2s ease-in;
+}
+.btn-form:hover {
+  background-color: #222;
+  color: #fff;
 }
 .contact-content {
   margin-top: 21rem;
@@ -133,6 +150,7 @@
   .contact-content {
     margin-top: 0;
   }
+
   .grid--2-cols {
     grid-template-columns: 1fr;
     gap: 5rem;
@@ -146,6 +164,7 @@
   }
   .form-container {
     min-width: 90%;
+    margin-bottom: 5rem;
   }
   .form-container h1 {
     font-size: 2.3rem;

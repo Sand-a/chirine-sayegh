@@ -28,6 +28,7 @@ const ExhibitionList = ({ exhibitions }) => {
                           <div className="press-image-icon">
                             <img
                               className="press-image"
+                              loading="lazy"
                               src={p.press_image}
                               alt=""
                             />{" "}

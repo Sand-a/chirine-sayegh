@@ -1,6 +1,9 @@
+.projects-container {
+  margin: 0 auto;
+}
 .mySwiper {
   max-width: 100rem;
-  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 .swiper-slide {
   width: 100%;
@@ -27,5 +30,75 @@
 @media screen and (max-width: 770px) {
   .slider-arrow {
     display: none;
+  }
+}
+/* project css*/
+.projects-container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.btn-slide {
+  position: absolute;
+
+  border: none;
+  display: flex;
+
+  align-items: center;
+
+  background-color: #ffffff70;
+  height: 100%;
+  cursor: pointer;
+}
+
+.project-icon {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+.poject-details {
+  margin-bottom: 15rem;
+}
+
+.project-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.project-sub-title {
+  font-size: 1.38rem;
+  margin-right: 0.8rem;
+}
+.project-logo {
+  height: 2rem;
+
+  margin-right: 1rem;
+}
+.project-description {
+  max-width: 70rem;
+}
+.project-location {
+  font-size: 1rem;
+  font-weight: 200;
+}
+a.contact-link-location {
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+/* tablet and mobile */
+@media screen and (max-width: 770px) {
+  .btn-slide {
+    display: none;
+  }
+  .slide {
+    transition: all 0.3s;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .project-title {
+    padding-left: 2rem;
+  }
+  .press-container {
+    padding: 0 2rem;
   }
 }

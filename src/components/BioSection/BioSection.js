@@ -4,7 +4,12 @@ import "./BioSection.css";
 const BioSection = () => {
   return (
     <div className="section bio-section ">
-      <img src="/images/bio-image.jpg" alt="" className="bio-image" />
+      <img
+        src="/images/bio-image.jpg"
+        alt=""
+        className="bio-image"
+        loading="lazy"
+      />
       <h1 className="primary-headline">Design-based architect & artist</h1>
       <p className="bio-text bodytext">
         Chirine Sayegh is a French Lebanese architect born in Beirut, Lebanon,

@@ -11,11 +11,17 @@ const HeroSection = ({ introData }) => {
           return (
             <>
               <Link key={data._id} to={data.path} className="img-box">
-                <img className="img-box--img" src={data.image} alt={data.alt} />
+                <img
+                  className="img-box--img"
+                  src={data.image}
+                  loading="lazy"
+                  alt={data.alt}
+                />
                 <div className="img--overlay">
                   <img
                     src={data.icon}
                     alt=""
+                    loading="lazy"
                     className={
                       data.icon_flower
                         ? "logo-spinning icon-flower"
@@ -31,6 +37,7 @@ const HeroSection = ({ introData }) => {
                 <img
                   src={data.icon}
                   alt=""
+                  loading="lazy"
                   className={
                     data.icon_flower
                       ? "logo-spinning icon-flower"

@@ -1,25 +1,73 @@
 import React from "react";
 import { useParams } from "react-router";
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import BtnSlider from "../components/CarouselInsta/BtnSlider";
+
 import { Link } from "react-router-dom";
+
+import { Pagination, A11y } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
+import "swiper/css/pagination";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 const Painting = ({ can }) => {
   const { id } = useParams();
 
   return (
     <div className="section">
-      <div className="canvas-section">
+      <div className="card-container">
         <div className="img-painting-box">
-          <div className="painting-img painting-img-1">
-            <img src={can[id - 1].image1_url} alt="" />
-          </div>
-          <div className="painting-img painting-img-2">
-            {" "}
-            <img src={can[id - 1].image2_url} alt="" />
-          </div>
+          <Swiper
+            className="mySwiperCard"
+            // install Swiper modules
+            modules={[Pagination, A11y]}
+            grabCursor={true}
+            loop={true}
+            pagination={{
+              bulletClass: "swiper-pagination-bullet",
+              clickable: true,
+            }}
+            breakpoints={{
+              // when window width is <= 1000px
+              750: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+            }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+          >
+            {can[id - 1].images.map((img) => {
+              return (
+                <SwiperSlide className="swiper-slide-painting" key={img}>
+                  <img
+                    src={img}
+                    className="swiper-images"
+                    alt="slide image"
+                    loading="lazy"
+                  />
+                </SwiperSlide>
+              );
+            })}
+            <div className="slider-controler">
+              <div className="swiper-button-prev slider-arrow"></div>
+              <div className="swiper-button-next slider-arrow"></div>
+            </div>
+          </Swiper>
         </div>
         <div className="img-painting-text">
+          <div className="arrow-page">
+            {id < can.length ||
+              (id !== 1 && (
+                <Link to={`${can[0].path}`}>
+                  <button className="link-btn">
+                    {" "}
+                    <BsChevronLeft className="arrow " />
+                  </button>
+                </Link>
+              ))}
+          </div>
           <div>
             <h1 className="painting-title">{can[id - 1].title}</h1>
             <i className="painting-dimension">
@@ -32,26 +80,15 @@ const Painting = ({ can }) => {
               <Link to={`${can[id].path}`}>
                 <button className="link-btn">
                   {" "}
-                  <BsChevronRight className="arrow arrow-right" />
+                  <BsChevronRight className="arrow " />
                 </button>
               </Link>
             )}
-            {id < can.length ||
-              (id !== 1 && (
-                <Link to={`${can[0].path}`}>
-                  <button className="link-btn">
-                    {" "}
-                    <BsChevronLeft className="arrow arrow-right" />
-                  </button>
-                </Link>
-              ))}
           </div>
         </div>
-
         <Link to="/art" className="link-back-btn">
-          {" "}
-          &larr; ART Gallery
-          <img src="icons/flower.svg" alt="" />
+          <BsChevronLeft className="arrow back-arrow" />{" "}
+          <span>back to ART Gallery</span>
         </Link>
       </div>
     </div>

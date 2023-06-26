@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselInsta from "../components/CarouselInsta/CarouselInsta";
+
 import SwiperCaroussel from "./SwiperCaroussel/SwiperCaroussel";
 
 const Project = ({ allProjects, icon }) => {
@@ -9,11 +9,7 @@ const Project = ({ allProjects, icon }) => {
         {allProjects.map((project) => {
           return (
             <>
-              <SwiperCaroussel
-                key={project._id}
-                images={project.images}
-                // autoSlideInterval={3000}
-              />
+              <SwiperCaroussel key={project._id} images={project.images} />
               <div className="poject-details">
                 <h1 className=" project-title">
                   {" "}
@@ -43,6 +39,7 @@ const Project = ({ allProjects, icon }) => {
                       <div className="press-image-icon">
                         <img
                           className="press-image"
+                          loading="lazy"
                           src={project.press.press_image}
                           alt=""
                         />{" "}

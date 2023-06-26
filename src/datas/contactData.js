@@ -1,6 +1,4 @@
 export const contactData = {
-  text: "For commissions, informations about personalized design services, DIY design coaching, or online art courses, please ",
-  tel: "+9613726498",
   phone: "961 3 726 498",
 
   email: "sayeghchirine@gmail.com",

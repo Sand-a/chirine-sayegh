@@ -25,32 +25,34 @@
   height: 2.2rem;
   margin-right: 0.9rem;
 }
-
+/* Painting Page css */
+/* mySwiperCard */
 .img-painting-box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-
-  grid-gap: 3rem;
-  margin-bottom: 3rem;
-}
-
-.painting-img-1 img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  background-color: #fff;
 }
-.painting-img-2 img {
-  width: 100%;
+.mySwiperCard {
+  margin-bottom: 5rem;
+}
+.mySwiperCard .slider-controler {
+  display: none;
+}
+
+.swiper-slide-painting {
   height: 100%;
-  object-fit: cover;
+  width: 100%;
+  align-self: center;
 }
+
+/* text  */
 
 .img-painting-text {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  max-width: 35rem;
   padding: 0 2rem;
-
-  margin-bottom: 2rem;
 }
 .canvas-description {
   max-width: 80rem;
@@ -65,17 +67,38 @@
   cursor: pointer;
 }
 .link-back-btn {
-  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  letter-spacing: 1.6px;
   text-decoration: none;
-  color: var(--green);
+  text-transform: uppercase;
+  color: black;
   transition: all 200ms;
-  margin-left: 2rem;
+  margin-top: 6rem;
+  margin-left: 1.8rem;
+}
+.link-back-btn span {
+  margin-left: 1rem;
 }
 .link-back-btn:hover {
-  color: black;
-  font-weight: 600;
+  font-weight: 800;
+}
+.arrow {
+  font-size: 3rem;
+}
+.back-arrow {
+  font-size: 1.4rem;
+}
+.link-back-btn:hover .back-arrow {
+  font-size: 1.6rem;
 }
 
+@media screen and (max-width: 750px) {
+  .img-painting-text {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 450px) {
   .canvas-section {
     padding-top: 12rem;

@@ -1,13 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import SectionReveal from "../SectionReveal/SectionReveal";
-import {
-  FiPhone,
-  FiInstagram,
-  FiMapPin,
-  FiLinkedin,
-  FiMail,
-} from "react-icons/fi";
+import { FiPhone, FiMail } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
 
 import "./ContactForm.css";
@@ -41,9 +35,8 @@ const ContactForm = ({ data }) => {
       <div className="grid grid--2-cols contact-content">
         <ul className="contact-list">
           <li className="contact-items">
-            <p className="bodytext">
-              {data.text}
-              <strong className="uppercase">contact </strong>
+            <p className="bodytext contactus-text">
+              <strong className="uppercase">contact</strong>
               <span className="uppercase">us:</span>
             </p>
           </li>
@@ -76,17 +69,6 @@ const ContactForm = ({ data }) => {
               <p className="contact-item contact-item-green">{data.insta_2}</p>
             </a>
           </li>
-
-          {/* <li className="contact-items">
-            <a
-              target="_blank"
-              href={data.location_url}
-              className="contact-link contact-link-location display-linebreak"
-            >
-              <FiMapPin className="contact-icon" />{" "}
-              <p className="contact-item">{data.address}</p>
-            </a>
-          </li> */}
         </ul>
         <SectionReveal
           // direction={"left or right"} no direction for bottom
@@ -96,19 +78,26 @@ const ContactForm = ({ data }) => {
               <input
                 className="searchfield"
                 type="text"
-                placeholder="Your name"
+                placeholder="Name"
                 name="user_name"
                 required
               />
               <input
                 className="searchfield"
-                type="email"
-                placeholder="Your email address"
-                name="user_email"
+                type="text"
+                placeholder="Surname"
+                name="user_surname"
                 required
               />
               <input
                 className="searchfield"
+                type="email"
+                placeholder="Email "
+                name="user_email"
+                required
+              />
+              <input
+                className="searchfield searchfield-last"
                 type="text"
                 placeholder="Subject"
                 name="user_subject"
