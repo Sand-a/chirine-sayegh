@@ -84,13 +84,14 @@ form {
   display: block;
   border-radius: none;
   background-color: transparent;
-  font-size: 1.6rem;
+
   width: 65%;
   height: 3.5rem;
-  margin: 20px auto 30px;
+  margin: 1rem auto 1rem;
   padding: 1rem 2rem;
   text-align: center;
   border: none;
+  border-radius: 0;
   border-bottom: 2px solid black;
   color: #222;
   outline: 0;
@@ -102,8 +103,8 @@ form {
 
 .form-container textarea {
   width: 65%;
-  padding-top: 2rem;
-  margin: 5rem 0;
+  padding: 2rem 1rem;
+  margin: 3rem 0;
   border: 2px solid black;
 }
 
@@ -172,6 +173,10 @@ form {
 @media screen and (max-width: 770px) {
   .contact-item {
     font-size: 2rem;
+  }
+  .form-container input,
+  .form-container textarea {
+    font-size: 1.6rem;
   }
 }
 @media screen and (max-width: 550px) {
