@@ -1,3 +1,6 @@
+.contact-content {
+  overflow: hidden;
+}
 .grid {
   display: grid;
   gap: 3rem;
@@ -76,20 +79,13 @@
 
   padding: 0 4rem;
 }
-/* .form-container h1 {
-  margin-bottom: 3rem;
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  align-self: flex-start;
-} */
+
 .form-container input,
 .form-container textarea {
   text-align: center;
   font-family: inherit;
 }
 .form-container input {
-  width: 80%;
   border-radius: none;
   background-color: none;
 }
@@ -99,7 +95,7 @@
   padding-top: 2rem;
   margin: 5rem 0;
   border: 2px solid black;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
 }
 
 .searchfield {
@@ -108,8 +104,8 @@
   font-size: 1.4rem;
   color: #222;
   border-radius: none;
+  width: 80%;
   border-bottom: 2px solid black;
-
   transition: all 0.5s;
 }
 .searchfield:hover {
@@ -154,8 +150,8 @@
   .grid--2-cols {
     grid-template-columns: 1fr;
     gap: 5rem;
-    overflow: hidden;
   }
+
   .contact-list {
     padding: 0 1rem;
   }
@@ -164,7 +160,6 @@
     font-weight: 300;
   }
   .form-container {
-    min-width: 90%;
     margin-bottom: 5rem;
   }
   .form-container h1 {

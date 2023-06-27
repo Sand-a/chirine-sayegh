@@ -100,9 +100,13 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .canvas-section {
     padding-top: 12rem;
+  }
+  .img-painting-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .img-painting-text {
     padding: 0 1rem;
