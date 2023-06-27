@@ -10,6 +10,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import { BiImages } from "react-icons/bi";
 
 const Painting = ({ can }) => {
   const { id } = useParams();
@@ -47,6 +48,7 @@ const Painting = ({ can }) => {
                     alt="slide image"
                     loading="lazy"
                   />
+                  <BiImages className="images-icon" />
                 </SwiperSlide>
               );
             })}

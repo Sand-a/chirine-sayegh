@@ -8,8 +8,8 @@ const Gallery = ({ canvas }) => {
       {canvas.map((can, i) => {
         return (
           <>
-            <Link to={can.path} key={can.id} className={`canvas canvas--${i}`}>
-              <img src={can.images[0]} alt={can.alt} loading="lazy" />
+            <Link to={can.path} key={can.id} className={"canvas"}>
+              <img src={can.image_square} alt={can.alt} loading="lazy" />
             </Link>
           </>
         );

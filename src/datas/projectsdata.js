@@ -229,6 +229,8 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2014",
         path: "/art/mineral/1",
+        image_square:
+          "/images/projects/art/mineral/mineral-dentelle-faqra-square.jpg",
         images: [
           "/images/projects/art/mineral/mineral-dentelle-faqra.jpg",
           "/images/projects/art/mineral/mineral-dentelle-faqra-insit.jpg",
@@ -241,6 +243,7 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2014",
         path: "/art/mineral/2",
+        image_square: "/images/projects/art/mineral/mineral-faqra-square.jpg",
         images: [
           "/images/projects/art/mineral/mineral-faqra.jpg",
           "/images/projects/art/mineral/mineral-faqra-insit.jpg",
@@ -253,7 +256,7 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2014",
         path: "/art/mineral/3",
-
+        image_square: "/images/projects/art/mineral/mineral-sannine-square.jpg",
         images: [
           "/images/projects/art/mineral/mineral-sannine.jpg",
           "/images/projects/art/mineral/mineral-sannine-insit.jpg",
@@ -266,6 +269,7 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2014",
         path: "/art/mineral/4",
+        image_square: "/images/projects/art/mineral/mineral-ribeze-square.jpg",
         images: [
           "/images/projects/art/mineral/mineral-ribeze.jpg",
           "/images/projects/art/mineral/mineral-ribeze-insit.jpg",
@@ -288,6 +292,7 @@ export const projectsArtData = [
         media: "Acrylic on canvas paper",
         date: "2022",
         path: "/art/mineral-sea/1",
+        image_square: "/images/projects/art/mineral-sea/breathe-square.jpg",
         images: [
           "/images/projects/art/mineral-sea/breathe.jpg",
           "/images/projects/art/mineral-sea/breathe-insit.jpg",
@@ -300,6 +305,8 @@ export const projectsArtData = [
         media: "Acrylic on canvas paper",
         date: "2022",
         path: "/art/mineral-sea/2",
+        image_square:
+          "/images/projects/art/mineral-sea/love-and-water-square.jpg",
         images: [
           "/images/projects/art/mineral-sea/love-and-water.jpg",
           "/images/projects/art/mineral-sea/love-and-water-insit.jpg",
@@ -312,6 +319,8 @@ export const projectsArtData = [
         media: "Acrylic on canvas paper",
         date: "2022",
         path: "/art/mineral-sea/3",
+        image_square:
+          "/images/projects/art/mineral-sea/hold-on-tight-square.jpg",
         images: [
           "/images/projects/art/mineral-sea/hold-on-tight.jpg",
           "/images/projects/art/mineral-sea/hold-on-tight-insit.jpg",
@@ -324,9 +333,10 @@ export const projectsArtData = [
         media: "Acrylic on canvas paper",
         date: "2022",
         path: "/art/mineral-sea/4",
+        image_square:
+          "/images/projects/art/mineral-sea/walking-on-corals-square.jpg",
         images: [
           "/images/projects/art/mineral-sea/walking-on-corals.jpg",
-
           "/images/projects/art/mineral-sea/walking-on-corals-insit.jpg",
         ],
       },
@@ -347,6 +357,8 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2010",
         path: "/art/vegetal-trees/1",
+        image_square:
+          "/images/projects/art/vegetal-trees/deep-forest-square.jpg",
         images: [
           "/images/projects/art/vegetal-trees/deep-forest.jpg",
           "/images/projects/art/vegetal-trees/deep-forest-insit.jpg",
@@ -359,6 +371,8 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2020",
         path: "/art/vegetal-trees/2",
+        image_square:
+          "/images/projects/art/vegetal-trees/jungle-fever-square.jpg",
         images: [
           "/images/projects/art/vegetal-trees/jungle-fever.jpg",
           "/images/projects/art/vegetal-trees/jungle-fever-insit.jpg",
@@ -371,6 +385,8 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2021",
         path: "/art/vegetal-trees/3",
+        image_square:
+          "/images/projects/art/vegetal-trees/evening-stroll-square.jpg",
         images: [
           "/images/projects/art/vegetal-trees/evening-stroll.jpg",
           "/images/projects/art/vegetal-trees/evening-stroll-insit.jpg",
@@ -383,6 +399,8 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2022",
         path: "/art/vegetal-trees/4",
+        image_square:
+          "/images/projects/art/vegetal-trees/our-cedars-square.jpg",
         images: [
           "/images/projects/art/vegetal-trees/our-cedars.jpg",
           "/images/projects/art/vegetal-trees/our-cedars-insit.jpg",
@@ -406,9 +424,10 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/1",
+        image_square:
+          "/images/projects/art/vegetal-watercolors/deep-into-summer-square.jpg",
         images: [
           "/images/projects/art/vegetal-watercolors/deep-into-summer.jpg",
-
           "/images/projects/art/vegetal-watercolors/deep-into-summer-insit.jpg",
         ],
       },
@@ -419,9 +438,10 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper",
         date: "2021",
         path: "/art/vegetal-watercolors/2",
+        image_square:
+          "/images/projects/art/vegetal-watercolors/floral-madness-square.jpg",
         images: [
           "/images/projects/art/vegetal-watercolors/floral-madness.jpg",
-
           "/images/projects/art/vegetal-watercolors/floral-madness-insit.jpg",
         ],
       },
@@ -432,9 +452,10 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/3",
+        image_square:
+          "/images/projects/art/vegetal-watercolors/wildflowers-square.jpg",
         images: [
           "/images/projects/art/vegetal-watercolors/wildflowers.jpg",
-
           "/images/projects/art/vegetal-watercolors/wildflowers-insit.jpg",
         ],
       },
@@ -445,6 +466,8 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper",
         date: "2020",
         path: "/art/vegetal-watercolors/4",
+        image_square:
+          "/images/projects/art/vegetal-watercolors/leaves-square.jpg",
         images: [
           "/images/projects/art/vegetal-watercolors/leaves.jpg",
           "/images/projects/art/vegetal-watercolors/leaves-insit.jpg",
@@ -467,9 +490,10 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/1",
+        image_square:
+          "/images/projects/art/vegetal-gold-series/forest-moon-square.jpg",
         images: [
           "/images/projects/art/vegetal-gold-series/forest-moon.jpg",
-
           "/images/projects/art/vegetal-gold-series/forest-moon-insit.jpg",
         ],
       },
@@ -480,6 +504,7 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/2",
+        image_square: "/images/projects/art/vegetal-gold-series/h2o-square.jpg",
         images: [
           "/images/projects/art/vegetal-gold-series/h2o.jpg",
           "/images/projects/art/vegetal-gold-series/h2o-insit.jpg",
@@ -492,6 +517,8 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/3",
+        image_square:
+          "/images/projects/art/vegetal-gold-series/roses-square.jpg",
         images: [
           "/images/projects/art/vegetal-gold-series/roses.jpg",
           "/images/projects/art/vegetal-gold-series/roses-insit.jpg",
@@ -504,9 +531,10 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper with gold leaf",
         date: "2021",
         path: "/art/vegetal-gold-series/4",
+        image_square:
+          "/images/projects/art/vegetal-gold-series/landscape-square.jpg",
         images: [
           "/images/projects/art/vegetal-gold-series/landscape.jpg",
-
           "/images/projects/art/vegetal-gold-series/landscape-insit.jpg",
         ],
       },
@@ -527,9 +555,10 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2023",
         path: "/art/vegetal-secret-garden/1",
+        image_square:
+          "/images/projects/art/vegetal-secret-garden/woman-appears-square-1.jpg",
         images: [
           "/images/projects/art/vegetal-secret-garden/woman-appears-1.jpg",
-
           "/images/projects/art/vegetal-secret-garden/woman-appears-1-insit.jpg",
         ],
       },
@@ -540,9 +569,10 @@ export const projectsArtData = [
         media: "Acrylic on canvas",
         date: "2023",
         path: "/art/vegetal-secret-garden/2",
+        image_square:
+          "/images/projects/art/vegetal-secret-garden/woman-disappears-square-1.jpg",
         images: [
           "/images/projects/art/vegetal-secret-garden/woman-disappears-1.jpg",
-
           "/images/projects/art/vegetal-secret-garden/woman-disappears-1-insit.jpg",
         ],
       },
@@ -553,9 +583,10 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper with gold leaf",
         date: "2023",
         path: "/art/vegetal-secret-garden/3",
+        image_square:
+          "/images/projects/art/vegetal-secret-garden/woman-appears-square-2.jpg",
         images: [
           "/images/projects/art/vegetal-secret-garden/woman-appears-2.jpg",
-
           "/images/projects/art/vegetal-secret-garden/woman-appears-2-insit.jpg",
         ],
       },
@@ -566,9 +597,10 @@ export const projectsArtData = [
         media: "Watercolor on cotton paper with gold leaf",
         date: "2023",
         path: "/art/vegetal-secret-garden/4",
+        image_square:
+          "/images/projects/art/vegetal-secret-garden/woman-disappears-square-2.jpg",
         images: [
           "/images/projects/art/vegetal-secret-garden/woman-disappears-2.jpg",
-
           "/images/projects/art/vegetal-secret-garden/woman-disappears-2-insit.jpg",
         ],
       },
@@ -590,6 +622,7 @@ export const projectsArtData = [
         media: "Ink on paper",
         date: "2020",
         path: "/art/animal-sketches/1",
+        image_square: "/images/projects/art/animal-sketches/andy-square.jpg",
         images: [
           "/images/projects/art/animal-sketches/andy.jpg",
           "/images/projects/art/animal-sketches/andy-insit.jpg",
@@ -602,6 +635,7 @@ export const projectsArtData = [
         media: "Ink on paper",
         date: "2020",
         path: "/art/animal-sketches/2",
+        image_square: "/images/projects/art/animal-sketches/bubble-square.jpg",
         images: [
           "/images/projects/art/animal-sketches/bubble.jpg",
           "/images/projects/art/animal-sketches/bubble-insit.jpg",
@@ -614,6 +648,7 @@ export const projectsArtData = [
         media: "Ink on paper",
         date: "2020",
         path: "/art/animal-sketches/3",
+        image_square: "/images/projects/art/animal-sketches/duke-square.jpg",
         images: [
           "/images/projects/art/animal-sketches/duke.jpg",
           "/images/projects/art/animal-sketches/duke-insit.jpg",
@@ -626,6 +661,7 @@ export const projectsArtData = [
         media: "Ink on paper",
         date: "2020",
         path: "/art/animal-sketches/4",
+        image_square: "/images/projects/art/animal-sketches/rocky-square.jpg",
         images: [
           "/images/projects/art/animal-sketches/rocky.jpg",
           "/images/projects/art/animal-sketches/rocky-insit.jpg",

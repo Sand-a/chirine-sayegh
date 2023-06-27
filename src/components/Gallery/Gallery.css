@@ -32,6 +32,7 @@
 .mySwiperCard {
   margin-bottom: 5rem;
 }
+
 .mySwiperCard .slider-controler {
   display: none;
 }
@@ -40,10 +41,20 @@
   height: 100%;
   width: 100%;
   align-self: center;
+  position: relative;
 }
 .swiper-slide-painting img {
   margin-bottom: 3rem;
   background-color: transparent;
+}
+.images-icon {
+  display: none;
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 5rem;
+  right: 1.5rem;
+  z-index: 111;
 }
 
 /* text  */
@@ -110,5 +121,8 @@
   }
   .img-painting-text {
     padding: 0 1rem;
+  }
+  .images-icon {
+    display: block;
   }
 }
