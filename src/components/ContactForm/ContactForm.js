@@ -109,7 +109,7 @@ const ContactForm = ({ data }) => {
             rows="10"
           ></textarea>
           <button type="submit" className="btn btn-form">
-            Send
+            Send Message
           </button>
         </form>
       </div>
