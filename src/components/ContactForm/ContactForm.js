@@ -32,7 +32,7 @@ const ContactForm = ({ data }) => {
 
   return (
     <>
-      <div className="grid grid--2-cols contact-content">
+      <div className="contact-content">
         <ul className="contact-list">
           <li className="contact-items">
             <p className="bodytext contactus-text">
@@ -70,52 +70,48 @@ const ContactForm = ({ data }) => {
             </a>
           </li>
         </ul>
-        <SectionReveal
-          // direction={"left or right"} no direction for bottom
-          section={
-            <form ref={form} onSubmit={sendEmail} className="form-container">
-              {/* <h1> Send us your requirement:</h1> */}
-              <input
-                className="searchfield"
-                type="text"
-                placeholder="Name"
-                name="user_name"
-                required
-              />
-              <input
-                className="searchfield"
-                type="text"
-                placeholder="Surname"
-                name="user_surname"
-                required
-              />
-              <input
-                className="searchfield"
-                type="email"
-                placeholder="Email "
-                name="user_email"
-                required
-              />
-              <input
-                className="searchfield searchfield-last"
-                type="text"
-                placeholder="Subject"
-                name="user_subject"
-                required
-              />
-              <textarea
-                type="text"
-                name="user_message"
-                placeholder="Your message"
-                cols="30"
-                rows="10"
-              ></textarea>
-              <button type="submit" className="btn btn-form">
-                Send
-              </button>
-            </form>
-          }
-        />
+
+        <form ref={form} onSubmit={sendEmail} className="form-container">
+          {/* <h1> Send us your requirement:</h1> */}
+          <input
+            className="searchfield"
+            type="text"
+            placeholder="Name"
+            name="user_name"
+            required
+          />
+          <input
+            className="searchfield"
+            type="text"
+            placeholder="Surname"
+            name="user_surname"
+            required
+          />
+          <input
+            className="searchfield"
+            type="email"
+            placeholder="Email "
+            name="user_email"
+            required
+          />
+          <input
+            className="searchfield searchfield-last"
+            type="text"
+            placeholder="Subject"
+            name="user_subject"
+            required
+          />
+          <textarea
+            type="text"
+            name="user_message"
+            placeholder="Your message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="submit" className="btn btn-form">
+            Send
+          </button>
+        </form>
       </div>
     </>
   );
