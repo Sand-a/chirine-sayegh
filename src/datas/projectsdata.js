@@ -34,7 +34,7 @@ export const projectsArchitectureData = [
   {
     _id: 15,
     title: "MV Project",
-    sub_title: "Whitin",
+    sub_title: "Within",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
@@ -51,7 +51,7 @@ export const projectsArchitectureData = [
   {
     _id: 16,
     title: "DK Project",
-    sub_title: "Whitin",
+    sub_title: "Within",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
@@ -75,7 +75,7 @@ export const projectsArchitectureData = [
   {
     _id: 17,
     title: "NaDa Project",
-    sub_title: "Whitin",
+    sub_title: "Within",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
@@ -134,7 +134,7 @@ export const projectsDesignData = [
   {
     _id: 114,
     title: "Foyer Bench",
-    sub_title: "Whitin",
+    sub_title: "Within",
     team: "team,",
     finish: "Finished by ARDECO Gallery",
     logo: "/logo/rab-logo.png",
@@ -166,7 +166,7 @@ export const projectsDesignData = [
   {
     _id: 116,
     title: "Stainless Steel Dining",
-    sub_title: "Whitin",
+    sub_title: "Within",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
