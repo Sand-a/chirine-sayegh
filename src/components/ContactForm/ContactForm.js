@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import SectionReveal from "../SectionReveal/SectionReveal";
 import { FiPhone, FiMail } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
 

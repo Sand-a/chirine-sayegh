@@ -38,40 +38,6 @@ const BioSection = () => {
         seamlessly merged in Chirine's creative approach which integrates
         furniture design, art, and architecture.
       </p>
-      {/* <div className=" pdf-downloads">
-        <p className="bodytext">
-          Download{" "}
-          <span className="pdf-name">
-            Chirine <strong>Sayegh :</strong>
-          </span>
-        </p>
-        <ul className="pdf-links">
-          <li className="pdf-items">
-            <a
-              className="pdf-link"
-              target="_blank"
-              href="/images/cv/Chirine Sayegh-cv-2022-fr.pdf"
-            >
-              <BsDownload className="pdf-icon" />
-              <p className="bodytext pdf-text">
-                <strong>CV</strong> in french
-              </p>
-            </a>
-          </li>
-          <li className="pdf-items">
-            <a
-              className="pdf-link"
-              target="_blank"
-              href="/images/cv/Chirine Sayegh-cv-2022-eng.pdf"
-            >
-              <BsDownload className="pdf-icon" />
-              <p className="bodytext pdf-text">
-                <strong>CV</strong> in english
-              </p>
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 };

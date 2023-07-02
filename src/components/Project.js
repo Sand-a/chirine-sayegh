@@ -17,7 +17,14 @@ const Project = ({ allProjects, icon }) => {
                   {project.title} <span className="space">| </span>
                   <span className="project-sub-title">{project.sub_title}</span>
                   {project.logo && (
-                    <img className="project-logo" src={project.logo} alt="" />
+                    <img
+                      className="project-logo"
+                      src={project.logo}
+                      alt="logo"
+                    />
+                  )}
+                  {project.team && (
+                    <span className="project-sub-title">{project.team}</span>
                   )}
                   <span className="project-sub-title">{project.finish}</span>
                   <i className="project-location">{project.location}</i>

@@ -1,10 +1,6 @@
-// Import Swiper React components
-// import Swiper core and required modules
 import { Navigation, Pagination, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 
 import "swiper/css";
 
@@ -17,7 +13,6 @@ const SwiperCaroussel = ({ images }) => {
     <div className="container">
       <Swiper
         className="mySwiper"
-        // install Swiper modules
         modules={[Navigation, Pagination, A11y]}
         grabCursor={true}
         loop={true}

@@ -30,12 +30,6 @@ export const exhibitionData = [
         date: "June 3 - 6",
         place: "ALBA, Sin el Fil",
         press: [
-          // {
-          //   press_name: "L'Agenda Culturel, le 03 Juin 2022 à 18:30",
-          //   press_article: "L’EXPO DU CŒUR",
-          //   press_image: "/logo/press-logo/agendaculturel.png",
-          //   press_path: "https://www.agendaculturel.com/event/lexpo-du-coeur",
-          // },
           {
             press_name: "OLJ / Danny MALLAT, 03 Juin 2022 ",
             press_image: "/logo/press-logo/olj.png",
@@ -44,13 +38,6 @@ export const exhibitionData = [
             press_path:
               "https://www.lorientlejour.com/article/1301568/quand-les-artistes-daujourdhui-viennent-au-secours-de-ceux-de-demain.html",
           },
-          // {
-          //   press_name: "Lebanon Traveler, 3 June 2022 - 6 June 2022 ",
-          //   press_image: "/logo/press-logo/lt.jpg",
-          //   press_article: "L’EXPO DU CŒUR ",
-          //   press_path:
-          //     "https://www.lebanontraveler.com/en/magazine/calendar_events/lexpo-du-coeur/",
-          // },
         ],
       },
       {
@@ -65,12 +52,6 @@ export const exhibitionData = [
             press_path:
               "https://www.agendaculturel.com/event/creative-exhibition-haut-en-bleu",
           },
-          // {
-          //   press_image: "/images/exhibition-images/haut_en_bleu_2022.jpg",
-          //   press_name: "Lebtivity",
-          //   press_path:
-          //     "https://www.lebtivity.com/event/haut-en-bleu-art-exhibition-at-galerie-les-plumes-elsie-braidi",
-          // },
         ],
       },
       {

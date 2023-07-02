@@ -1,18 +1,6 @@
 export const projectsArchitectureData = [
-  // {
-  //   _id: 11,
-  //   title: "Ashrafieh Building Renovation",
-
-  //   description:
-  //     "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment",
-  //   location: "Ashrafieh - Beirut - Lebanon",
-
-  //   images: [
-  //     "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_01.jpg",
-  //   ],
-  // },
   {
-    _id: 12,
+    _id: 11,
     title: "Ashrafieh Rooftop",
     description:
       "Interior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
@@ -27,11 +15,27 @@ export const projectsArchitectureData = [
       "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_07.jpg",
     ],
   },
+  {
+    _id: 12,
+    title: "Ashrafieh Building Renovation",
+
+    description:
+      "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment",
+    location: "Ashrafieh - Beirut - Lebanon",
+
+    images: [
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_01.jpg",
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_02.jpg",
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_03.jpg",
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_04.jpg",
+    ],
+  },
 
   {
     _id: 15,
     title: "MV Project",
-    sub_title: "In Collaboration with",
+    sub_title: "Whitin",
+    team: "team",
     logo: "/logo/rab-logo.png",
     description:
       "In collaboration with rab architects, Chirine contributed to on-site design solutions and site management. Photos by Paul Ghorra.",
@@ -47,7 +51,8 @@ export const projectsArchitectureData = [
   {
     _id: 16,
     title: "DK Project",
-    sub_title: "In Collaboration with",
+    sub_title: "Whitin",
+    team: "team",
     logo: "/logo/rab-logo.png",
     description:
       "Collaborating with rab architects, Chirine provided site follow-up and on-site design solutions. Photos by Julien Harfouch.",
@@ -70,7 +75,8 @@ export const projectsArchitectureData = [
   {
     _id: 17,
     title: "NaDa Project",
-    sub_title: "In Collaboration with",
+    sub_title: "Whitin",
+    team: "team",
     logo: "/logo/rab-logo.png",
     description:
       "As part of the rab architects team, Chirine designed a small apartment and conducted site follow-up.",
@@ -128,12 +134,13 @@ export const projectsDesignData = [
   {
     _id: 114,
     title: "Foyer Bench",
-    sub_title: "In Collaboration with",
+    sub_title: "Whitin",
+    team: "team,",
     finish: "Finished by ARDECO Gallery",
     logo: "/logo/rab-logo.png",
     description:
       "In collaboration with rab architects, Chirine contributed to the design of a custom bench that also offered security for the stairwell.",
-    Location: "Beirut - Lebanon",
+    location: "Beirut - Lebanon",
 
     images: [
       "/images/projects/furniture-design/rab-dk/entrance-bench_1.jpg",
@@ -159,11 +166,12 @@ export const projectsDesignData = [
   {
     _id: 116,
     title: "Stainless Steel Dining",
-    sub_title: "In Collaboration with",
+    sub_title: "Whitin",
+    team: "team",
     logo: "/logo/rab-logo.png",
     description:
       "In collaboration with rab architects, Chirine designed a modern stainless steel serving station featuring ample storage for a cozy apartment.",
-    Location: "Beirut - Lebanon",
+    location: "Beirut - Lebanon",
     images: [
       "/images/projects/furniture-design/rab-is/rab-is_1.jpg",
       "/images/projects/furniture-design/rab-is/rab-is_2.jpg",
