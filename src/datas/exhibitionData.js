@@ -57,8 +57,7 @@ export const exhibitionData = [
       {
         title: "Art Defined",
         date: "July 9 - 27",
-        place:
-          "Which was curated by The Gallerist at Rebirth Beirut, Gemmayzeh",
+        place: "Curated by The Gallerist at Rebirth Beirut, Gemmayzeh",
         press: [
           {
             press_image: "/logo/press-logo/961.jpg",
@@ -82,7 +81,7 @@ export const exhibitionData = [
         sub_title: "Christmas exhibition at Galerie Rochane, Saifi.",
 
         date: "September 17 - 24",
-        place: "Hotel Le Grey Beirut, Lebanon during Beirut Art Fair.",
+        place: "Hotel Le Grey Beirut, Lebanon during Beirut Art Fair",
         press: [
           {
             press_article: "Off / Site Beirut Art Fair ~ Beirut Art Week",

@@ -20,7 +20,7 @@ export const projectsArchitectureData = [
     title: "Ashrafieh Building Renovation",
 
     description:
-      "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment",
+      "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment.",
     location: "Ashrafieh - Beirut - Lebanon",
 
     images: [
@@ -34,11 +34,11 @@ export const projectsArchitectureData = [
   {
     _id: 15,
     title: "MV Project",
-    sub_title: "Within",
+    sub_title: "Within the",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
-      "In collaboration with rab architects, Chirine contributed to on-site design solutions and site management. Photos by Paul Ghorra.",
+      "As part of the rab architects team, Chirine contributed to on-site design solutions and site management. Photos by Paul Ghorra.",
     location: "Monteverde - Beirut",
     images: [
       "/images/projects/architecture/rab_monteverde/rab_monteverde_1.jpg",
@@ -51,11 +51,11 @@ export const projectsArchitectureData = [
   {
     _id: 16,
     title: "DK Project",
-    sub_title: "Within",
+    sub_title: "Within the",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
-      "Collaborating with rab architects, Chirine provided site follow-up and on-site design solutions. Photos by Julien Harfouch.",
+      "As part of the rab architects team, Chirine provided site follow-up and on-site design solutions. Photos by Julien Harfouch.",
     location: "Deir ElKamar - Lebanon",
     images: [
       "/images/projects/architecture/rab-dk/rab-dk_1.jpg",
@@ -75,7 +75,7 @@ export const projectsArchitectureData = [
   {
     _id: 17,
     title: "NaDa Project",
-    sub_title: "Within",
+    sub_title: "Within the",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
@@ -134,12 +134,12 @@ export const projectsDesignData = [
   {
     _id: 114,
     title: "Foyer Bench",
-    sub_title: "Within",
+    sub_title: "Within the",
     team: "team,",
     finish: "Finished by ARDECO Gallery",
     logo: "/logo/rab-logo.png",
     description:
-      "In collaboration with rab architects, Chirine contributed to the design of a custom bench that also offered security for the stairwell.",
+      "As part of the rabarchitects team, Chirine designed a custom bench that also offered security for the stairwell.",
     location: "Beirut - Lebanon",
 
     images: [
@@ -166,11 +166,11 @@ export const projectsDesignData = [
   {
     _id: 116,
     title: "Stainless Steel Dining",
-    sub_title: "Within",
+    sub_title: "Within the",
     team: "team",
     logo: "/logo/rab-logo.png",
     description:
-      "In collaboration with rab architects, Chirine designed a modern stainless steel serving station featuring ample storage for a cozy apartment.",
+      "As part of the rabarchitects team, Chirine contributed to the design of a modern stainless steel serving station featuring ample storage for a cozy apartment.",
     location: "Beirut - Lebanon",
     images: [
       "/images/projects/furniture-design/rab-is/rab-is_1.jpg",
