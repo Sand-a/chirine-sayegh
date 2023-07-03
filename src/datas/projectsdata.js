@@ -2,6 +2,8 @@ export const projectsArchitectureData = [
   {
     _id: 11,
     title: "Ashrafieh Rooftop",
+    sub_title: "3D images by Jad Atallah",
+
     description:
       "Interior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
     location: "Ashrafieh – Beirut - Lebanon",
@@ -18,6 +20,7 @@ export const projectsArchitectureData = [
   {
     _id: 12,
     title: "Ashrafieh Building Renovation",
+    sub_title: "3D images by Jad Atallah",
 
     description:
       "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment.",
