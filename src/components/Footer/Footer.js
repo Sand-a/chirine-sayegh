@@ -49,7 +49,14 @@ const Footer = ({ data }) => {
           </p>
 
           <p className="copyright">
-            Developed & Designed by s<span className="symbol">@</span>nid .
+            Developed & Designed by{" "}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sandrine-anid-7a51282a1"
+              className="sand-signature"
+            >
+              Sandrine Anid
+            </a>
           </p>
         </div>
       </footer>

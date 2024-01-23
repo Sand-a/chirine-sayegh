@@ -48,8 +48,8 @@
   font-size: 1rem;
 }
 
-.symbol {
-  font-size: 1.4rem;
+.sand-signature {
+  color: black;
 }
 @media screen and (max-width: 550px) {
   .social__media_list {
