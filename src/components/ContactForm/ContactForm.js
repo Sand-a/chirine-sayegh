@@ -57,13 +57,23 @@ const ContactForm = ({ data }) => {
           </li>
 
           <li className="contact-items">
-            <a target="_blank" href={data.insta_1_url} className="contact-link">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={data.insta_1_url}
+              className="contact-link"
+            >
               <GrInstagram className="contact-icon contact-icon-insta" />{" "}
               <p className="contact-item">{data.insta_1}</p>
             </a>
           </li>
           <li className="contact-items">
-            <a target="_blank" href={data.insta_2_url} className="contact-link">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={data.insta_2_url}
+              className="contact-link"
+            >
               <GrInstagram className=" contact-icon contact-icon-insta contact-icon-insta-green" />{" "}
               <p className="contact-item contact-item-green">{data.insta_2}</p>
             </a>

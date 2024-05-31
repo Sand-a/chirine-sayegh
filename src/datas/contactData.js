@@ -1,6 +1,6 @@
 export const contactData = {
-  phone: "961 3 726 498",
-
+  phone: "+961 (3) 726 498",
+  tel: "+9613726498",
   email: "sayeghchirine@gmail.com",
 
   insta_1: "chirine_sayegh_architect",

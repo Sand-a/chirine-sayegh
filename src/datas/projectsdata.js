@@ -1,5 +1,22 @@
 export const projectsArchitectureData = [
   {
+    _id: 13,
+    title: "Family room in Saifi",
+    sub_title: "Saifi Village",
+
+    description:
+      "We created a welcoming environment for various activities. From the sports corner to the TV area and dining space, every aspect is organized for hosting and relaxation, all while optimizing storage.",
+    location: "– Beirut - Lebanon",
+    images: [
+      "/images/projects/architecture/saifi-room/saifi-room_01.jpg",
+      "/images/projects/architecture/saifi-room/saifi-room_02.jpg",
+      "/images/projects/architecture/saifi-room/saifi-room_03.jpg",
+      "/images/projects/architecture/saifi-room/saifi-room_04.jpg",
+      "/images/projects/architecture/saifi-room/saifi-room_05.jpg",
+      "/images/projects/architecture/saifi-room/saifi-room_06.jpg",
+    ],
+  },
+  {
     _id: 11,
     title: "Ashrafieh Rooftop",
     sub_title: "3D images by Jad Atallah",
@@ -33,7 +50,6 @@ export const projectsArchitectureData = [
       "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_04.jpg",
     ],
   },
-
   {
     _id: 15,
     title: "MV Project",
