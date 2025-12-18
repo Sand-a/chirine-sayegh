@@ -3,13 +3,6 @@ export const projectsArchitectureData = [
   {
     _id: 11,
     title: "Ashrafieh Rooftop",
-
-    get arrow() {
-      return this._arrow;
-    },
-    set arrow(value) {
-      this._arrow = value;
-    },
     sub_title: "3D images by Jad Atallah",
     description:
       "Interior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
@@ -114,9 +107,9 @@ export const projectsArchitectureData = [
   },
     {
     _id: 17,
-    title: "Bathroom Renovation",
+    title: "Bathrooms Renovation",
     sub_title: "Travertine & HPL Design",
-        _arrow: true,
+    _arrow: true,
     description:
       "These two renovated bathrooms combine natural travertine with Abet Laminati HPL to create warm, modern, and durable spaces.",
     location: "Ashrafieh - Beirut - Lebanon",
@@ -197,6 +190,7 @@ export const projectsDesignData = [
   {
     _id: 115,
     title: "Centerpiece",
+      _arrow: true,
     finish: "Finished by Chirine’s Atelier",
     description:
       "Hand-crafted convertible table with an acid-treated steel structure, varnished French Oak frame, and custom leather seating.",
@@ -253,6 +247,7 @@ export const projectsDesignData = [
   {
     _id: 119,
     title: "Headboard",
+      _arrow: true,
     finish: "Hand Made by Chirine",
     description:
       "Personalized hand-sewn wall art in the form of a foldable and shippable headboard design.",

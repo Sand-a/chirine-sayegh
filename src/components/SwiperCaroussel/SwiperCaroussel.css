@@ -4,6 +4,8 @@
 .mySwiper {
   max-width: 100rem;
   margin-bottom: 3rem;
+  --swiper-navigation-size: 2.5rem;
+
 }
 .swiper-slide {
   width: 100%;
