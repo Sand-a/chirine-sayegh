@@ -107,7 +107,7 @@ export const projectsArchitectureData = [
   },
     {
     _id: 17,
-    title: "Bathrooms Renovation",
+    title: "Bathroom Renovations",
     sub_title: "Travertine & HPL Design",
     _arrow: true,
     description:
