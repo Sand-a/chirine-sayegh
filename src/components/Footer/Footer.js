@@ -52,7 +52,7 @@ const Footer = ({ data }) => {
             Developed & Designed by{" "}
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/sandrine-anid-7a51282a1"
+              href="https://www.sandrineanid.com"
               className="sand-signature"
             >
               Sandrine Anid
