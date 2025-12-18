@@ -9,7 +9,7 @@ const Project = ({ allProjects, icon }) => {
         {allProjects.map((project) => {
           return (
             <>
-              <SwiperCaroussel key={project._id} images={project.images} />
+              <SwiperCaroussel key={project._id} images={project.images} arrow={project._arrow}/>
               <div className="poject-details">
                 <h1 className=" project-title">
                   {" "}

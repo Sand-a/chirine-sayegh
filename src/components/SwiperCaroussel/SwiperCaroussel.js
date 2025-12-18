@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./SwiperCaroussel.css";
 
-const SwiperCaroussel = ({ images }) => {
+const SwiperCaroussel = ({ images, arrow }) => {
   return (
     <div className="container">
       <Swiper
@@ -38,8 +38,21 @@ const SwiperCaroussel = ({ images }) => {
           );
         })}
         <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow"></div>
-          <div className="swiper-button-next slider-arrow"></div>
+          <div
+  className={
+    arrow
+      ? "swiper-button-prev slider-arrow-black"
+      : "swiper-button-prev slider-arrow"
+  }
+/>
+          <div
+  className={
+    arrow
+      ? "swiper-button-next slider-arrow-black"
+      : "swiper-button-next slider-arrow"
+  }
+/>
+
         </div>
       </Swiper>
     </div>

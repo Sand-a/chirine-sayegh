@@ -19,6 +19,9 @@
 .slider-arrow {
   color: #fff;
 }
+.slider-arrow-black {
+  color: #000;
+}
 .swiper-pagination-bullet {
   display: inline-block;
 }
@@ -34,6 +37,9 @@
   .slider-arrow {
     display: none;
   }
+  .slider-arrow-black {
+ display: none;
+}
 }
 /* project css*/
 .projects-container {

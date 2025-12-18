@@ -1,5 +1,46 @@
 export const projectsArchitectureData = [
+
   {
+    _id: 11,
+    title: "Ashrafieh Rooftop",
+
+    get arrow() {
+      return this._arrow;
+    },
+    set arrow(value) {
+      this._arrow = value;
+    },
+    sub_title: "3D images by Jad Atallah",
+    description:
+      "Interior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
+    location: "Ashrafieh – Beirut - Lebanon",
+    images: [
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_01.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_02.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_03.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_04.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_05.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_06.jpg",
+      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_07.jpg",
+    ],
+  }, {
+    _id: 12,
+    title: "MV Project",
+
+    sub_title: "Within the",
+    team: "team",
+    logo: "/logo/rab-logo.png",
+    description:
+      "As part of the rab architects team, Chirine contributed to on-site design solutions and site management. Photos by Paul Ghorra.",
+    location: "Monteverde - Beirut",
+    images: [
+      "/images/projects/architecture/rab_monteverde/rab_monteverde_1.jpg",
+      "/images/projects/architecture/rab_monteverde/rab_monteverde_2.jpg",
+      "/images/projects/architecture/rab_monteverde/rab_monteverde_3.jpg",
+      "/images/projects/architecture/rab_monteverde/rab_monteverde_4.jpg",
+      "/images/projects/architecture/rab_monteverde/rab_monteverde_5.jpg",
+    ],
+  }, {
     _id: 13,
     title: "Family room in Saifi",
     sub_title: "Saifi Village",
@@ -16,59 +57,9 @@ export const projectsArchitectureData = [
       "/images/projects/architecture/saifi-room/saifi-room_06.jpg",
     ],
   },
+  
   {
-    _id: 11,
-    title: "Ashrafieh Rooftop",
-    sub_title: "3D images by Jad Atallah",
-
-    description:
-      "Interior design of a duplex apartment with a garden terrace, utilizing 100 square meters of rooftop.",
-    location: "Ashrafieh – Beirut - Lebanon",
-    images: [
-      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_01.jpg",
-      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_02.jpg",
-      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_03.jpg",
-      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_04.jpg",
-      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_05.jpg",
-      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_06.jpg",
-      "/images/projects/architecture/ashrafieh_rooftop/ashrafieh_rooftop_07.jpg",
-    ],
-  },
-  {
-    _id: 12,
-    title: "Ashrafieh Building Renovation",
-    sub_title: "3D images by Jad Atallah",
-
-    description:
-      "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment.",
-    location: "Ashrafieh - Beirut - Lebanon",
-
-    images: [
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_01.jpg",
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_02.jpg",
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_03.jpg",
-      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_04.jpg",
-    ],
-  },
-  {
-    _id: 15,
-    title: "MV Project",
-    sub_title: "Within the",
-    team: "team",
-    logo: "/logo/rab-logo.png",
-    description:
-      "As part of the rab architects team, Chirine contributed to on-site design solutions and site management. Photos by Paul Ghorra.",
-    location: "Monteverde - Beirut",
-    images: [
-      "/images/projects/architecture/rab_monteverde/rab_monteverde_1.jpg",
-      "/images/projects/architecture/rab_monteverde/rab_monteverde_2.jpg",
-      "/images/projects/architecture/rab_monteverde/rab_monteverde_3.jpg",
-      "/images/projects/architecture/rab_monteverde/rab_monteverde_4.jpg",
-      "/images/projects/architecture/rab_monteverde/rab_monteverde_5.jpg",
-    ],
-  },
-  {
-    _id: 16,
+    _id: 14,
     title: "DK Project",
     sub_title: "Within the",
     team: "team",
@@ -92,7 +83,7 @@ export const projectsArchitectureData = [
     },
   },
   {
-    _id: 17,
+    _id: 15,
     title: "NaDa Project",
     sub_title: "Within the",
     team: "team",
@@ -103,6 +94,40 @@ export const projectsArchitectureData = [
     images: [
       "/images/projects/architecture/rab-nada/rab-nada_1.jpg",
       "/images/projects/architecture/rab-nada/rab-nada_2.jpg",
+    ],
+  },
+  {
+    _id: 16,
+    title: "Ashrafieh Building Renovation",
+    sub_title: "3D images by Jad Atallah",
+   _arrow: true,
+    description:
+      "Renovation of a residential building constructed in 1961 and the addition of a rooftop apartment.",
+    location: "Ashrafieh - Beirut - Lebanon",
+
+    images: [
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_01.jpg",
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_02.jpg",
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_03.jpg",
+      "/images/projects/architecture/ashrafieh-building-renovation/ashrafieh-building-renovation_04.jpg",
+    ],
+  },
+    {
+    _id: 17,
+    title: "Bathroom Renovation",
+    sub_title: "Travertine & HPL Design",
+        _arrow: true,
+    description:
+      "These two renovated bathrooms combine natural travertine with Abet Laminati HPL to create warm, modern, and durable spaces.",
+    location: "Ashrafieh - Beirut - Lebanon",
+    images: [
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_01.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_02.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_03.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_04.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_05.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_06.jpg",
+ 
     ],
   },
 ];

@@ -6,7 +6,7 @@ export const navLinks = [
   },
   {
     _id: 2,
-    title: "Bio.",
+    title: "Bio",
     path: "/bio",
   },
   {
