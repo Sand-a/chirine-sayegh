@@ -40,6 +40,7 @@ const Project = ({ allProjects, icon }) => {
                     <p className=" press-article">in the Press</p>
                     <a
                       target="_blank"
+                      rel="noopener noreferrer"
                       href={project.press.press_path}
                       className="press-link"
                     >

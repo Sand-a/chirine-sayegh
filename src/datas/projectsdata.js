@@ -261,65 +261,161 @@ export const projectsDesignData = [
 ];
 
 export const projectsArtData = [
-  {
-    _id: 1111,
-    italic: true,
-    title_italic: "Minéral",
-    date: "Beirut - 2014",
+     {
+    _id: 1118,
+    title_italic: "SpiritUs",
+    title: "",
+    date: "Beirut - 2024/2025",
     description:
-      "Chirine received critical acclaim for her first solo exhibition «Minéral», which expresses her inspiration from hiking and rock climbing in the spectacular Lebanese mountains. Art Critic Nélida Nassar wrote in April of 2016 : “... [ Ms Sayegh’s ] configurations are lyrical expressions of the particular qualities of light in the locations she chooses and remembers, atmospherically accurate and evocative of movement and strength…for like all artists who make a subject wholly their own, Sayegh puts the singular stamp of her style upon the place.”",
+      "is an ongoing series exploring the unseen intelligence of nature through painting and sculptural compostions. Chirine creates works that evoke elemental forces, organic rhythms, and the cycles of transformation that shape both landscapes and human experience. Through fluid pigments, acrylic, and raw linen, SpiritUs invites viewers into a contemplative space where the visible and invisible converge, offering a quiet reflection on renewal and our fundamental connection to the living world.",
     canvas: [
       {
-        id: "canvas1_1",
-        title: "Faqra Lace",
-        dimension: "100 x 140",
-        media: "Acrylic on canvas",
-        date: "2014",
-        path: "/art/mineral/1",
+        id: "canvas8_1",
+        title: "Shared a view",
+        dimension: "95 x 170",
+        media: "Mixed media on raw linen",
+        date: "2024",
+        path: "/art/spirit-us/1",
         image_square:
-          "/images/projects/art/mineral/mineral-dentelle-faqra-square.jpg",
+          "/images/projects/art/spirit-us/shared-a-view.jpg",
         images: [
-          "/images/projects/art/mineral/mineral-dentelle-faqra.jpg",
-          "/images/projects/art/mineral/mineral-dentelle-faqra-insit.jpg",
+          "/images/projects/art/spirit-us/shared-a-view.jpg",
+          "/images/projects/art/spirit-us/shared-a-view-insit.jpg",
+        ],
+      },
+            {
+        id: "canvas8_2",
+        title: "New Horizons",
+        dimension: "179 x 95",
+        media: "Mixed media on raw linen",
+        date: "2024",
+        path: "/art/spirit-us/2",
+        image_square:
+          "/images/projects/art/spirit-us/new-horizons.jpg",
+        images: [
+          "/images/projects/art/spirit-us/new-horizons.jpg",
+          "/images/projects/art/spirit-us/new-horizons-insit.jpg",
+        ],
+      },
+                  {
+        id: "canvas8_3",
+        title: "Our Peaceful Storm",
+        dimension: "150 x 150",
+        media: "Mixed media on raw linen",
+        date: "2024",
+        path: "/art/spirit-us/3",
+        image_square:
+          "/images/projects/art/spirit-us/our-peaceful-storm.jpg",
+        images: [
+          "/images/projects/art/spirit-us/our-peaceful-storm.jpg",
+          "/images/projects/art/spirit-us/our-peaceful-storm-insit.jpg",
+        ],
+      },
+         {
+        id: "canvas8_4",
+        title: "Parasols",
+        dimension: "100 x 70",
+        media: "Mixed media on raw linen",
+        date: "2024",
+        path: "/art/spirit-us/4",
+        image_square:
+          "/images/projects/art/spirit-us/parasols.jpg",
+        images: [
+          "/images/projects/art/spirit-us/parasols.jpg",
+          "/images/projects/art/spirit-us/parasols-insit.jpg",
+        ],
+      },
+             {
+        id: "canvas8_5",
+        title: "Summer-Breeze",
+        dimension: "?",
+        media: "Mixed media on raw linen",
+        date: "2024",
+        path: "/art/spirit-us/5",
+        image_square:
+          "/images/projects/art/spirit-us/summer-breeze.jpg",
+        images: [
+          "/images/projects/art/spirit-us/summer-breeze.jpg",
+          "/images/projects/art/spirit-us/summer-breeze-insit.jpg",
         ],
       },
       {
-        id: "canvas1_2",
-        title: "Faqra",
-        dimension: "160 x 120",
-        media: "Acrylic on canvas",
-        date: "2014",
-        path: "/art/mineral/2",
-        image_square: "/images/projects/art/mineral/mineral-faqra-square.jpg",
+        id: "canvas8_6",
+        title: "Sunset After A storm",
+        dimension: "?",
+        media: "Mixed media on raw linen",
+        date: "2024",
+        path: "/art/spirit-us/6",
+        image_square:
+          "/images/projects/art/spirit-us/sunset-after-a-storm.jpg",
         images: [
-          "/images/projects/art/mineral/mineral-faqra.jpg",
-          "/images/projects/art/mineral/mineral-faqra-insit.jpg",
+          "/images/projects/art/spirit-us/sunset-after-a-storm.jpg",
+          "/images/projects/art/spirit-us/sunset-after-a-storm-insit.jpg",
+        ],
+      },
+    ],
+  },
+   {
+    _id: 1115,
+    title_italic: "Végétal - ",
+    title: "Gold Series",
+    date: "Beirut - 2021/2023",
+    description:
+      "Combining the fluidity of watercolor with the brilliance of gold leaf to create captivating artwork, capturing the harmonious relationship between the two elements.",
+    canvas: [
+      {
+        id: "canvas5_1",
+        title: "Forest Moon",
+        dimension: "29.7 x 42",
+        media: "Watercolor on cotton paper with gold leaf",
+        date: "2021",
+        path: "/art/vegetal-gold-series/1",
+        image_square:
+          "/images/projects/art/vegetal-gold-series/forest-moon-square.jpg",
+        images: [
+          "/images/projects/art/vegetal-gold-series/forest-moon.jpg",
+          "/images/projects/art/vegetal-gold-series/forest-moon-insit.jpg",
         ],
       },
       {
-        id: "canvas1_3",
-        title: "Sannine",
-        dimension: "160 x 120",
-        media: "Acrylic on canvas",
-        date: "2014",
-        path: "/art/mineral/3",
-        image_square: "/images/projects/art/mineral/mineral-sannine-square.jpg",
+        id: "canvas5_2",
+        title: "H2O",
+        dimension: "42 x 29.7",
+        media: "Watercolor on cotton paper with gold leaf",
+        date: "2021",
+        path: "/art/vegetal-gold-series/2",
+        image_square: "/images/projects/art/vegetal-gold-series/h2o-square.jpg",
         images: [
-          "/images/projects/art/mineral/mineral-sannine.jpg",
-          "/images/projects/art/mineral/mineral-sannine-insit.jpg",
+          "/images/projects/art/vegetal-gold-series/h2o.jpg",
+          "/images/projects/art/vegetal-gold-series/h2o-insit.jpg",
         ],
       },
       {
-        id: "canvas1_4",
-        title: "Ribeze",
-        dimension: "100 x 140",
-        media: "Acrylic on canvas",
-        date: "2014",
-        path: "/art/mineral/4",
-        image_square: "/images/projects/art/mineral/mineral-ribeze-square.jpg",
+        id: "canvas5_3",
+        title: "Roses",
+        dimension: "29.7 x 42",
+        media: "Watercolor on cotton paper with gold leaf",
+        date: "2021",
+        path: "/art/vegetal-gold-series/3",
+        image_square:
+          "/images/projects/art/vegetal-gold-series/roses-square.jpg",
         images: [
-          "/images/projects/art/mineral/mineral-ribeze.jpg",
-          "/images/projects/art/mineral/mineral-ribeze-insit.jpg",
+          "/images/projects/art/vegetal-gold-series/roses.jpg",
+          "/images/projects/art/vegetal-gold-series/roses-insit.jpg",
+        ],
+      },
+      {
+        id: "canvas5_4",
+        title: "Landscape",
+        dimension: "46.5 x 30.5",
+        media: "Watercolor on cotton paper with gold leaf",
+        date: "2021",
+        path: "/art/vegetal-gold-series/4",
+        image_square:
+          "/images/projects/art/vegetal-gold-series/landscape-square.jpg",
+        images: [
+          "/images/projects/art/vegetal-gold-series/landscape.jpg",
+          "/images/projects/art/vegetal-gold-series/landscape-insit.jpg",
         ],
       },
     ],
@@ -389,6 +485,7 @@ export const projectsArtData = [
       },
     ],
   },
+
   {
     _id: 1113,
     title_italic: "Végétal - ",
@@ -455,265 +552,263 @@ export const projectsArtData = [
       },
     ],
   },
-  {
-    _id: 1114,
-    title_italic: "Végétal - ",
-    title: "Watercolors",
-
-    date: "Beirut - 2020/2021",
+    {
+    _id: 1111,
+    italic: true,
+    title_italic: "Minéral",
+    date: "Beirut - 2014",
     description:
-      "Watercolor sketches serve as research, sometimes becoming the main pieces themselves, depicting the beauty of nature with vibrant and fluid brushstrokes.",
+      "Chirine received critical acclaim for her first solo exhibition «Minéral», which expresses her inspiration from hiking and rock climbing in the spectacular Lebanese mountains. Art Critic Nélida Nassar wrote in April of 2016 : “... Ms Sayegh’s configurations are lyrical expressions of the particular qualities of light in the locations she chooses and remembers, atmospherically accurate and evocative of movement and strength…for like all artists who make a subject wholly their own, Sayegh puts the singular stamp of her style upon the place.”",
     canvas: [
       {
-        id: "canvas4_1",
-        title: "Deep Into Summer",
-        dimension: "76 x 56",
-        media: "Watercolor on cotton paper",
-        date: "2020",
-        path: "/art/vegetal-watercolors/1",
-        image_square:
-          "/images/projects/art/vegetal-watercolors/deep-into-summer-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-watercolors/deep-into-summer.jpg",
-          "/images/projects/art/vegetal-watercolors/deep-into-summer-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas4_2",
-        title: "Floral Madness",
-        dimension: "76 x 56",
-        media: "Watercolor on cotton paper",
-        date: "2021",
-        path: "/art/vegetal-watercolors/2",
-        image_square:
-          "/images/projects/art/vegetal-watercolors/floral-madness-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-watercolors/floral-madness.jpg",
-          "/images/projects/art/vegetal-watercolors/floral-madness-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas4_3",
-        title: "Wildflowers",
-        dimension: "76 x 56",
-        media: "Watercolor on cotton paper",
-        date: "2020",
-        path: "/art/vegetal-watercolors/3",
-        image_square:
-          "/images/projects/art/vegetal-watercolors/wildflowers-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-watercolors/wildflowers.jpg",
-          "/images/projects/art/vegetal-watercolors/wildflowers-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas4_4",
-        title: "Summer Nights ",
-        dimension: "76 x 56",
-        media: "Watercolor on cotton paper",
-        date: "2020",
-        path: "/art/vegetal-watercolors/4",
-        image_square:
-          "/images/projects/art/vegetal-watercolors/leaves-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-watercolors/leaves.jpg",
-          "/images/projects/art/vegetal-watercolors/leaves-insit.jpg",
-        ],
-      },
-    ],
-  },
-  {
-    _id: 1115,
-    title_italic: "Végétal - ",
-    title: "Gold Series",
-    date: "Beirut - 2021/2023",
-    description:
-      "Combining the fluidity of watercolor with the brilliance of gold leaf to create captivating artwork, capturing the harmonious relationship between the two elements.",
-    canvas: [
-      {
-        id: "canvas5_1",
-        title: "Forest Moon",
-        dimension: "29.7 x 42",
-        media: "Watercolor on cotton paper with gold leaf",
-        date: "2021",
-        path: "/art/vegetal-gold-series/1",
-        image_square:
-          "/images/projects/art/vegetal-gold-series/forest-moon-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-gold-series/forest-moon.jpg",
-          "/images/projects/art/vegetal-gold-series/forest-moon-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas5_2",
-        title: "H2O",
-        dimension: "42 x 29.7",
-        media: "Watercolor on cotton paper with gold leaf",
-        date: "2021",
-        path: "/art/vegetal-gold-series/2",
-        image_square: "/images/projects/art/vegetal-gold-series/h2o-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-gold-series/h2o.jpg",
-          "/images/projects/art/vegetal-gold-series/h2o-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas5_3",
-        title: "Roses",
-        dimension: "29.7 x 42",
-        media: "Watercolor on cotton paper with gold leaf",
-        date: "2021",
-        path: "/art/vegetal-gold-series/3",
-        image_square:
-          "/images/projects/art/vegetal-gold-series/roses-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-gold-series/roses.jpg",
-          "/images/projects/art/vegetal-gold-series/roses-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas5_4",
-        title: "Landscape",
-        dimension: "46.5 x 30.5",
-        media: "Watercolor on cotton paper with gold leaf",
-        date: "2021",
-        path: "/art/vegetal-gold-series/4",
-        image_square:
-          "/images/projects/art/vegetal-gold-series/landscape-square.jpg",
-        images: [
-          "/images/projects/art/vegetal-gold-series/landscape.jpg",
-          "/images/projects/art/vegetal-gold-series/landscape-insit.jpg",
-        ],
-      },
-    ],
-  },
-  {
-    _id: 1116,
-    title_italic: "Végétal - ",
-    title: "Secret Garden",
-    date: "Beirut - 2023",
-    description:
-      "The connection between creatures and nature, with ethereal watercolor and acrylic paintings evoking a sense of mystery and transformation.",
-    canvas: [
-      {
-        id: "canvas6_1",
-        title: "Woman Appears",
-        dimension: "50 x 86",
+        id: "canvas1_1",
+        title: "Faqra Lace",
+        dimension: "100 x 140",
         media: "Acrylic on canvas",
-        date: "2023",
-        path: "/art/vegetal-secret-garden/1",
+        date: "2014",
+        path: "/art/mineral/1",
         image_square:
-          "/images/projects/art/vegetal-secret-garden/woman-appears-square-1.jpg",
+          "/images/projects/art/mineral/mineral-dentelle-faqra-square.jpg",
         images: [
-          "/images/projects/art/vegetal-secret-garden/woman-appears-1.jpg",
-          "/images/projects/art/vegetal-secret-garden/woman-appears-1-insit.jpg",
+          "/images/projects/art/mineral/mineral-dentelle-faqra.jpg",
+          "/images/projects/art/mineral/mineral-dentelle-faqra-insit.jpg",
         ],
       },
       {
-        id: "canvas6_2",
-        title: "Woman Disappears",
-        dimension: "100 x 113",
+        id: "canvas1_2",
+        title: "Faqra",
+        dimension: "160 x 120",
         media: "Acrylic on canvas",
-        date: "2023",
-        path: "/art/vegetal-secret-garden/2",
-        image_square:
-          "/images/projects/art/vegetal-secret-garden/woman-disappears-square-1.jpg",
+        date: "2014",
+        path: "/art/mineral/2",
+        image_square: "/images/projects/art/mineral/mineral-faqra-square.jpg",
         images: [
-          "/images/projects/art/vegetal-secret-garden/woman-disappears-1.jpg",
-          "/images/projects/art/vegetal-secret-garden/woman-disappears-1-insit.jpg",
+          "/images/projects/art/mineral/mineral-faqra.jpg",
+          "/images/projects/art/mineral/mineral-faqra-insit.jpg",
         ],
       },
       {
-        id: "canvas6_3",
-        title: "Woman Appears",
-        dimension: "30.3 x 40.4",
-        media: "Watercolor on cotton paper with gold leaf",
-        date: "2023",
-        path: "/art/vegetal-secret-garden/3",
-        image_square:
-          "/images/projects/art/vegetal-secret-garden/woman-appears-square-2.jpg",
+        id: "canvas1_3",
+        title: "Sannine",
+        dimension: "160 x 120",
+        media: "Acrylic on canvas",
+        date: "2014",
+        path: "/art/mineral/3",
+        image_square: "/images/projects/art/mineral/mineral-sannine-square.jpg",
         images: [
-          "/images/projects/art/vegetal-secret-garden/woman-appears-2.jpg",
-          "/images/projects/art/vegetal-secret-garden/woman-appears-2-insit.jpg",
+          "/images/projects/art/mineral/mineral-sannine.jpg",
+          "/images/projects/art/mineral/mineral-sannine-insit.jpg",
         ],
       },
       {
-        id: "canvas6_4",
-        title: "Woman Disappears",
-        dimension: "30.3 x 40.4",
-        media: "Watercolor on cotton paper with gold leaf",
-        date: "2023",
-        path: "/art/vegetal-secret-garden/4",
-        image_square:
-          "/images/projects/art/vegetal-secret-garden/woman-disappears-square-2.jpg",
+        id: "canvas1_4",
+        title: "Ribeze",
+        dimension: "100 x 140",
+        media: "Acrylic on canvas",
+        date: "2014",
+        path: "/art/mineral/4",
+        image_square: "/images/projects/art/mineral/mineral-ribeze-square.jpg",
         images: [
-          "/images/projects/art/vegetal-secret-garden/woman-disappears-2.jpg",
-          "/images/projects/art/vegetal-secret-garden/woman-disappears-2-insit.jpg",
+          "/images/projects/art/mineral/mineral-ribeze.jpg",
+          "/images/projects/art/mineral/mineral-ribeze-insit.jpg",
         ],
       },
     ],
   },
-  {
-    _id: 1117,
-    title_italic: "Animal - ",
-    title: "Sketches",
+  //  {
+  //   _id: 1114,
+  //   title_italic: "Végétal - ",
+  //   title: "Watercolors",
 
-    date: "Beirut - 2020",
-    description:
-      "During the COVID-19 lockdown, Chirine created expressive ink sketches of pets, showcasing their individuality and charm.",
-    canvas: [
-      {
-        id: "canvas7_1",
-        title: "Andy",
-        dimension: "29.7 x 21",
-        media: "Ink on paper",
-        date: "2020",
-        path: "/art/animal-sketches/1",
-        image_square: "/images/projects/art/animal-sketches/andy-square.jpg",
-        images: [
-          "/images/projects/art/animal-sketches/andy.jpg",
-          "/images/projects/art/animal-sketches/andy-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas7_2",
-        title: "Bubble",
-        dimension: "21 x 29.7",
-        media: "Ink on paper",
-        date: "2020",
-        path: "/art/animal-sketches/2",
-        image_square: "/images/projects/art/animal-sketches/bubble-square.jpg",
-        images: [
-          "/images/projects/art/animal-sketches/bubble.jpg",
-          "/images/projects/art/animal-sketches/bubble-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas7_3",
-        title: "Duke",
-        dimension: "29.7 x 21",
-        media: "Ink on paper",
-        date: "2020",
-        path: "/art/animal-sketches/3",
-        image_square: "/images/projects/art/animal-sketches/duke-square.jpg",
-        images: [
-          "/images/projects/art/animal-sketches/duke.jpg",
-          "/images/projects/art/animal-sketches/duke-insit.jpg",
-        ],
-      },
-      {
-        id: "canvas7_4",
-        title: "Rocky",
-        dimension: "21 x 29.7",
-        media: "Ink on paper",
-        date: "2020",
-        path: "/art/animal-sketches/4",
-        image_square: "/images/projects/art/animal-sketches/rocky-square.jpg",
-        images: [
-          "/images/projects/art/animal-sketches/rocky.jpg",
-          "/images/projects/art/animal-sketches/rocky-insit.jpg",
-        ],
-      },
-    ],
-  },
+  //   date: "Beirut - 2020/2021",
+  //   description:
+  //     "Watercolor sketches serve as research, sometimes becoming the main pieces themselves, depicting the beauty of nature with vibrant and fluid brushstrokes.",
+  //   canvas: [
+  //     {
+  //       id: "canvas4_1",
+  //       title: "Deep Into Summer",
+  //       dimension: "76 x 56",
+  //       media: "Watercolor on cotton paper",
+  //       date: "2020",
+  //       path: "/art/vegetal-watercolors/1",
+  //       image_square:
+  //         "/images/projects/art/vegetal-watercolors/deep-into-summer-square.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-watercolors/deep-into-summer.jpg",
+  //         "/images/projects/art/vegetal-watercolors/deep-into-summer-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas4_2",
+  //       title: "Floral Madness",
+  //       dimension: "76 x 56",
+  //       media: "Watercolor on cotton paper",
+  //       date: "2021",
+  //       path: "/art/vegetal-watercolors/2",
+  //       image_square:
+  //         "/images/projects/art/vegetal-watercolors/floral-madness-square.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-watercolors/floral-madness.jpg",
+  //         "/images/projects/art/vegetal-watercolors/floral-madness-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas4_3",
+  //       title: "Wildflowers",
+  //       dimension: "76 x 56",
+  //       media: "Watercolor on cotton paper",
+  //       date: "2020",
+  //       path: "/art/vegetal-watercolors/3",
+  //       image_square:
+  //         "/images/projects/art/vegetal-watercolors/wildflowers-square.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-watercolors/wildflowers.jpg",
+  //         "/images/projects/art/vegetal-watercolors/wildflowers-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas4_4",
+  //       title: "Summer Nights ",
+  //       dimension: "76 x 56",
+  //       media: "Watercolor on cotton paper",
+  //       date: "2020",
+  //       path: "/art/vegetal-watercolors/4",
+  //       image_square:
+  //         "/images/projects/art/vegetal-watercolors/leaves-square.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-watercolors/leaves.jpg",
+  //         "/images/projects/art/vegetal-watercolors/leaves-insit.jpg",
+  //       ],
+  //     },
+  //   ],
+  // },
+  //  {
+  //   _id: 1116,
+  //   title_italic: "Végétal - ",
+  //   title: "Secret Garden",
+  //   date: "Beirut - 2023",
+  //   description:
+  //     "The connection between creatures and nature, with ethereal watercolor and acrylic paintings evoking a sense of mystery and transformation.",
+  //   canvas: [
+  //     {
+  //       id: "canvas6_1",
+  //       title: "Woman Appears",
+  //       dimension: "50 x 86",
+  //       media: "Acrylic on canvas",
+  //       date: "2023",
+  //       path: "/art/vegetal-secret-garden/1",
+  //       image_square:
+  //         "/images/projects/art/vegetal-secret-garden/woman-appears-square-1.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-secret-garden/woman-appears-1.jpg",
+  //         "/images/projects/art/vegetal-secret-garden/woman-appears-1-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas6_2",
+  //       title: "Woman Disappears",
+  //       dimension: "100 x 113",
+  //       media: "Acrylic on canvas",
+  //       date: "2023",
+  //       path: "/art/vegetal-secret-garden/2",
+  //       image_square:
+  //         "/images/projects/art/vegetal-secret-garden/woman-disappears-square-1.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-secret-garden/woman-disappears-1.jpg",
+  //         "/images/projects/art/vegetal-secret-garden/woman-disappears-1-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas6_3",
+  //       title: "Woman Appears",
+  //       dimension: "30.3 x 40.4",
+  //       media: "Watercolor on cotton paper with gold leaf",
+  //       date: "2023",
+  //       path: "/art/vegetal-secret-garden/3",
+  //       image_square:
+  //         "/images/projects/art/vegetal-secret-garden/woman-appears-square-2.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-secret-garden/woman-appears-2.jpg",
+  //         "/images/projects/art/vegetal-secret-garden/woman-appears-2-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas6_4",
+  //       title: "Woman Disappears",
+  //       dimension: "30.3 x 40.4",
+  //       media: "Watercolor on cotton paper with gold leaf",
+  //       date: "2023",
+  //       path: "/art/vegetal-secret-garden/4",
+  //       image_square:
+  //         "/images/projects/art/vegetal-secret-garden/woman-disappears-square-2.jpg",
+  //       images: [
+  //         "/images/projects/art/vegetal-secret-garden/woman-disappears-2.jpg",
+  //         "/images/projects/art/vegetal-secret-garden/woman-disappears-2-insit.jpg",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   _id: 1117,
+  //   title_italic: "Animal - ",
+  //   title: "Sketches",
+
+  //   date: "Beirut - 2020",
+  //   description:
+  //     "During the COVID-19 lockdown, Chirine created expressive ink sketches of pets, showcasing their individuality and charm.",
+  //   canvas: [
+  //     {
+  //       id: "canvas7_1",
+  //       title: "Andy",
+  //       dimension: "29.7 x 21",
+  //       media: "Ink on paper",
+  //       date: "2020",
+  //       path: "/art/animal-sketches/1",
+  //       image_square: "/images/projects/art/animal-sketches/andy-square.jpg",
+  //       images: [
+  //         "/images/projects/art/animal-sketches/andy.jpg",
+  //         "/images/projects/art/animal-sketches/andy-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas7_2",
+  //       title: "Bubble",
+  //       dimension: "21 x 29.7",
+  //       media: "Ink on paper",
+  //       date: "2020",
+  //       path: "/art/animal-sketches/2",
+  //       image_square: "/images/projects/art/animal-sketches/bubble-square.jpg",
+  //       images: [
+  //         "/images/projects/art/animal-sketches/bubble.jpg",
+  //         "/images/projects/art/animal-sketches/bubble-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas7_3",
+  //       title: "Duke",
+  //       dimension: "29.7 x 21",
+  //       media: "Ink on paper",
+  //       date: "2020",
+  //       path: "/art/animal-sketches/3",
+  //       image_square: "/images/projects/art/animal-sketches/duke-square.jpg",
+  //       images: [
+  //         "/images/projects/art/animal-sketches/duke.jpg",
+  //         "/images/projects/art/animal-sketches/duke-insit.jpg",
+  //       ],
+  //     },
+  //     {
+  //       id: "canvas7_4",
+  //       title: "Rocky",
+  //       dimension: "21 x 29.7",
+  //       media: "Ink on paper",
+  //       date: "2020",
+  //       path: "/art/animal-sketches/4",
+  //       image_square: "/images/projects/art/animal-sketches/rocky-square.jpg",
+  //       images: [
+  //         "/images/projects/art/animal-sketches/rocky.jpg",
+  //         "/images/projects/art/animal-sketches/rocky-insit.jpg",
+  //       ],
+  //     },
+  //   ],
+  // },
 ];

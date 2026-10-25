@@ -33,7 +33,7 @@ const SwiperCaroussel = ({ images, arrow }) => {
         {images.map((img) => {
           return (
             <SwiperSlide key={img}>
-              <img src={img} alt="slide image" />
+              <img src={img} alt="Portfolio slide" />
             </SwiperSlide>
           );
         })}

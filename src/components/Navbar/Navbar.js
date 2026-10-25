@@ -45,6 +45,7 @@ const Navbar = ({ navLinks }) => {
             <a
               className="social__media--icon-insta-link"
               target="_blank"
+              rel="noopener noreferrer"
               href={contactData.insta_1_url}
             >
               <GrInstagram className="social__media--icon social__media--icon-insta" />

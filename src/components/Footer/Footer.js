@@ -25,6 +25,7 @@ const Footer = ({ data }) => {
           <li className="social__media_links">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href={data.linkedIn_url}
               className="social__media_link"
             >
@@ -34,6 +35,7 @@ const Footer = ({ data }) => {
           <li className="social__media_links">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href={data.insta_1_url}
               className="social__media_link"
             >
@@ -52,6 +54,7 @@ const Footer = ({ data }) => {
             Developed & Designed by{" "}
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.sandrineanid.com"
               className="sand-signature"
             >

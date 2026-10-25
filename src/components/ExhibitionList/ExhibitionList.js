@@ -22,6 +22,7 @@ const ExhibitionList = ({ exhibitions }) => {
                       return (
                         <a
                           target="_blank"
+                          rel="noopener noreferrer"
                           href={p.press_path}
                           className="press-link"
                         >

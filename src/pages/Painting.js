@@ -45,7 +45,7 @@ const Painting = ({ can }) => {
                   <img
                     src={img}
                     className="swiper-images"
-                    alt="slide image"
+                    alt="sAbstract painting"
                     loading="lazy"
                   />
                   <BiImages className="images-icon" />
