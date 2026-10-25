@@ -327,7 +327,7 @@ export const projectsArtData = [
       },
              {
         id: "canvas8_5",
-        title: "Summer-Breeze",
+        title: "Summer Breeze",
         dimension: "?",
         media: "Mixed media on raw linen",
         date: "2024",
