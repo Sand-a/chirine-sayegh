@@ -265,59 +265,18 @@ export const projectsArtData = [
     _id: 1118,
     title_italic: "SpiritUs",
     title: "",
-    date: "Beirut - 2024/2025",
+    date: "Beirut - 2024/2026",
     description:
       "is an ongoing series exploring the unseen intelligence of nature through painting and sculptural compostions. Chirine creates works that evoke elemental forces, organic rhythms, and the cycles of transformation that shape both landscapes and human experience. Through fluid pigments, acrylic, and raw linen, SpiritUs invites viewers into a contemplative space where the visible and invisible converge, offering a quiet reflection on renewal and our fundamental connection to the living world.",
     canvas: [
-      {
-        id: "canvas8_1",
-        title: "Shared a view",
-        dimension: "95 x 170",
-        media: "Mixed media on raw linen",
-        date: "2024",
-        path: "/art/spirit-us/1",
-        image_square:
-          "/images/projects/art/spirit-us/shared-a-view.jpg",
-        images: [
-          "/images/projects/art/spirit-us/shared-a-view.jpg",
-          "/images/projects/art/spirit-us/shared-a-view-insit.jpg",
-        ],
-      },
-            {
-        id: "canvas8_2",
-        title: "New Horizons",
-        dimension: "179 x 95",
-        media: "Mixed media on raw linen",
-        date: "2024",
-        path: "/art/spirit-us/2",
-        image_square:
-          "/images/projects/art/spirit-us/new-horizons.jpg",
-        images: [
-          "/images/projects/art/spirit-us/new-horizons.jpg",
-          "/images/projects/art/spirit-us/new-horizons-insit.jpg",
-        ],
-      },
-                  {
-        id: "canvas8_3",
-        title: "Our Peaceful Storm",
-        dimension: "150 x 150",
-        media: "Mixed media on raw linen",
-        date: "2024",
-        path: "/art/spirit-us/3",
-        image_square:
-          "/images/projects/art/spirit-us/our-peaceful-storm.jpg",
-        images: [
-          "/images/projects/art/spirit-us/our-peaceful-storm.jpg",
-          "/images/projects/art/spirit-us/our-peaceful-storm-insit.jpg",
-        ],
-      },
+
          {
-        id: "canvas8_4",
+        id: "canvas8_1",
         title: "Parasols",
         dimension: "100 x 70",
         media: "Mixed media on raw linen",
-        date: "2024",
-        path: "/art/spirit-us/4",
+        date: "2026",
+        path: "/art/spirit-us/1",
         image_square:
           "/images/projects/art/spirit-us/parasols.jpg",
         images: [
@@ -326,12 +285,12 @@ export const projectsArtData = [
         ],
       },
              {
-        id: "canvas8_5",
+        id: "canvas8_2",
         title: "Summer Breeze",
-        dimension: "?",
+        dimension: "100 x 140",
         media: "Mixed media on raw linen",
-        date: "2024",
-        path: "/art/spirit-us/5",
+        date: "2026",
+        path: "/art/spirit-us/2",
         image_square:
           "/images/projects/art/spirit-us/summer-breeze.jpg",
         images: [
@@ -339,10 +298,52 @@ export const projectsArtData = [
           "/images/projects/art/spirit-us/summer-breeze-insit.jpg",
         ],
       },
+        {
+        id: "canvas8_3",
+        title: "Shared a view",
+        dimension: "95 x 170",
+        media: "Mixed media on raw linen",
+        date: "2025",
+        path: "/art/spirit-us/3",
+        image_square:
+          "/images/projects/art/spirit-us/shared-a-view.jpg",
+        images: [
+          "/images/projects/art/spirit-us/shared-a-view.jpg",
+          "/images/projects/art/spirit-us/shared-a-view-insit.jpg",
+        ],
+      },
+            {
+        id: "canvas8_4",
+        title: "New Horizons",
+        dimension: "179 x 95",
+        media: "Mixed media on raw linen",
+        date: "2025",
+        path: "/art/spirit-us/4",
+        image_square:
+          "/images/projects/art/spirit-us/new-horizons.jpg",
+        images: [
+          "/images/projects/art/spirit-us/new-horizons.jpg",
+          "/images/projects/art/spirit-us/new-horizons-insit.jpg",
+        ],
+      },
+                  {
+        id: "canvas8_5",
+        title: "Our Peaceful Storm",
+        dimension: "150 x 150",
+        media: "Mixed media on raw linen",
+        date: "2025",
+        path: "/art/spirit-us/5",
+        image_square:
+          "/images/projects/art/spirit-us/our-peaceful-storm.jpg",
+        images: [
+          "/images/projects/art/spirit-us/our-peaceful-storm.jpg",
+          "/images/projects/art/spirit-us/our-peaceful-storm-insit.jpg",
+        ],
+      },
       {
         id: "canvas8_6",
         title: "Sunset After A storm",
-        dimension: "?",
+        dimension: "70 x 70",
         media: "Mixed media on raw linen",
         date: "2024",
         path: "/art/spirit-us/6",
