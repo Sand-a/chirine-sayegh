@@ -261,7 +261,43 @@ export const projectsDesignData = [
 ];
 
 export const projectsArtData = [
-     {
+         {
+    _id: 1119,
+    title_italic: "Unbound",
+    title: "",
+    date: "Beirut - 2025/2026",
+    description:"Beyond boundaries, threads find their own language. Unbound explores the space between structure and freedom, where material unfolds into new forms of connection and possibility.",
+    canvas: [
+         {
+        id: "canvas9_1",
+        title: "My Heart",
+        dimension: "105 x 175",
+        media: "Mixed media on raw linen",
+        date: "2026",
+        path: "/art/unbound/1",
+        image_square:
+          "/images/projects/art/unbound/my-heart.jpg",
+        images: [
+          "/images/projects/art/unbound/my-heart.jpg",
+          "/images/projects/art/unbound/my-heart-insit.jpg",
+        ],
+      },{
+        id: "canvas9_2",
+        title: "Owning the Aether",
+        dimension: "110 x 120",
+        media: "Weave on bamboo support",
+        date: "2026",
+        path: "/art/unbound/2",
+        image_square:
+          "/images/projects/art/unbound/owning-the-aether.jpg",
+        images: [
+          "/images/projects/art/unbound/owning-the-aether.jpg",
+          "/images/projects/art/unbound/owning-the-aether-insit.jpg",
+        ],
+      },
+    ],
+  },
+  {
     _id: 1118,
     title_italic: "SpiritUs",
     title: "",
