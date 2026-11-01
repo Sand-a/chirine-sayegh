@@ -122,7 +122,7 @@ export const projectsArchitectureData = [
     ],
   },
   {
-    _id: 17,
+    _id: 18,
     title: "Kitchen Renovations",
     sub_title: "",
     _arrow: true,
