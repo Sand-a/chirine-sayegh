@@ -108,19 +108,31 @@ export const projectsArchitectureData = [
     {
     _id: 17,
     title: "Bathroom Renovations",
-    sub_title: "Travertine & HPL Design",
+    sub_title: "",
     _arrow: true,
     description:
-      "These two renovated bathrooms combine natural travertine with Abet Laminati HPL to create warm, modern, and durable spaces.",
-    location: "Ashrafieh - Beirut - Lebanon",
+      "Bathrooms designed around everyday comfort, with intuitive storage, easy-to-maintain surfaces, natural light and ventilation whenever possible, and generous space to move.",
+    location: "Various locations",
     images: [
       "/images/projects/architecture/bathroom-renovation/bathroom-renovation_01.jpg",
       "/images/projects/architecture/bathroom-renovation/bathroom-renovation_02.jpg",
       "/images/projects/architecture/bathroom-renovation/bathroom-renovation_03.jpg",
       "/images/projects/architecture/bathroom-renovation/bathroom-renovation_04.jpg",
-      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_05.jpg",
-      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_06.jpg",
- 
+
+    ],
+  },
+  {
+    _id: 17,
+    title: "Kitchen Renovations",
+    sub_title: "",
+    _arrow: true,
+    description:
+      "Kitchens that balance considered design with the natural rhythm of everyday life, combining generous work surfaces, integrated storage, and room for a little controlled chaos.",
+    location: "Various locations",
+    images: [
+      "/images/projects/architecture/kitchen-renovation/kitchen-renovation_01.jpg",
+      "/images/projects/architecture/kitchen-renovation/kitchen-renovation_02.jpg",
+      "/images/projects/architecture/kitchen-renovation/kitchen-renovation_03.jpg",
     ],
   },
 ];
