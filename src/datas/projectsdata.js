@@ -114,11 +114,16 @@ export const projectsArchitectureData = [
       "Bathrooms designed around everyday comfort, with intuitive storage, easy-to-maintain surfaces, natural light and ventilation whenever possible, and generous space to move.",
     location: "Various locations",
     images: [
-      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_01.jpg",
-      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_02.jpg",
-      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_03.jpg",
-      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_04.jpg",
-
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_01-1.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_01-2.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_02-1.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_02-2.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_03-1.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_03-2.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_04-1.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_04-2.jpg",
+      "/images/projects/architecture/bathroom-renovation/bathroom-renovation_04-3.jpg",
+    
     ],
   },
   {
